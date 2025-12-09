@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_productp/label_chose_color'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_productp/label_chose_color'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_productp/lsize_M'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_productp/lsize_M'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_productp/saddtocart'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_productp/saddtocart'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/midtern/Page_productp/titleGiohang'), 'GIỎ HÀNG')
+WebUI.verifyElementText(findTestObject('Object Repository/tam/midtern/Page_productp/titleGiohang'), 'GIỎ HÀNG')
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_productp/add1'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_productp/add1'))
 
-WebUI.click(findTestObject('midtern/Page_product-detail/sclose_cart'))
+WebUI.click(findTestObject('tam/midtern/Page_product-detail/sclose_cart'))
 

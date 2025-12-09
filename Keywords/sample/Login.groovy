@@ -35,11 +35,11 @@ public class Login {
 		WebUI.waitForPageLoad(GlobalVariable.waitPresentTimeout)
 		WebUI.maximizeWindow()
 
-		WebUI.waitForElementVisible(findTestObject('Pages/MyAccount page/nav_HomeMyaccount'), GlobalVariable.waitPresentTimeout)
+		WebUI.waitForElementVisible(findTestObject('tam/Pages/MyAccount page/nav_HomeMyaccount'), GlobalVariable.waitPresentTimeout)
 
-		WebUI.sendKeys(findTestObject('Pages/MyAccount page/txtUsername'), username)
-		WebUI.sendKeys(findTestObject('Pages/MyAccount page/txtPassword'), password)
-		WebUI.click(findTestObject('Pages/MyAccount page/btnLogin'))
+		WebUI.sendKeys(findTestObject('tam/Pages/MyAccount page/txtUsername'), username)
+		WebUI.sendKeys(findTestObject('tam/Pages/MyAccount page/txtPassword'), password)
+		WebUI.click(findTestObject('tam/Pages/MyAccount page/btnLogin'))
 		WebUI.delay(1)
 	}
 
@@ -50,10 +50,10 @@ public class Login {
 
 	@Keyword
 	def static void logoutFromApplication(){
-		WebUI.waitForElementPresent(findTestObject('Pages/MyAccount page/lnkMyAccount'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Pages/MyAccount page/lnkMyAccount'))
-		WebUI.waitForElementPresent(findTestObject('Pages/MyAccount page/lnkLogout'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Pages/MyAccount page/lnkLogout'))
-		WebUI.waitForElementVisible(findTestObject('Pages/MyAccount page/nav_HomeMyaccount'), GlobalVariable.waitPresentTimeout)
+		WebUI.waitForElementPresent(findTestObject('tam/Pages/MyAccount page/lnkMyAccount'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('tam/Pages/MyAccount page/lnkMyAccount'))
+		WebUI.waitForElementPresent(findTestObject('tam/Pages/MyAccount page/lnkLogout'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('tam/Pages/MyAccount page/lnkLogout'))
+		WebUI.waitForElementVisible(findTestObject('tam/Pages/MyAccount page/nav_HomeMyaccount'), GlobalVariable.waitPresentTimeout)
 	}
 }

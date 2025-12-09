@@ -17,25 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/img_product'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/img_product'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_next_img'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_next_img'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_next_img'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_next_img'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_next_img'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_next_img'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_next_img'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_next_img'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_next_img'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_next_img'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_zoom'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_zoom'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_zoom'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_zoom'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_zoom_in'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_zoom_in'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_zoom_out'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_zoom_out'))
 
-WebUI.click(findTestObject('midtern/Page_product-detail/button_closeImg'))
+WebUI.click(findTestObject('tam/midtern/Page_product-detail/button_closeImg'))
 

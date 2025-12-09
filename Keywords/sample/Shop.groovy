@@ -30,13 +30,13 @@ public class Shop {
 	@Keyword
 	def static void addToCart(String productName,String urlProduct){
 		navigatetoDetailPage(productName, urlProduct)
-		WebUI.waitForElementPresent(findTestObject('Pages/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Pages/Shop page/btnAddToCart'))
+		WebUI.waitForElementPresent(findTestObject('tam/Pages/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('tam/Pages/Shop page/btnAddToCart'))
 
-		WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Pages/Shop page/lnkViewCart'))
+		WebUI.waitForElementPresent(findTestObject('tam/Pages/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('tam/Pages/Shop page/lnkViewCart'))
 
-		WebUI.verifyElementPresent(findTestObject('Pages/Shop page/btnProceed'), GlobalVariable.waitPresentTimeout)
+		WebUI.verifyElementPresent(findTestObject('tam/Pages/Shop page/btnProceed'), GlobalVariable.waitPresentTimeout)
 	}
 
 	@Keyword
@@ -44,14 +44,14 @@ public class Shop {
 		navigatetoDetailPage(productName, urlProduct)
 		WebUI.delay(5)
 
-		WebUI.waitForElementPresent(findTestObject('Pages/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Pages/Shop page/btnAddToCart'))
+		WebUI.waitForElementPresent(findTestObject('tam/Pages/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('tam/Pages/Shop page/btnAddToCart'))
 
-		WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Pages/Shop page/lnkViewCart'))
+		WebUI.waitForElementPresent(findTestObject('tam/Pages/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('tam/Pages/Shop page/lnkViewCart'))
 
-		WebUI.setText(findTestObject('Pages/Shop page/txtCoupon'), coupon)
-		WebUI.click(findTestObject('Pages/Shop page/btnApply'))
+		WebUI.setText(findTestObject('tam/Pages/Shop page/txtCoupon'), coupon)
+		WebUI.click(findTestObject('tam/Pages/Shop page/btnApply'))
 	}
 
 	@Keyword

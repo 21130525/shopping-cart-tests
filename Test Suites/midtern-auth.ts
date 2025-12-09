@@ -15,7 +15,7 @@
       <guid>57196b86-9f73-4798-b019-8a6ad144bea7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/midtern/auth/login-datatest</testCaseId>
+      <testCaseId>Test Cases/tam/auth/login-datatest</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -46,14 +46,14 @@
       <guid>3083ac2d-339c-4f6b-9637-8601e19f0a6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/midtern/auth/logout</testCaseId>
+      <testCaseId>Test Cases/tam/auth/logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7331ca5f-d99f-4360-aa77-34d2aac112b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/midtern/auth/forgot_pasword</testCaseId>
+      <testCaseId>Test Cases/tam/auth/forgot_pasword</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

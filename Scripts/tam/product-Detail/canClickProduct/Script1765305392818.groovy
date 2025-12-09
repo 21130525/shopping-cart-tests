@@ -20,11 +20,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://aristino.com/collections/trang-phuc')
 
-TestObject alertObj = findTestObject('Object Repository/midtern/Page_Register/Page_alert/alert_nitification')
+TestObject alertObj = findTestObject('Object Repository/tam/midtern/Page_Register/Page_alert/alert_nitification')
 
-TestObject btnAllow = findTestObject('Object Repository/midtern/Page_Register/Page_alert/button_chophep')
+TestObject btnAllow = findTestObject('Object Repository/tam/midtern/Page_Register/Page_alert/button_chophep')
 
-TestObject btnCloseAd = findTestObject('Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd')
+TestObject btnCloseAd = findTestObject('Object Repository/tam/midtern/Page_Register/Page_adventis/btn_closeAd')
 
 if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
     WebUI.click(btnAllow)
@@ -40,7 +40,7 @@ if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 }
 
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_home/product'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_home/product'))
 
 if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
 	WebUI.click(btnAllow)
@@ -56,22 +56,22 @@ if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 }
 
 
-WebUI.verifyElementText(findTestObject('Object Repository/midtern/Page_product-detail/button_addtocart'), 'ĐẶT HÀNG TRƯỚC')
+WebUI.verifyElementText(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_addtocart'), 'ĐẶT HÀNG TRƯỚC')
 
-WebUI.verifyElementClickable(findTestObject('midtern/Page_product-detail/size_S'))
+WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_S'))
 
-WebUI.verifyElementClickable(findTestObject('midtern/Page_product-detail/size_M'))
+WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_M'))
 
-WebUI.verifyElementClickable(findTestObject('midtern/Page_product-detail/size_L'))
+WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_L'))
 
-WebUI.verifyElementClickable(findTestObject('midtern/Page_product-detail/size_XL'))
+WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_XL'))
 
-WebUI.verifyElementClickable(findTestObject('midtern/Page_product-detail/size_XXL'))
+WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_XXL'))
 
-WebUI.verifyElementVisible(findTestObject('midtern/Page_product-detail/div_image'))
+WebUI.verifyElementVisible(findTestObject('tam/midtern/Page_product-detail/div_image'))
 
-WebUI.verifyElementVisible(findTestObject('midtern/Page_product-detail/div_image'))
+WebUI.verifyElementVisible(findTestObject('tam/midtern/Page_product-detail/div_image'))
 
-WebUI.click(findTestObject('midtern/Page_product-detail/div_image'))
+WebUI.click(findTestObject('tam/midtern/Page_product-detail/div_image'))
 
 

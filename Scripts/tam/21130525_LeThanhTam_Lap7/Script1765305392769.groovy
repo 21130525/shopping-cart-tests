@@ -38,13 +38,13 @@ import org.openqa.selenium.Keys as Keys
 
 
 def handleAds = {
-	TestObject alertObj = findTestObject('midtern/Page_Register/Page_alert/alert_nitification')
-	TestObject btnAllow = findTestObject('midtern/Page_Register/Page_alert/button_chophep')
+	TestObject alertObj = findTestObject('tam/midtern/Page_Register/Page_alert/alert_nitification')
+	TestObject btnAllow = findTestObject('tam/midtern/Page_Register/Page_alert/button_chophep')
 	if (WebUI.waitForElementVisible(alertObj, 3, FailureHandling.OPTIONAL)) {
 		WebUI.click(btnAllow)
 	}
 	
-	TestObject btnCloseAd = findTestObject('midtern/Page_Register/Page_adventis/btn_closeAd')
+	TestObject btnCloseAd = findTestObject('tam/midtern/Page_Register/Page_adventis/btn_closeAd')
 	if (WebUI.waitForElementVisible(btnCloseAd, 3, FailureHandling.OPTIONAL)) {
 		WebUI.click(btnCloseAd)
 	}
@@ -62,25 +62,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(urlRegister)
 
-WebUI.waitForElementPresent(findTestObject('midtern/Page_Register/Page_alert/alert_nitification'), 30)
+WebUI.waitForElementPresent(findTestObject('tam/midtern/Page_Register/Page_alert/alert_nitification'), 30)
 
-WebUI.click(findTestObject('midtern/Page_Register/Page_alert/button_chophep'))
+WebUI.click(findTestObject('tam/midtern/Page_Register/Page_alert/button_chophep'))
 
 handleAds()
 
-WebUI.setText(findTestObject('midtern/Page_Register/Page_register/input_Email'), username)
+WebUI.setText(findTestObject('tam/midtern/Page_Register/Page_register/input_Email'), username)
 
-WebUI.setText(findTestObject('midtern/Page_Register/Page_register/input_password'), password)
+WebUI.setText(findTestObject('tam/midtern/Page_Register/Page_register/input_password'), password)
 
-WebUI.setText(findTestObject('midtern/Page_Register/Page_register/input_last-name'), lastName)
+WebUI.setText(findTestObject('tam/midtern/Page_Register/Page_register/input_last-name'), lastName)
 
-WebUI.setText(findTestObject('midtern/Page_Register/Page_register/input_first-name'), firstName)
+WebUI.setText(findTestObject('tam/midtern/Page_Register/Page_register/input_first-name'), firstName)
 
-WebUI.click(findTestObject('midtern/Page_Register/Page_register/input_arrageCondition'))
+WebUI.click(findTestObject('tam/midtern/Page_Register/Page_register/input_arrageCondition'))
 
-WebUI.click(findTestObject('midtern/Page_Register/Page_register/input_errage_get_mail'))
+WebUI.click(findTestObject('tam/midtern/Page_Register/Page_register/input_errage_get_mail'))
 
-WebUI.click(findTestObject('midtern/Page_Register/Page_register/btn_register'))
+WebUI.click(findTestObject('tam/midtern/Page_Register/Page_register/btn_register'))
 
 boolean isRedirected = WebUI.waitForUrl('https://aristino.com/account', 10)
 
@@ -126,11 +126,11 @@ for (def data : login_datatest) {
 	
 	handleAds()
 	
-	WebUI.setText(findTestObject('midtern/Page_login/input_Email'), user)
+	WebUI.setText(findTestObject('tam/midtern/Page_login/input_Email'), user)
 	
-	WebUI.setText(findTestObject('midtern/Page_login/input_password'), pass)
+	WebUI.setText(findTestObject('tam/midtern/Page_login/input_password'), pass)
 	
-	WebUI.click(findTestObject('midtern/Page_login/btn_login'))
+	WebUI.click(findTestObject('tam/midtern/Page_login/btn_login'))
 	
 	if (type == 'success') {
 		WebUI.delay(5)
@@ -158,7 +158,7 @@ for (def data : login_datatest) {
 		}
 		
 	} else if (type == 'fail') {
-		TestObject errorMsgObj = findTestObject('midtern/Page_login/div_login_fail')
+		TestObject errorMsgObj = findTestObject('tam/midtern/Page_login/div_login_fail')
 		WebUI.waitForElementVisible(errorMsgObj, 5)
 		
 		WebUI.verifyElementText(errorMsgObj, expected,FailureHandling.CONTINUE_ON_FAILURE)
@@ -172,7 +172,7 @@ WebUI.navigateToUrl('https://aristino.com/account')
 
 handleAds()
 
-WebUI.click(findTestObject('midtern/Page_account/logout'))
+WebUI.click(findTestObject('tam/midtern/Page_account/logout'))
 
 // - forgot password
 
@@ -203,8 +203,8 @@ for (def data : forgot_password_data) {
 	WebUI.navigateToUrl('https://aristino.com/account/login')
 	
 	// SỬA LỖI 2: Khai báo object trước khi dùng
-	TestObject alertObj = findTestObject('midtern/Page_Register/Page_alert/alert_nitification')
-	TestObject btnAllow = findTestObject('midtern/Page_Register/Page_alert/button_chophep')
+	TestObject alertObj = findTestObject('tam/midtern/Page_Register/Page_alert/alert_nitification')
+	TestObject btnAllow = findTestObject('tam/midtern/Page_Register/Page_alert/button_chophep')
 	
 	// Xử lý Alert thông báo
 	if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
@@ -213,21 +213,21 @@ for (def data : forgot_password_data) {
 	}
 	
 	// Xử lý Quảng cáo Popup
-	TestObject btnCloseAd = findTestObject('midtern/Page_Register/Page_adventis/btn_closeAd')
+	TestObject btnCloseAd = findTestObject('tam/midtern/Page_Register/Page_adventis/btn_closeAd')
 	if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 		WebUI.click(btnCloseAd)
 		println('Đã tắt quảng cáo.')
 	}
 	
 	// Thao tác chính: Quên mật khẩu
-	WebUI.click(findTestObject('Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword'))
+	WebUI.click(findTestObject('Object Repository/tam/midtern/Page_forgotpassword/abtn_forgot-pasword'))
 	
-	WebUI.setText(findTestObject('Object Repository/midtern/Page_forgotpassword/input_Email'), email)
+	WebUI.setText(findTestObject('Object Repository/tam/midtern/Page_forgotpassword/input_Email'), email)
 	
-	WebUI.click(findTestObject('Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc'))
+	WebUI.click(findTestObject('Object Repository/tam/midtern/Page_forgotpassword/button_Email_xac-thuc'))
 	
 
-	TestObject msgError = findTestObject('Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword')
+	TestObject msgError = findTestObject('Object Repository/tam/midtern/Page_forgotpassword/msg_error_forgot-pasword')
 	
 	// Chờ message hiện ra trước khi verify (tránh lỗi element not visible)
 	if(WebUI.waitForElementVisible(msgError, 5, FailureHandling.OPTIONAL)) {
@@ -249,27 +249,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://aristino.com/collections/trang-phuc')
 
-TestObject alertObj = findTestObject('Object Repository/midtern/Page_Register/Page_alert/alert_nitification')
+TestObject alertObj = findTestObject('Object Repository/tam/midtern/Page_Register/Page_alert/alert_nitification')
 
-TestObject btnAllow = findTestObject('Object Repository/midtern/Page_Register/Page_alert/button_chophep')
+TestObject btnAllow = findTestObject('Object Repository/tam/midtern/Page_Register/Page_alert/button_chophep')
 
-TestObject btnCloseAd = findTestObject('Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd')
-
-if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
-	WebUI.click(btnAllow)
-
-	println('Đã click nút Cho phép.')
-}
-
-
-if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
-	WebUI.click(btnCloseAd)
-
-	println('Đã tắt quảng cáo.')
-}
-
-
-WebUI.click(findTestObject('Object Repository/midtern/Page_home/product'))
+TestObject btnCloseAd = findTestObject('Object Repository/tam/midtern/Page_Register/Page_adventis/btn_closeAd')
 
 if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
 	WebUI.click(btnAllow)
@@ -285,69 +269,85 @@ if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 }
 
 
-WebUI.verifyElementText(findTestObject('Object Repository/midtern/Page_product-detail/button_addtocart'), 'ĐẶT HÀNG TRƯỚC')
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_home/product'))
 
-WebUI.verifyElementClickable(findTestObject('midtern/Page_product-detail/size_S'))
+if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
+	WebUI.click(btnAllow)
 
-WebUI.verifyElementClickable(findTestObject('midtern/Page_product-detail/size_M'))
+	println('Đã click nút Cho phép.')
+}
 
-WebUI.verifyElementClickable(findTestObject('midtern/Page_product-detail/size_L'))
 
-WebUI.verifyElementClickable(findTestObject('midtern/Page_product-detail/size_XL'))
+if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
+	WebUI.click(btnCloseAd)
 
-WebUI.verifyElementClickable(findTestObject('midtern/Page_product-detail/size_XXL'))
+	println('Đã tắt quảng cáo.')
+}
 
-WebUI.verifyElementVisible(findTestObject('midtern/Page_product-detail/div_image'))
 
-WebUI.verifyElementVisible(findTestObject('midtern/Page_product-detail/div_image'))
+WebUI.verifyElementText(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_addtocart'), 'ĐẶT HÀNG TRƯỚC')
 
-WebUI.click(findTestObject('midtern/Page_product-detail/div_image'))
+WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_S'))
+
+WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_M'))
+
+WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_L'))
+
+WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_XL'))
+
+WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_XXL'))
+
+WebUI.verifyElementVisible(findTestObject('tam/midtern/Page_product-detail/div_image'))
+
+WebUI.verifyElementVisible(findTestObject('tam/midtern/Page_product-detail/div_image'))
+
+WebUI.click(findTestObject('tam/midtern/Page_product-detail/div_image'))
 
 
 // image
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/img_product'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/img_product'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_next_img'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_next_img'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_next_img'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_next_img'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_next_img'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_next_img'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_next_img'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_next_img'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_next_img'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_next_img'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_zoom'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_zoom'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_zoom'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_zoom'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_zoom_in'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_zoom_in'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/button_zoom_out'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_zoom_out'))
 
-WebUI.click(findTestObject('midtern/Page_product-detail/button_closeImg'))
+WebUI.click(findTestObject('tam/midtern/Page_product-detail/button_closeImg'))
 
 // add to cart
-WebUI.click(findTestObject('Object Repository/midtern/Page_productp/label_chose_color'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_productp/label_chose_color'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_productp/lsize_M'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_productp/lsize_M'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_productp/saddtocart'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_productp/saddtocart'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/midtern/Page_productp/titleGiohang'), 'GIỎ HÀNG')
+WebUI.verifyElementText(findTestObject('Object Repository/tam/midtern/Page_productp/titleGiohang'), 'GIỎ HÀNG')
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_productp/add1'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_productp/add1'))
 
-WebUI.click(findTestObject('midtern/Page_product-detail/sclose_cart'))
+WebUI.click(findTestObject('tam/midtern/Page_product-detail/sclose_cart'))
 
 // product relative
 
 WebUI.navigateToUrl('https://aristino.com/products/ao-khoac-2-lop-nam-xanh-reu-aristino-regular-fit-ajk606edp01')
 
-TestObject alertObj = findTestObject('midtern/Page_Register/Page_alert/alert_nitification')
+TestObject alertObj = findTestObject('tam/midtern/Page_Register/Page_alert/alert_nitification')
 
-TestObject btnAllow = findTestObject('midtern/Page_Register/Page_alert/button_chophep')
+TestObject btnAllow = findTestObject('tam/midtern/Page_Register/Page_alert/button_chophep')
 
 if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
 	WebUI.click(btnAllow)
@@ -355,7 +355,7 @@ if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
 	println('Đã click nút Cho phép.')
 }
 
-TestObject btnCloseAd = findTestObject('midtern/Page_Register/Page_adventis/btn_closeAd')
+TestObject btnCloseAd = findTestObject('tam/midtern/Page_Register/Page_adventis/btn_closeAd')
 
 if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 	WebUI.click(btnCloseAd)
@@ -363,12 +363,12 @@ if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 	println('Đã tắt quảng cáo.')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/midtern/Page_product-detail/div_product-relatetive-list'),
+WebUI.verifyElementPresent(findTestObject('Object Repository/tam/midtern/Page_product-detail/div_product-relatetive-list'),
 	0)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/midtern/Page_product-detail/a_product-relative'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/tam/midtern/Page_product-detail/a_product-relative'))
 
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/a_product-relative'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/a_product-relative'))
 
 
 

@@ -20,7 +20,7 @@ import internal.GlobalVariable
 
 public class BlockUIDismissed {
 	def static void WaitBlockUIDismissed(){
-		TestObject icoBlockUI = findTestObject('Pages/Checkout page/blockUI')
+		TestObject icoBlockUI = findTestObject('tam/Pages/Checkout page/blockUI')
 		WebUI.waitForElementPresent(icoBlockUI,GlobalVariable.waitPresentTimeout)
 		WebUI.waitForElementNotPresent(icoBlockUI, GlobalVariable.uploadPlaceOrderTimeout)
 	}

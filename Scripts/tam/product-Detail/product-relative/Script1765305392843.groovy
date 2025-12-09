@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('https://aristino.com/products/ao-khoac-2-lop-nam-xanh-reu-aristino-regular-fit-ajk606edp01')
 
-WebUI.navigateToUrl(GlobalVariable.urlLogin)
+TestObject alertObj = findTestObject('tam/midtern/Page_Register/Page_alert/alert_nitification')
 
-TestObject alertObj = findTestObject('midtern/Page_Register/Page_alert/alert_nitification')
-
-TestObject btnAllow = findTestObject('midtern/Page_Register/Page_alert/button_chophep')
+TestObject btnAllow = findTestObject('tam/midtern/Page_Register/Page_alert/button_chophep')
 
 if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
 	WebUI.click(btnAllow)
@@ -31,7 +29,7 @@ if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
 	println('Đã click nút Cho phép.')
 }
 
-TestObject btnCloseAd = findTestObject('midtern/Page_Register/Page_adventis/btn_closeAd')
+TestObject btnCloseAd = findTestObject('tam/midtern/Page_Register/Page_adventis/btn_closeAd')
 
 if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 	WebUI.click(btnCloseAd)
@@ -39,32 +37,10 @@ if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 	println('Đã tắt quảng cáo.')
 }
 
-WebUI.setText(findTestObject('midtern/Page_login/input_Email'), GlobalVariable.username)
+WebUI.verifyElementPresent(findTestObject('Object Repository/tam/midtern/Page_product-detail/div_product-relatetive-list'), 
+    0)
 
-WebUI.setText(findTestObject('midtern/Page_login/input_password'), GlobalVariable.password)
+WebUI.verifyElementClickable(findTestObject('Object Repository/tam/midtern/Page_product-detail/a_product-relative'))
 
-WebUI.click(findTestObject('midtern/Page_login/btn_login'))
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_product-detail/a_product-relative'))
 
-WebUI.delay(5)
-
-	// 3. Kiểm tra kết quả sau khi chờ
-	String currentUrl = WebUI.getUrl()
-
-	if (currentUrl.contains('logged=true')) {
-		println('PASS: Đăng nhập thành công (URL chứa \'logged=true\')') // Nếu sai thì đánh Fail test case
-	} else {
-		KeywordUtil.markFailed('FAIL: Đăng nhập thất bại hoặc chưa redirect kịp. URL hiện tại: ' + currentUrl)
-	}
-	
-	if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
-		WebUI.click(btnAllow)
-	
-		println('Đã click nút Cho phép.')
-	}
-	
-	
-	if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
-		WebUI.click(btnCloseAd)
-	
-		println('Đã tắt quảng cáo.')
-	}

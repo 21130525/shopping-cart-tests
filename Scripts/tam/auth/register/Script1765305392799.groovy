@@ -21,12 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(url)
 
-WebUI.waitForElementPresent(findTestObject('midtern/Page_Register/Page_alert/alert_nitification'), 30)
+WebUI.waitForElementPresent(findTestObject('tam/midtern/Page_Register/Page_alert/alert_nitification'), 30)
 
-WebUI.click(findTestObject('midtern/Page_Register/Page_alert/button_chophep'))
+WebUI.click(findTestObject('tam/midtern/Page_Register/Page_alert/button_chophep'))
 
 // Khai báo object ra biến cho gọn
-TestObject btnCloseAd = findTestObject('midtern/Page_Register/Page_adventis/btn_closeAd')
+TestObject btnCloseAd = findTestObject('tam/midtern/Page_Register/Page_adventis/btn_closeAd')
 
 // 1. Chờ và kiểm tra xem nút tắt quảng cáo có hiện ra không (trong 10s)
 // Quan trọng: Dùng FailureHandling.OPTIONAL để nếu không có quảng cáo, test KHÔNG BỊ FAIL
@@ -42,19 +42,19 @@ if (isAdPresent) {
     println('Không có quảng cáo xuất hiện hoặc không bắt được object.')
 }
 
-WebUI.setText(findTestObject('midtern/Page_Register/Page_register/input_Email'), username)
+WebUI.setText(findTestObject('tam/midtern/Page_Register/Page_register/input_Email'), username)
 
-WebUI.setText(findTestObject('midtern/Page_Register/Page_register/input_password'), password)
+WebUI.setText(findTestObject('tam/midtern/Page_Register/Page_register/input_password'), password)
 
-WebUI.setText(findTestObject('midtern/Page_Register/Page_register/input_last-name'), lastName)
+WebUI.setText(findTestObject('tam/midtern/Page_Register/Page_register/input_last-name'), lastName)
 
-WebUI.setText(findTestObject('midtern/Page_Register/Page_register/input_first-name'), firstName)
+WebUI.setText(findTestObject('tam/midtern/Page_Register/Page_register/input_first-name'), firstName)
 
-WebUI.click(findTestObject('midtern/Page_Register/Page_register/input_arrageCondition'))
+WebUI.click(findTestObject('tam/midtern/Page_Register/Page_register/input_arrageCondition'))
 
-WebUI.click(findTestObject('midtern/Page_Register/Page_register/input_errage_get_mail'))
+WebUI.click(findTestObject('tam/midtern/Page_Register/Page_register/input_errage_get_mail'))
 
-WebUI.click(findTestObject('midtern/Page_Register/Page_register/btn_register'))
+WebUI.click(findTestObject('tam/midtern/Page_Register/Page_register/btn_register'))
 
 boolean isRedirected = WebUI.waitForUrl('https://aristino.com/account', 10)
 

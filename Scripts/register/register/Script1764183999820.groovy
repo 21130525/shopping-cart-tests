@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://aristino.com/account/register')
 
-WebUI.waitForElementNotPresent(findTestObject('midtern/Page_Register/Page_alert/alert_nitification'), 30)
+WebUI.waitForElementNotPresent(findTestObject('tam/midtern/Page_Register/Page_alert/alert_nitification'), 30)
 
 WebUI.click(findTestObject('null'))
 
@@ -38,7 +38,7 @@ WebUI.click(findTestObject('null'))
 
 WebUI.setText(findTestObject('null'), 'tam')
 
-WebUI.click(findTestObject('midtern/Page_Register/Page_register/input_arrageCondition'))
+WebUI.click(findTestObject('tam/midtern/Page_Register/Page_register/input_arrageCondition'))
 
-WebUI.click(findTestObject('midtern/Page_Register/Page_register/input_errage_get_mail'))
+WebUI.click(findTestObject('tam/midtern/Page_Register/Page_register/input_errage_get_mail'))
 

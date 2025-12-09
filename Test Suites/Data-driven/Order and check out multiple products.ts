@@ -9,12 +9,13 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>272a0761-190e-404d-a718-a650753e0235</testSuiteGuid>
    <testCaseLink>
       <guid>c9c2b585-4594-41e1-aefa-ef640f098124</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Data-driven samples/Order and check out multiple products</testCaseId>
+      <testCaseId>Test Cases/DEMO/Data-driven samples/Order and check out multiple products</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ca2af0bc-270c-450a-918a-14af5dbe8a9e</id>
@@ -24,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Product List</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

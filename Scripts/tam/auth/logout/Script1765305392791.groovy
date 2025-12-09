@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://aristino.com/products/ao-khoac-2-lop-nam-xanh-reu-aristino-regular-fit-ajk606edp01')
+WebUI.navigateToUrl('https://aristino.com/account')
 
-TestObject alertObj = findTestObject('midtern/Page_Register/Page_alert/alert_nitification')
+TestObject alertObj = findTestObject('tam/midtern/Page_Register/Page_alert/alert_nitification')
 
-TestObject btnAllow = findTestObject('midtern/Page_Register/Page_alert/button_chophep')
+TestObject btnAllow = findTestObject('tam/midtern/Page_Register/Page_alert/button_chophep')
 
 if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
 	WebUI.click(btnAllow)
@@ -29,7 +29,7 @@ if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
 	println('Đã click nút Cho phép.')
 }
 
-TestObject btnCloseAd = findTestObject('midtern/Page_Register/Page_adventis/btn_closeAd')
+TestObject btnCloseAd = findTestObject('tam/midtern/Page_Register/Page_adventis/btn_closeAd')
 
 if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 	WebUI.click(btnCloseAd)
@@ -37,10 +37,6 @@ if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 	println('Đã tắt quảng cáo.')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/midtern/Page_product-detail/div_product-relatetive-list'), 
-    0)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/midtern/Page_product-detail/a_product-relative'))
-
-WebUI.click(findTestObject('Object Repository/midtern/Page_product-detail/a_product-relative'))
+WebUI.click(findTestObject('tam/midtern/Page_account/logout'))
 

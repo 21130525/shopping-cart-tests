@@ -32,9 +32,9 @@ for (int i = 1; i <= totalRows; i++) {
 	
 	WebUI.navigateToUrl(GlobalVariable.urlLogin)
 	
-	TestObject alertObj = findTestObject('midtern/Page_Register/Page_alert/alert_nitification')
+	TestObject alertObj = findTestObject('tam/midtern/Page_Register/Page_alert/alert_nitification')
 	
-	TestObject btnAllow = findTestObject('midtern/Page_Register/Page_alert/button_chophep')
+	TestObject btnAllow = findTestObject('tam/midtern/Page_Register/Page_alert/button_chophep')
 	
 	if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
 	    WebUI.click(btnAllow)
@@ -42,7 +42,7 @@ for (int i = 1; i <= totalRows; i++) {
 	    println('Đã click nút Cho phép.')
 	}
 	
-	TestObject btnCloseAd = findTestObject('midtern/Page_Register/Page_adventis/btn_closeAd')
+	TestObject btnCloseAd = findTestObject('tam/midtern/Page_Register/Page_adventis/btn_closeAd')
 	
 	if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
 	    WebUI.click(btnCloseAd)
@@ -50,11 +50,11 @@ for (int i = 1; i <= totalRows; i++) {
 	    println('Đã tắt quảng cáo.')
 	}
 	
-	WebUI.setText(findTestObject('midtern/Page_login/input_Email'), user)
+	WebUI.setText(findTestObject('tam/midtern/Page_login/input_Email'), user)
 	
-	WebUI.setText(findTestObject('midtern/Page_login/input_password'), pass)
+	WebUI.setText(findTestObject('tam/midtern/Page_login/input_password'), pass)
 	
-	WebUI.click(findTestObject('midtern/Page_login/btn_login'))
+	WebUI.click(findTestObject('tam/midtern/Page_login/btn_login'))
 	
 	if (type == 'success') {
 	    WebUI.delay(5)
@@ -82,7 +82,7 @@ for (int i = 1; i <= totalRows; i++) {
 		}
 		
 	} else if (type == 'fail') {
-		TestObject errorMsgObj = findTestObject('midtern/Page_login/div_login_fail')
+		TestObject errorMsgObj = findTestObject('tam/midtern/Page_login/div_login_fail')
 		WebUI.waitForElementVisible(errorMsgObj, 5)
 		
 		WebUI.verifyElementText(errorMsgObj, expected,FailureHandling.CONTINUE_ON_FAILURE)
