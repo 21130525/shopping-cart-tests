@@ -1,0 +1,200 @@
+2025-11-28 16:01:52.579 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\tam14\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-11-28 16:01:52.585 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\tam14\Katalon Studio\tester assignment midtern\Include\config\log.properties
+2025-11-28 16:01:53.091 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/midtern-product-detail
+2025-11-28 16:01:53.186 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Lê Thanh Tâm
+2025-11-28 16:01:53.188 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = shopping-cart-tests
+2025-11-28 16:01:53.189 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = tam14 - thanh_tam
+2025-11-28 16:01:53.190 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-28 16:01:53.191 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.51.143.179
+2025-11-28 16:01:53.192 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-11-28 16:01:53.848 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 16:01:53.848 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/canClickProduct
+2025-11-28 16:01:54.019 DEBUG testcase.canClickProduct                 - 1: openBrowser("")
+2025-11-28 16:01:54.373 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-11-28 16:01:54.384 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+2025-11-28 16:01:54.447 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 28, 2025 4:01:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-28 16:01:56.483 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 30d3b93b4384f9f3c182342f0f5f4f9d
+2025-11-28 16:01:56.484 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-28 16:01:56.485 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-28 16:01:56.486 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-11-28 16:01:56.498 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-28 16:01:56.560 DEBUG testcase.canClickProduct                 - 2: navigateToUrl("https://aristino.com/collections/trang-phuc")
+2025-11-28 16:02:45.036 DEBUG testcase.canClickProduct                 - 3: alertObj = findTestObject("Object Repository/midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-28 16:02:45.118 DEBUG testcase.canClickProduct                 - 4: btnAllow = findTestObject("Object Repository/midtern/Page_Register/Page_alert/button_chophep")
+2025-11-28 16:02:45.132 DEBUG testcase.canClickProduct                 - 5: btnCloseAd = findTestObject("Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-28 16:02:45.144 DEBUG testcase.canClickProduct                 - 6: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-28 16:02:46.336 DEBUG testcase.canClickProduct                 - 1: click(btnAllow)
+2025-11-28 16:02:46.913 DEBUG testcase.canClickProduct                 - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-28 16:02:46.922 DEBUG testcase.canClickProduct                 - 7: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-28 16:02:46.976 DEBUG testcase.canClickProduct                 - 1: click(btnCloseAd)
+2025-11-28 16:02:47.161 DEBUG testcase.canClickProduct                 - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-28 16:02:47.164 DEBUG testcase.canClickProduct                 - 8: click(findTestObject("Object Repository/midtern/Page_home/product"))
+2025-11-28 16:02:58.006 DEBUG testcase.canClickProduct                 - 9: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-28 16:02:59.213 DEBUG testcase.canClickProduct                 - 1: click(btnAllow)
+2025-11-28 16:02:59.644 DEBUG testcase.canClickProduct                 - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-28 16:02:59.650 DEBUG testcase.canClickProduct                 - 10: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-28 16:02:59.703 DEBUG testcase.canClickProduct                 - 1: click(btnCloseAd)
+2025-11-28 16:02:59.872 DEBUG testcase.canClickProduct                 - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-28 16:02:59.876 DEBUG testcase.canClickProduct                 - 11: verifyElementText(findTestObject("Object Repository/midtern/Page_product-detail/button_addtocart"), "ĐẶT HÀNG TRƯỚC")
+2025-11-28 16:02:59.960 DEBUG testcase.canClickProduct                 - 12: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_S"))
+2025-11-28 16:03:00.424 DEBUG testcase.canClickProduct                 - 13: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_M"))
+2025-11-28 16:03:01.248 DEBUG testcase.canClickProduct                 - 14: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_L"))
+2025-11-28 16:03:01.559 DEBUG testcase.canClickProduct                 - 15: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_XL"))
+2025-11-28 16:03:01.858 DEBUG testcase.canClickProduct                 - 16: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_XXL"))
+2025-11-28 16:03:02.153 DEBUG testcase.canClickProduct                 - 17: verifyElementVisible(findTestObject("midtern/Page_product-detail/div_image"))
+2025-11-28 16:03:02.200 DEBUG testcase.canClickProduct                 - 18: verifyElementVisible(findTestObject("midtern/Page_product-detail/div_image"))
+2025-11-28 16:03:02.242 DEBUG testcase.canClickProduct                 - 19: click(findTestObject("midtern/Page_product-detail/div_image"))
+2025-11-28 16:03:02.399 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/canClickProduct
+2025-11-28 16:03:02.405 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 16:03:02.405 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/image
+2025-11-28 16:03:02.491 DEBUG testcase.image                           - 1: click(findTestObject("Object Repository/midtern/Page_product-detail/img_product"))
+2025-11-28 16:03:03.035 DEBUG testcase.image                           - 2: click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img"))
+2025-11-28 16:03:03.647 DEBUG testcase.image                           - 3: click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img"))
+2025-11-28 16:03:04.234 DEBUG testcase.image                           - 4: click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img"))
+2025-11-28 16:03:04.828 DEBUG testcase.image                           - 5: click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img"))
+2025-11-28 16:03:05.411 DEBUG testcase.image                           - 6: click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img"))
+2025-11-28 16:03:06.011 DEBUG testcase.image                           - 7: click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom"))
+2025-11-28 16:03:08.037 DEBUG testcase.image                           - 8: click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom"))
+2025-11-28 16:03:08.475 DEBUG testcase.image                           - 9: click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom_in"))
+2025-11-28 16:03:09.059 DEBUG testcase.image                           - 10: click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom_out"))
+2025-11-28 16:03:09.635 DEBUG testcase.image                           - 11: click(findTestObject("midtern/Page_product-detail/button_closeImg"))
+2025-11-28 16:03:09.847 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/image
+2025-11-28 16:03:09.852 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 16:03:09.853 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/add-to-cart-from-pd
+2025-11-28 16:03:09.932 DEBUG testcase.add-to-cart-from-pd             - 1: click(findTestObject("Object Repository/midtern/Page_productp/label_chose_color"))
+2025-11-28 16:03:39.958 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2025-11-28 16:03:40.059 DEBUG testcase.add-to-cart-from-pd             - 2: click(findTestObject("Object Repository/midtern/Page_productp/lsize_M"))
+2025-11-28 16:03:41.078 DEBUG testcase.add-to-cart-from-pd             - 3: click(findTestObject("Object Repository/midtern/Page_productp/saddtocart"))
+2025-11-28 16:03:41.687 DEBUG testcase.add-to-cart-from-pd             - 4: verifyElementText(findTestObject("Object Repository/midtern/Page_productp/titleGiohang"), "GIỎ HÀNG")
+2025-11-28 16:03:43.753 DEBUG testcase.add-to-cart-from-pd             - 5: click(findTestObject("Object Repository/midtern/Page_productp/add1"))
+2025-11-28 16:03:44.151 DEBUG testcase.add-to-cart-from-pd             - 6: click(findTestObject("midtern/Page_product-detail/sclose_cart"))
+2025-11-28 16:03:44.769 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/add-to-cart-from-pd
+2025-11-28 16:03:44.772 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 16:03:44.772 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/product-relative
+2025-11-28 16:03:44.848 DEBUG testcase.product-relative                - 1: delay(5)
+2025-11-28 16:03:49.886 DEBUG testcase.product-relative                - 2: verifyElementPresent(findTestObject("Object Repository/midtern/Page_product-detail/div_product-relatetive-list"), 0)
+2025-11-28 16:03:49.912 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-11-28 16:03:50.156 DEBUG testcase.product-relative                - 3: verifyElementClickable(findTestObject("Object Repository/midtern/Page_product-detail/a_product-relative"))
+2025-11-28 16:04:20.179 WARN  .k.c.w.k.b.VerifyElementClickableKeyword - Waiting for element timed out
+2025-11-28 16:04:20.391 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Object 'Object Repository/midtern/Page_product-detail/a_product-relative' is NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/midtern/Page_product-detail/a_product-relative' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:642)
+	at product-relative.run(product-relative:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764320509264.run(TempTestSuite1764320509264.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-11-28 16:04:20.576 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/midtern/Page_product-detail/a_product-relative' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/midtern/Page_product-detail/a_product-relative' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:642)
+	at product-relative.run(product-relative:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764320509264.run(TempTestSuite1764320509264.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/midtern/Page_product-detail/a_product-relative' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+)
+2025-11-28 16:04:20.580 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/midtern/product-Detail/product-relative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/midtern/Page_product-detail/a_product-relative' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:642)
+	at product-relative.run(product-relative:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764320509264.run(TempTestSuite1764320509264.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/midtern/Page_product-detail/a_product-relative' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2025-11-28 16:04:20.581 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/product-relative
+2025-11-28 16:04:20.898 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-28 16:04:20.898 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/midtern-product-detail
+2025-11-28 16:04:20.898 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

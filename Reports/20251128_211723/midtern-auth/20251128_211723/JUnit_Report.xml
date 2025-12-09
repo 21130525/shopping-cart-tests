@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="midtern-auth" time="161.17" tests="3" failures="0" errors="0">
+   <testsuite name="midtern-auth" tests="3" failures="0" errors="0" time="161.17" skipped="0" timestamp="2025-11-28T14:17:28.156Z" hostname="tam14 - host.docker.internal" id="Test Suites/midtern-auth">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_211723\\midtern-auth\\20251128_211723"/>
+         <property name="logFiles" value="C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_211723\\midtern-auth\\20251128_211723\\console0.log, C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_211723\\midtern-auth\\20251128_211723\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tam14 - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.0.0"/>
+         <property name="browser" value="Edge Chromium 142.0.3595.94"/>
+         <property name="userFullName" value="Lê Thanh Tâm"/>
+         <property name="hostAddress" value="192.168.100.57"/>
+         <property name="sessionId" value="29e20d71efa7d16250a8161f7a47ac56"/>
+         <property name="projectName" value="shopping-cart-tests"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/midtern/auth/login-datatest" time="65.548" classname="Test Cases/midtern/auth/login-datatest" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) Type":"","(Default) Expec...":"","(Default) Passw...":"","(Default) Usern...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[28-11-2025T21:17:28 - [TEST_CASE][PASSED] - Test Cases/midtern/auth/login-datatest: Test Cases/midtern/auth/login-datatest
+
+28-11-2025T21:17:29 - [TEST_STEP][PASSED] - testData = findTestData("Data Files/data_login"): null
+
+28-11-2025T21:17:29 - [TEST_STEP][PASSED] - totalRows = testData.getRowNumbers(): null
+
+28-11-2025T21:17:29 - [TEST_STEP][PASSED] - print(totalRows): null
+
+28-11-2025T21:17:29 - [TEST_STEP][PASSED] - for ([i = 1, i <= totalRows, (i++)]): null
+
+28-11-2025T21:17:29 - [TEST_STEP][PASSED] - user = testData.getValue("Username", i): null
+
+28-11-2025T21:17:29 - [TEST_STEP][PASSED] - pass = testData.getValue("Password", i): null
+
+28-11-2025T21:17:29 - [TEST_STEP][PASSED] - type = testData.getValue("Type", i): null
+
+28-11-2025T21:17:29 - [TEST_STEP][PASSED] - expected = testData.getValue("ExpectedOutput", i): null
+
+28-11-2025T21:17:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-11-2025T21:17:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-11-2025T21:17:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-11-2025T21:17:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-11-2025T21:17:32 - [TEST_STEP][PASSED] - navigateToUrl(urlLogin): Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:17:45 - [MESSAGE][PASSED] - Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:17:45 - [TEST_STEP][PASSED] - alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification"): null
+
+28-11-2025T21:17:45 - [TEST_STEP][PASSED] - btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep"): null
+
+28-11-2025T21:17:45 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T21:17:48 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T21:17:48 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:17:49 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T21:17:49 - [TEST_STEP][PASSED] - btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd"): null
+
+28-11-2025T21:17:49 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T21:17:49 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T21:17:49 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:17:49 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null
+
+28-11-2025T21:17:49 - [TEST_STEP][PASSED] - setText(findTestObject("midtern/Page_login/input_Email"), user): Text '21130525@st.hcmuaf.edu.vn' is set on object 'Object Repository/midtern/Page_login/input_Email'
+
+28-11-2025T21:17:50 - [MESSAGE][PASSED] - Text '21130525@st.hcmuaf.edu.vn' is set on object 'Object Repository/midtern/Page_login/input_Email'
+
+28-11-2025T21:17:50 - [TEST_STEP][PASSED] - setText(findTestObject("midtern/Page_login/input_password"), pass): Text 'pass_wrong' is set on object 'Object Repository/midtern/Page_login/input_password'
+
+28-11-2025T21:17:51 - [MESSAGE][PASSED] - Text 'pass_wrong' is set on object 'Object Repository/midtern/Page_login/input_password'
+
+28-11-2025T21:17:51 - [TEST_STEP][PASSED] - click(findTestObject("midtern/Page_login/btn_login")): Object: 'Object Repository/midtern/Page_login/btn_login' is clicked on
+
+28-11-2025T21:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_login/btn_login' is clicked on
+
+28-11-2025T21:17:52 - [TEST_STEP][PASSED] - if (type == "success"): null
+
+28-11-2025T21:17:52 - [TEST_STEP][PASSED] - else if (type == "fail"): Browser is closed
+
+28-11-2025T21:17:52 - [TEST_STEP][PASSED] - errorMsgObj = findTestObject("midtern/Page_login/div_login_fail"): null
+
+28-11-2025T21:17:52 - [TEST_STEP][PASSED] - waitForElementVisible(errorMsgObj, 5): Object 'Object Repository/midtern/Page_login/div_login_fail' is visible
+
+28-11-2025T21:17:53 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_login/div_login_fail' is visible
+
+28-11-2025T21:17:53 - [TEST_STEP][PASSED] - verifyElementText(errorMsgObj, expected, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/midtern/Page_login/div_login_fail' are matched.
+
+28-11-2025T21:17:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/midtern/Page_login/div_login_fail' are matched.
+
+28-11-2025T21:17:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-11-2025T21:17:53 - [MESSAGE][PASSED] - Browser is closed
+
+28-11-2025T21:17:53 - [TEST_STEP][PASSED] - user = testData.getValue("Username", i): null
+
+28-11-2025T21:17:53 - [TEST_STEP][PASSED] - pass = testData.getValue("Password", i): null
+
+28-11-2025T21:17:53 - [TEST_STEP][PASSED] - type = testData.getValue("Type", i): null
+
+28-11-2025T21:17:53 - [TEST_STEP][PASSED] - expected = testData.getValue("ExpectedOutput", i): null
+
+28-11-2025T21:17:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-11-2025T21:17:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-11-2025T21:17:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-11-2025T21:17:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-11-2025T21:17:54 - [TEST_STEP][PASSED] - navigateToUrl(urlLogin): Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:18:02 - [MESSAGE][PASSED] - Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:18:02 - [TEST_STEP][PASSED] - alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification"): null
+
+28-11-2025T21:18:02 - [TEST_STEP][PASSED] - btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep"): null
+
+28-11-2025T21:18:02 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T21:18:06 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T21:18:06 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:18:07 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T21:18:07 - [TEST_STEP][PASSED] - btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd"): null
+
+28-11-2025T21:18:07 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T21:18:07 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T21:18:07 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:18:07 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null
+
+28-11-2025T21:18:07 - [TEST_STEP][PASSED] - setText(findTestObject("midtern/Page_login/input_Email"), user): Text 'user_not_exist@st.hcmuaf.edu.vn' is set on object 'Object Repository/midtern/Page_login/input_Email'
+
+28-11-2025T21:18:08 - [MESSAGE][PASSED] - Text 'user_not_exist@st.hcmuaf.edu.vn' is set on object 'Object Repository/midtern/Page_login/input_Email'
+
+28-11-2025T21:18:08 - [TEST_STEP][PASSED] - setText(findTestObject("midtern/Page_login/input_password"), pass): Text 'pass_any' is set on object 'Object Repository/midtern/Page_login/input_password'
+
+28-11-2025T21:18:09 - [MESSAGE][PASSED] - Text 'pass_any' is set on object 'Object Repository/midtern/Page_login/input_password'
+
+28-11-2025T21:18:09 - [TEST_STEP][PASSED] - click(findTestObject("midtern/Page_login/btn_login")): Object: 'Object Repository/midtern/Page_login/btn_login' is clicked on
+
+28-11-2025T21:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_login/btn_login' is clicked on
+
+28-11-2025T21:18:10 - [TEST_STEP][PASSED] - if (type == "success"): null
+
+28-11-2025T21:18:10 - [TEST_STEP][PASSED] - else if (type == "fail"): Browser is closed
+
+28-11-2025T21:18:10 - [TEST_STEP][PASSED] - errorMsgObj = findTestObject("midtern/Page_login/div_login_fail"): null
+
+28-11-2025T21:18:10 - [TEST_STEP][PASSED] - waitForElementVisible(errorMsgObj, 5): Object 'Object Repository/midtern/Page_login/div_login_fail' is visible
+
+28-11-2025T21:18:11 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_login/div_login_fail' is visible
+
+28-11-2025T21:18:11 - [TEST_STEP][PASSED] - verifyElementText(errorMsgObj, expected, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/midtern/Page_login/div_login_fail' are matched.
+
+28-11-2025T21:18:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/midtern/Page_login/div_login_fail' are matched.
+
+28-11-2025T21:18:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-11-2025T21:18:11 - [MESSAGE][PASSED] - Browser is closed
+
+28-11-2025T21:18:11 - [TEST_STEP][PASSED] - user = testData.getValue("Username", i): null
+
+28-11-2025T21:18:11 - [TEST_STEP][PASSED] - pass = testData.getValue("Password", i): null
+
+28-11-2025T21:18:11 - [TEST_STEP][PASSED] - type = testData.getValue("Type", i): null
+
+28-11-2025T21:18:11 - [TEST_STEP][PASSED] - expected = testData.getValue("ExpectedOutput", i): null
+
+28-11-2025T21:18:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-11-2025T21:18:11 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-11-2025T21:18:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-11-2025T21:18:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-11-2025T21:18:12 - [TEST_STEP][PASSED] - navigateToUrl(urlLogin): Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:18:17 - [MESSAGE][PASSED] - Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:18:17 - [TEST_STEP][PASSED] - alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification"): null
+
+28-11-2025T21:18:17 - [TEST_STEP][PASSED] - btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep"): null
+
+28-11-2025T21:18:17 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T21:18:21 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T21:18:21 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:18:21 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T21:18:21 - [TEST_STEP][PASSED] - btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd"): null
+
+28-11-2025T21:18:21 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T21:18:21 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T21:18:21 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:18:22 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null
+
+28-11-2025T21:18:22 - [TEST_STEP][PASSED] - setText(findTestObject("midtern/Page_login/input_Email"), user): Text '21130525@st.hcmuaf.edu.vn' is set on object 'Object Repository/midtern/Page_login/input_Email'
+
+28-11-2025T21:18:23 - [MESSAGE][PASSED] - Text '21130525@st.hcmuaf.edu.vn' is set on object 'Object Repository/midtern/Page_login/input_Email'
+
+28-11-2025T21:18:23 - [TEST_STEP][PASSED] - setText(findTestObject("midtern/Page_login/input_password"), pass): Text 'Admin@123' is set on object 'Object Repository/midtern/Page_login/input_password'
+
+28-11-2025T21:18:24 - [MESSAGE][PASSED] - Text 'Admin@123' is set on object 'Object Repository/midtern/Page_login/input_password'
+
+28-11-2025T21:18:24 - [TEST_STEP][PASSED] - click(findTestObject("midtern/Page_login/btn_login")): Object: 'Object Repository/midtern/Page_login/btn_login' is clicked on
+
+28-11-2025T21:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_login/btn_login' is clicked on
+
+28-11-2025T21:18:24 - [TEST_STEP][PASSED] - if (type == "success"): null
+
+28-11-2025T21:18:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-11-2025T21:18:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-11-2025T21:18:29 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://aristino.com/account?logged=true'
+
+28-11-2025T21:18:30 - [MESSAGE][PASSED] - Current window's url is: 'https://aristino.com/account?logged=true'
+
+28-11-2025T21:18:30 - [TEST_STEP][PASSED] - if (currentUrl.contains("logged=true")): null
+
+28-11-2025T21:18:30 - [TEST_STEP][PASSED] - println("PASS: Đăng nhập thành công (URL chứa 'logged=true')"): null
+
+28-11-2025T21:18:30 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T21:18:33 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T21:18:33 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:18:34 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T21:18:34 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T21:18:34 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T21:18:34 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:18:34 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/midtern/auth/logout" time="46.366" classname="Test Cases/midtern/auth/logout" status="PASSED">
+         <system-out><![CDATA[28-11-2025T21:18:34 - [TEST_CASE][PASSED] - Test Cases/midtern/auth/logout: Test Cases/midtern/auth/logout
+
+28-11-2025T21:18:34 - [TEST_STEP][PASSED] - navigateToUrl("https://aristino.com/account"): Navigate to 'https://aristino.com/account' successfully
+
+28-11-2025T21:18:36 - [MESSAGE][PASSED] - Navigate to 'https://aristino.com/account' successfully
+
+28-11-2025T21:18:36 - [TEST_STEP][PASSED] - alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification"): null
+
+28-11-2025T21:18:36 - [TEST_STEP][PASSED] - btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep"): null
+
+28-11-2025T21:18:36 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T21:18:41 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T21:18:41 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:18:41 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T21:18:41 - [TEST_STEP][PASSED] - btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd"): null
+
+28-11-2025T21:18:41 - [TEST_STEP][WARNING] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): Web element with id: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' located by '.styled__CloseButtonWrapper-sc-m09mre-0' not found
+
+28-11-2025T21:18:46 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' located by '.styled__CloseButtonWrapper-sc-m09mre-0' not found
+
+28-11-2025T21:18:46 - [TEST_STEP][PASSED] - click(findTestObject("midtern/Page_account/logout")): Object: 'Object Repository/midtern/Page_account/logout' is clicked on
+
+28-11-2025T21:19:16 - [MESSAGE][WARNING] - Waiting for element timed out
+
+28-11-2025T21:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_account/logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/midtern/auth/forgot_pasword" time="48.414" classname="Test Cases/midtern/auth/forgot_pasword" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) email":""}]]></property>
+         </properties>
+         <system-out><![CDATA[28-11-2025T21:19:20 - [TEST_CASE][PASSED] - Test Cases/midtern/auth/forgot_pasword: Test Cases/midtern/auth/forgot_pasword
+
+28-11-2025T21:19:21 - [TEST_STEP][PASSED] - testData = findTestData("Data Files/data_forgot-pasword"): null
+
+28-11-2025T21:19:21 - [TEST_STEP][PASSED] - totalRows = testData.getRowNumbers(): null
+
+28-11-2025T21:19:21 - [TEST_STEP][PASSED] - println("Tổng số dòng data: " + totalRows): null
+
+28-11-2025T21:19:21 - [TEST_STEP][PASSED] - for ([i = 1, i <= totalRows, (i++)]): Browser is closed
+
+28-11-2025T21:19:21 - [TEST_STEP][PASSED] - email = testData.getValue("Email", i): null
+
+28-11-2025T21:19:21 - [TEST_STEP][PASSED] - expected = testData.getValue("ExpectedOutput", i): null
+
+28-11-2025T21:19:21 - [TEST_STEP][PASSED] - println("--- Đang chạy dòng " + i + " với Email: " + email + " ---"): null
+
+28-11-2025T21:19:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-11-2025T21:19:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-11-2025T21:19:21 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-11-2025T21:19:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-11-2025T21:19:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-11-2025T21:19:22 - [TEST_STEP][PASSED] - navigateToUrl("https://aristino.com/account/login"): Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:19:27 - [MESSAGE][PASSED] - Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:19:27 - [TEST_STEP][PASSED] - alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification"): null
+
+28-11-2025T21:19:27 - [TEST_STEP][PASSED] - btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep"): null
+
+28-11-2025T21:19:27 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T21:19:29 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T21:19:29 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:19:30 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T21:19:30 - [TEST_STEP][PASSED] - btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd"): null
+
+28-11-2025T21:19:30 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T21:19:30 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T21:19:30 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:19:30 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null
+
+28-11-2025T21:19:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword")): Object: 'Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword' is clicked on
+
+28-11-2025T21:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword' is clicked on
+
+28-11-2025T21:19:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/midtern/Page_forgotpassword/input_Email"), email): Text '21130525@st.hcmuaf.edu.vn' is set on object 'Object Repository/midtern/Page_forgotpassword/input_Email'
+
+28-11-2025T21:19:32 - [MESSAGE][PASSED] - Text '21130525@st.hcmuaf.edu.vn' is set on object 'Object Repository/midtern/Page_forgotpassword/input_Email'
+
+28-11-2025T21:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc")): Object: 'Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc' is clicked on
+
+28-11-2025T21:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc' is clicked on
+
+28-11-2025T21:19:33 - [TEST_STEP][PASSED] - msgError = findTestObject("Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword"): null
+
+28-11-2025T21:19:33 - [TEST_STEP][WARNING] - if (waitForElementVisible(msgError, 5, OPTIONAL)): Object 'Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword' is not visible after 5 second(s)
+
+28-11-2025T21:19:38 - [MESSAGE][WARNING] - Object 'Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword' is not visible after 5 second(s)
+
+28-11-2025T21:19:38 - [TEST_STEP][PASSED] - else: null
+
+28-11-2025T21:19:38 - [TEST_STEP][PASSED] - println("Lỗi: Không tìm thấy thông báo lỗi mong đợi."): null
+
+28-11-2025T21:19:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-11-2025T21:19:39 - [MESSAGE][PASSED] - Browser is closed
+
+28-11-2025T21:19:39 - [TEST_STEP][PASSED] - email = testData.getValue("Email", i): null
+
+28-11-2025T21:19:39 - [TEST_STEP][PASSED] - expected = testData.getValue("ExpectedOutput", i): null
+
+28-11-2025T21:19:39 - [TEST_STEP][PASSED] - println("--- Đang chạy dòng " + i + " với Email: " + email + " ---"): null
+
+28-11-2025T21:19:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-11-2025T21:19:39 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-11-2025T21:19:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-11-2025T21:19:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-11-2025T21:19:40 - [TEST_STEP][PASSED] - navigateToUrl("https://aristino.com/account/login"): Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:19:43 - [MESSAGE][PASSED] - Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:19:43 - [TEST_STEP][PASSED] - alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification"): null
+
+28-11-2025T21:19:43 - [TEST_STEP][PASSED] - btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep"): null
+
+28-11-2025T21:19:43 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T21:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T21:19:48 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:19:49 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T21:19:49 - [TEST_STEP][PASSED] - btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd"): null
+
+28-11-2025T21:19:49 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T21:19:49 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T21:19:49 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:19:49 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null
+
+28-11-2025T21:19:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword")): Object: 'Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword' is clicked on
+
+28-11-2025T21:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword' is clicked on
+
+28-11-2025T21:19:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/midtern/Page_forgotpassword/input_Email"), email): Text 'invalicEmai.@gmai.com' is set on object 'Object Repository/midtern/Page_forgotpassword/input_Email'
+
+28-11-2025T21:19:51 - [MESSAGE][PASSED] - Text 'invalicEmai.@gmai.com' is set on object 'Object Repository/midtern/Page_forgotpassword/input_Email'
+
+28-11-2025T21:19:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc")): Object: 'Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc' is clicked on
+
+28-11-2025T21:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc' is clicked on
+
+28-11-2025T21:19:51 - [TEST_STEP][PASSED] - msgError = findTestObject("Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword"): null
+
+28-11-2025T21:19:51 - [TEST_STEP][WARNING] - if (waitForElementVisible(msgError, 5, OPTIONAL)): Object 'Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword' is not visible after 5 second(s)
+
+28-11-2025T21:19:57 - [MESSAGE][WARNING] - Object 'Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword' is not visible after 5 second(s)
+
+28-11-2025T21:19:57 - [TEST_STEP][PASSED] - else: null
+
+28-11-2025T21:19:57 - [TEST_STEP][PASSED] - println("Lỗi: Không tìm thấy thông báo lỗi mong đợi."): null
+
+28-11-2025T21:19:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-11-2025T21:19:57 - [MESSAGE][PASSED] - Browser is closed
+
+28-11-2025T21:19:57 - [TEST_STEP][PASSED] - email = testData.getValue("Email", i): null
+
+28-11-2025T21:19:57 - [TEST_STEP][PASSED] - expected = testData.getValue("ExpectedOutput", i): null
+
+28-11-2025T21:19:57 - [TEST_STEP][PASSED] - println("--- Đang chạy dòng " + i + " với Email: " + email + " ---"): null
+
+28-11-2025T21:19:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-11-2025T21:19:57 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-11-2025T21:19:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-11-2025T21:19:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-11-2025T21:19:58 - [TEST_STEP][PASSED] - navigateToUrl("https://aristino.com/account/login"): Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:20:01 - [MESSAGE][PASSED] - Navigate to 'https://aristino.com/account/login' successfully
+
+28-11-2025T21:20:01 - [TEST_STEP][PASSED] - alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification"): null
+
+28-11-2025T21:20:01 - [TEST_STEP][PASSED] - btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep"): null
+
+28-11-2025T21:20:01 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T21:20:05 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T21:20:05 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T21:20:05 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T21:20:05 - [TEST_STEP][PASSED] - btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd"): null
+
+28-11-2025T21:20:05 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T21:20:05 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T21:20:05 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T21:20:06 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null
+
+28-11-2025T21:20:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword")): Object: 'Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword' is clicked on
+
+28-11-2025T21:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword' is clicked on
+
+28-11-2025T21:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/midtern/Page_forgotpassword/input_Email"), email): Text 'notAEmai.gmai.com' is set on object 'Object Repository/midtern/Page_forgotpassword/input_Email'
+
+28-11-2025T21:20:07 - [MESSAGE][PASSED] - Text 'notAEmai.gmai.com' is set on object 'Object Repository/midtern/Page_forgotpassword/input_Email'
+
+28-11-2025T21:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc")): Object: 'Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc' is clicked on
+
+28-11-2025T21:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc' is clicked on
+
+28-11-2025T21:20:08 - [TEST_STEP][PASSED] - msgError = findTestObject("Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword"): null
+
+28-11-2025T21:20:08 - [TEST_STEP][PASSED] - if (waitForElementVisible(msgError, 5, OPTIONAL)): null
+
+28-11-2025T21:20:08 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword' is visible
+
+28-11-2025T21:20:08 - [TEST_STEP][PASSED] - verifyElementText(msgError, expected, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword' are matched.
+
+28-11-2025T21:20:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword' are matched.
+
+28-11-2025T21:20:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-11-2025T21:20:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-11-2025T21:17:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+28-11-2025T21:17:28 - [TEST_STEP][PASSED] - KatalonHelper.updateInfo(): null
+
+28-11-2025T21:17:28 - [TEST_SUITE][PASSED] - midtern-auth: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

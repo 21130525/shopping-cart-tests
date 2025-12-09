@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="midtern-product-detail" time="129.36" tests="4" failures="1" errors="0">
+   <testsuite name="midtern-product-detail" tests="4" failures="1" errors="0" time="129.36" skipped="0" timestamp="2025-11-28T08:42:54.804Z" hostname="tam14 - thanh_tam" id="Test Suites/midtern-product-detail">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_154249\\midtern-product-detail\\20251128_154250"/>
+         <property name="logFiles" value="C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_154249\\midtern-product-detail\\20251128_154250\\console0.log, C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_154249\\midtern-product-detail\\20251128_154250\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_154249\\midtern-product-detail\\20251128_154250\\1764319503844.png, C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_154249\\midtern-product-detail\\20251128_154250\\1764319504028.png"/>
+         <property name="hostName" value="tam14 - thanh_tam"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.0.0"/>
+         <property name="browser" value="Edge Chromium 142.0.3595.94"/>
+         <property name="userFullName" value="Lê Thanh Tâm"/>
+         <property name="hostAddress" value="10.51.143.179"/>
+         <property name="sessionId" value="96054dc2e6b9fc4558259166a7ea1c1f"/>
+         <property name="projectName" value="shopping-cart-tests"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/midtern/product-Detail/canClickProduct" time="54.173" classname="Test Cases/midtern/product-Detail/canClickProduct" status="PASSED">
+         <system-out><![CDATA[28-11-2025T15:42:55 - [TEST_CASE][PASSED] - Test Cases/midtern/product-Detail/canClickProduct: Test Cases/midtern/product-Detail/canClickProduct
+
+28-11-2025T15:42:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-11-2025T15:42:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-11-2025T15:42:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-11-2025T15:42:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-11-2025T15:42:58 - [TEST_STEP][PASSED] - navigateToUrl("https://aristino.com/collections/trang-phuc"): Navigate to 'https://aristino.com/collections/trang-phuc' successfully
+
+28-11-2025T15:43:36 - [MESSAGE][PASSED] - Navigate to 'https://aristino.com/collections/trang-phuc' successfully
+
+28-11-2025T15:43:36 - [TEST_STEP][PASSED] - alertObj = findTestObject("Object Repository/midtern/Page_Register/Page_alert/alert_nitification"): null
+
+28-11-2025T15:43:36 - [TEST_STEP][PASSED] - btnAllow = findTestObject("Object Repository/midtern/Page_Register/Page_alert/button_chophep"): null
+
+28-11-2025T15:43:36 - [TEST_STEP][PASSED] - btnCloseAd = findTestObject("Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd"): null
+
+28-11-2025T15:43:36 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T15:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T15:43:37 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T15:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T15:43:38 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T15:43:38 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T15:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T15:43:38 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T15:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T15:43:38 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null
+
+28-11-2025T15:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_home/product")): Object: 'Object Repository/midtern/Page_home/product' is clicked on
+
+28-11-2025T15:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_home/product' is clicked on
+
+28-11-2025T15:43:44 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T15:43:46 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T15:43:46 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T15:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T15:43:47 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T15:43:47 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T15:43:47 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T15:43:47 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T15:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T15:43:47 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null
+
+28-11-2025T15:43:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/midtern/Page_product-detail/button_addtocart"), "ĐẶT HÀNG TRƯỚC"): Actual text and expected text of test object 'Object Repository/midtern/Page_product-detail/button_addtocart' are matched.
+
+28-11-2025T15:43:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/midtern/Page_product-detail/button_addtocart' are matched.
+
+28-11-2025T15:43:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("midtern/Page_product-detail/size_S")): Object 'Object Repository/midtern/Page_product-detail/size_S' is clickable
+
+28-11-2025T15:43:47 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/size_S' is clickable
+
+28-11-2025T15:43:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("midtern/Page_product-detail/size_M")): Object 'Object Repository/midtern/Page_product-detail/size_M' is clickable
+
+28-11-2025T15:43:48 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/size_M' is clickable
+
+28-11-2025T15:43:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("midtern/Page_product-detail/size_L")): Object 'Object Repository/midtern/Page_product-detail/size_L' is clickable
+
+28-11-2025T15:43:48 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/size_L' is clickable
+
+28-11-2025T15:43:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("midtern/Page_product-detail/size_XL")): Object 'Object Repository/midtern/Page_product-detail/size_XL' is clickable
+
+28-11-2025T15:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/size_XL' is clickable
+
+28-11-2025T15:43:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("midtern/Page_product-detail/size_XXL")): Object 'Object Repository/midtern/Page_product-detail/size_XXL' is clickable
+
+28-11-2025T15:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/size_XXL' is clickable
+
+28-11-2025T15:43:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("midtern/Page_product-detail/div_image")): Object 'Object Repository/midtern/Page_product-detail/div_image' is visible
+
+28-11-2025T15:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/div_image' is visible
+
+28-11-2025T15:43:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("midtern/Page_product-detail/div_image")): Object 'Object Repository/midtern/Page_product-detail/div_image' is visible
+
+28-11-2025T15:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/div_image' is visible
+
+28-11-2025T15:43:49 - [TEST_STEP][PASSED] - click(findTestObject("midtern/Page_product-detail/div_image")): Object: 'Object Repository/midtern/Page_product-detail/div_image' is clicked on
+
+28-11-2025T15:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/div_image' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/midtern/product-Detail/image" time="6.164" classname="Test Cases/midtern/product-Detail/image" status="PASSED">
+         <system-out><![CDATA[28-11-2025T15:43:49 - [TEST_CASE][PASSED] - Test Cases/midtern/product-Detail/image: Test Cases/midtern/product-Detail/image
+
+28-11-2025T15:43:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/img_product")): Object: 'Object Repository/midtern/Page_product-detail/img_product' is clicked on
+
+28-11-2025T15:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/img_product' is clicked on
+
+28-11-2025T15:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img")): Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img")): Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img")): Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img")): Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img")): Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom")): Object: 'Object Repository/midtern/Page_product-detail/button_zoom' is clicked on
+
+28-11-2025T15:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_zoom' is clicked on
+
+28-11-2025T15:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom")): Object: 'Object Repository/midtern/Page_product-detail/button_zoom' is clicked on
+
+28-11-2025T15:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_zoom' is clicked on
+
+28-11-2025T15:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom_in")): Object: 'Object Repository/midtern/Page_product-detail/button_zoom_in' is clicked on
+
+28-11-2025T15:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_zoom_in' is clicked on
+
+28-11-2025T15:43:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom_out")): Object: 'Object Repository/midtern/Page_product-detail/button_zoom_out' is clicked on
+
+28-11-2025T15:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_zoom_out' is clicked on
+
+28-11-2025T15:43:55 - [TEST_STEP][PASSED] - click(findTestObject("midtern/Page_product-detail/button_closeImg")): Object: 'Object Repository/midtern/Page_product-detail/button_closeImg' is clicked on
+
+28-11-2025T15:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_closeImg' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/midtern/product-Detail/add-to-cart-from-pd" time="34.487" classname="Test Cases/midtern/product-Detail/add-to-cart-from-pd" status="PASSED">
+         <system-out><![CDATA[28-11-2025T15:43:55 - [TEST_CASE][PASSED] - Test Cases/midtern/product-Detail/add-to-cart-from-pd: Test Cases/midtern/product-Detail/add-to-cart-from-pd
+
+28-11-2025T15:43:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_productp/label_chose_color")): Object: 'Object Repository/midtern/Page_productp/label_chose_color' is clicked on
+
+28-11-2025T15:44:25 - [MESSAGE][WARNING] - Waiting for element timed out
+
+28-11-2025T15:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_productp/label_chose_color' is clicked on
+
+28-11-2025T15:44:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_productp/lsize_M")): Object: 'Object Repository/midtern/Page_productp/lsize_M' is clicked on
+
+28-11-2025T15:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_productp/lsize_M' is clicked on
+
+28-11-2025T15:44:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_productp/saddtocart")): Object: 'Object Repository/midtern/Page_productp/saddtocart' is clicked on
+
+28-11-2025T15:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_productp/saddtocart' is clicked on
+
+28-11-2025T15:44:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/midtern/Page_productp/titleGiohang"), "GIỎ HÀNG"): Actual text and expected text of test object 'Object Repository/midtern/Page_productp/titleGiohang' are matched.
+
+28-11-2025T15:44:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/midtern/Page_productp/titleGiohang' are matched.
+
+28-11-2025T15:44:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_productp/add1")): Object: 'Object Repository/midtern/Page_productp/add1' is clicked on
+
+28-11-2025T15:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_productp/add1' is clicked on
+
+28-11-2025T15:44:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_productp/scloase")): Object: 'Object Repository/midtern/Page_productp/scloase' is clicked on
+
+28-11-2025T15:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_productp/scloase' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/midtern/product-Detail/product-relative" time="33.848" classname="Test Cases/midtern/product-Detail/product-relative" status="FAILED">
+         <failure type="FAILED" message="Test Cases/midtern/product-Detail/product-relative FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/midtern/Page_product-detail/a_product-relative' to be clickable&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:642)&#xa;	at product-relative.run(product-relative:23)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1764319370849.run(TempTestSuite1764319370849.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/midtern/Page_product-detail/a_product-relative' located by 'By.xpath: //div[@id='swiper-wrapper-997744c1cec46158']/div/div/div/div/a' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:69)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[28-11-2025T15:44:30 - [TEST_CASE][FAILED] - Test Cases/midtern/product-Detail/product-relative: Test Cases/midtern/product-Detail/product-relative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/midtern/Page_product-detail/a_product-relative' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:642)
+	at product-relative.run(product-relative:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764319370849.run(TempTestSuite1764319370849.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/midtern/Page_product-detail/a_product-relative' located by 'By.xpath: //div[@id='swiper-wrapper-997744c1cec46158']/div/div/div/div/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+
+28-11-2025T15:44:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/midtern/Page_product-detail/div_product-relatetive-list"), 0): Object 'Object Repository/midtern/Page_product-detail/div_product-relatetive-list' is present
+
+28-11-2025T15:44:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-11-2025T15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/div_product-relatetive-list' is present
+
+28-11-2025T15:44:33 - [TEST_STEP][FAILED] - verifyElementClickable(findTestObject("Object Repository/midtern/Page_product-detail/a_product-relative")): Unable to verify object 'Object Repository/midtern/Page_product-detail/a_product-relative' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/midtern/Page_product-detail/a_product-relative' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:642)
+	at product-relative.run(product-relative:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764319370849.run(TempTestSuite1764319370849.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/midtern/Page_product-detail/a_product-relative' located by 'By.xpath: //div[@id='swiper-wrapper-997744c1cec46158']/div/div/div/div/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+)
+
+28-11-2025T15:45:04 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/midtern/Page_product-detail/a_product-relative' located by 'By.xpath: //div[@id='swiper-wrapper-997744c1cec46158']/div/div/div/div/a' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/midtern/Page_product-detail/a_product-relative' located by 'By.xpath: //div[@id='swiper-wrapper-997744c1cec46158']/div/div/div/div/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:642)
+	at product-relative.run(product-relative:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764319370849.run(TempTestSuite1764319370849.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_154249\\midtern-product-detail\\20251128_154250\\1764319503844.png]]
+
+28-11-2025T15:45:04 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/midtern/Page_product-detail/a_product-relative' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/midtern/Page_product-detail/a_product-relative' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:642)
+	at product-relative.run(product-relative:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764319370849.run(TempTestSuite1764319370849.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/midtern/Page_product-detail/a_product-relative' located by 'By.xpath: //div[@id='swiper-wrapper-997744c1cec46158']/div/div/div/div/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+)
+[[ATTACHMENT|C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_154249\\midtern-product-detail\\20251128_154250\\1764319504028.png]]]]></system-out>
+         <system-err><![CDATA[28-11-2025T15:44:30 - [TEST_CASE][FAILED] - Test Cases/midtern/product-Detail/product-relative: Test Cases/midtern/product-Detail/product-relative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/midtern/Page_product-detail/a_product-relative' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:642)
+	at product-relative.run(product-relative:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764319370849.run(TempTestSuite1764319370849.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/midtern/Page_product-detail/a_product-relative' located by 'By.xpath: //div[@id='swiper-wrapper-997744c1cec46158']/div/div/div/div/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-11-2025T15:42:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+28-11-2025T15:42:54 - [TEST_STEP][PASSED] - KatalonHelper.updateInfo(): null
+
+28-11-2025T15:42:54 - [TEST_SUITE][FAILED] - midtern-product-detail: null]]></system-out>
+      <system-err><![CDATA[28-11-2025T15:42:54 - [TEST_SUITE][FAILED] - midtern-product-detail: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,265 @@
+2025-11-27 17:50:49.385 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\tam14\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-11-27 17:50:49.391 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\tam14\Katalon Studio\tester assignment midtern\Include\config\log.properties
+2025-11-27 17:50:50.074 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/midtern
+2025-11-27 17:50:50.189 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Lê Thanh Tâm
+2025-11-27 17:50:50.190 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = shopping-cart-tests
+2025-11-27 17:50:50.192 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = tam14 - thanh_tam.lan
+2025-11-27 17:50:50.193 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-27 17:50:50.194 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.180
+2025-11-27 17:50:50.196 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-11-27 17:50:51.204 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 17:50:51.205 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/auth/login
+2025-11-27 17:50:51.502 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Username = 
+2025-11-27 17:50:51.503 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Password = 
+2025-11-27 17:50:51.504 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Type = 
+2025-11-27 17:50:51.505 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) ExpectedOutput = 
+2025-11-27 17:50:51.835 DEBUG testcase.login                           - 1: testData = findTestData("Data Files/data_login")
+2025-11-27 17:50:51.866 DEBUG testcase.login                           - 2: totalRows = testData.getRowNumbers()
+2025-11-27 17:50:51.914 DEBUG testcase.login                           - 3: print(totalRows)
+32025-11-27 17:50:51.935 DEBUG testcase.login                           - 4: for ([i = 1, i <= totalRows, (i++)])
+2025-11-27 17:50:51.940 DEBUG testcase.login                           - 1: user = testData.getValue("Username", i)
+2025-11-27 17:50:51.960 DEBUG testcase.login                           - 2: pass = testData.getValue("Password", i)
+2025-11-27 17:50:51.965 DEBUG testcase.login                           - 3: type = testData.getValue("Type", i)
+2025-11-27 17:50:51.970 DEBUG testcase.login                           - 4: expected = testData.getValue("ExpectedOutput", i)
+2025-11-27 17:50:51.976 DEBUG testcase.login                           - 5: openBrowser("")
+2025-11-27 17:50:52.452 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-11-27 17:50:52.622 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 5:50:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 17:50:55.327 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 36c0fdab435f9b43dfa6cae4385f1571
+2025-11-27 17:50:55.328 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 142.0.3595.94
+2025-11-27 17:50:55.331 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 17:50:55.332 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-11-27 17:50:55.347 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 17:50:55.437 DEBUG testcase.login                           - 6: navigateToUrl(urlLogin)
+2025-11-27 17:50:59.593 DEBUG testcase.login                           - 7: alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-27 17:50:59.692 DEBUG testcase.login                           - 8: btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep")
+2025-11-27 17:50:59.704 DEBUG testcase.login                           - 9: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-27 17:51:03.457 DEBUG testcase.login                           - 1: click(btnAllow)
+2025-11-27 17:51:04.344 DEBUG testcase.login                           - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-27 17:51:04.354 DEBUG testcase.login                           - 10: btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-27 17:51:04.366 DEBUG testcase.login                           - 11: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-27 17:51:04.427 DEBUG testcase.login                           - 1: click(btnCloseAd)
+2025-11-27 17:51:04.641 DEBUG testcase.login                           - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-27 17:51:04.646 DEBUG testcase.login                           - 12: setText(findTestObject("midtern/Page_login/input_Email"), user)
+2025-11-27 17:51:05.918 DEBUG testcase.login                           - 13: setText(findTestObject("midtern/Page_login/input_password"), pass)
+2025-11-27 17:51:06.768 DEBUG testcase.login                           - 14: click(findTestObject("midtern/Page_login/btn_login"))
+2025-11-27 17:51:07.419 DEBUG testcase.login                           - 15: if (type == "success")
+2025-11-27 17:51:07.421 DEBUG testcase.login                           - 16: else if (type == "fail")
+2025-11-27 17:51:07.423 DEBUG testcase.login                           - 1: errorMsgObj = findTestObject("midtern/Page_login/div_login_fail")
+2025-11-27 17:51:07.431 DEBUG testcase.login                           - 2: waitForElementVisible(errorMsgObj, 5)
+2025-11-27 17:51:08.031 DEBUG testcase.login                           - 3: verifyElementText(errorMsgObj, expected, CONTINUE_ON_FAILURE)
+2025-11-27 17:51:08.414 DEBUG testcase.login                           - 4: closeBrowser()
+2025-11-27 17:51:08.782 DEBUG testcase.login                           - 1: user = testData.getValue("Username", i)
+2025-11-27 17:51:08.785 DEBUG testcase.login                           - 2: pass = testData.getValue("Password", i)
+2025-11-27 17:51:08.787 DEBUG testcase.login                           - 3: type = testData.getValue("Type", i)
+2025-11-27 17:51:08.790 DEBUG testcase.login                           - 4: expected = testData.getValue("ExpectedOutput", i)
+2025-11-27 17:51:08.794 DEBUG testcase.login                           - 5: openBrowser("")
+2025-11-27 17:51:08.798 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-11-27 17:51:08.802 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 5:51:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 17:51:09.993 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2fe34ea3766eb40960597e06e6f28369
+2025-11-27 17:51:09.994 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 142.0.3595.94
+2025-11-27 17:51:09.997 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 17:51:09.998 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-11-27 17:51:10.001 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 17:51:10.033 DEBUG testcase.login                           - 6: navigateToUrl(urlLogin)
+2025-11-27 17:51:15.141 DEBUG testcase.login                           - 7: alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-27 17:51:15.150 DEBUG testcase.login                           - 8: btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep")
+2025-11-27 17:51:15.157 DEBUG testcase.login                           - 9: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-27 17:51:17.496 DEBUG testcase.login                           - 1: click(btnAllow)
+2025-11-27 17:51:18.408 DEBUG testcase.login                           - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-27 17:51:18.411 DEBUG testcase.login                           - 10: btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-27 17:51:18.418 DEBUG testcase.login                           - 11: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-27 17:51:18.474 DEBUG testcase.login                           - 1: click(btnCloseAd)
+2025-11-27 17:51:18.664 DEBUG testcase.login                           - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-27 17:51:18.666 DEBUG testcase.login                           - 12: setText(findTestObject("midtern/Page_login/input_Email"), user)
+2025-11-27 17:51:19.845 DEBUG testcase.login                           - 13: setText(findTestObject("midtern/Page_login/input_password"), pass)
+2025-11-27 17:51:20.949 DEBUG testcase.login                           - 14: click(findTestObject("midtern/Page_login/btn_login"))
+2025-11-27 17:51:21.590 DEBUG testcase.login                           - 15: if (type == "success")
+2025-11-27 17:51:21.593 DEBUG testcase.login                           - 16: else if (type == "fail")
+2025-11-27 17:51:21.594 DEBUG testcase.login                           - 1: errorMsgObj = findTestObject("midtern/Page_login/div_login_fail")
+2025-11-27 17:51:21.599 DEBUG testcase.login                           - 2: waitForElementVisible(errorMsgObj, 5)
+2025-11-27 17:51:22.182 DEBUG testcase.login                           - 3: verifyElementText(errorMsgObj, expected, CONTINUE_ON_FAILURE)
+2025-11-27 17:51:22.483 DEBUG testcase.login                           - 4: closeBrowser()
+2025-11-27 17:51:22.816 DEBUG testcase.login                           - 1: user = testData.getValue("Username", i)
+2025-11-27 17:51:22.817 DEBUG testcase.login                           - 2: pass = testData.getValue("Password", i)
+2025-11-27 17:51:22.818 DEBUG testcase.login                           - 3: type = testData.getValue("Type", i)
+2025-11-27 17:51:22.819 DEBUG testcase.login                           - 4: expected = testData.getValue("ExpectedOutput", i)
+2025-11-27 17:51:22.821 DEBUG testcase.login                           - 5: openBrowser("")
+2025-11-27 17:51:22.825 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-11-27 17:51:22.829 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 5:51:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 17:51:24.006 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b357ebcef488dcf6c4ef49512d26d0a1
+2025-11-27 17:51:24.007 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 142.0.3595.94
+2025-11-27 17:51:24.009 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 17:51:24.010 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-11-27 17:51:24.011 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 17:51:24.038 DEBUG testcase.login                           - 6: navigateToUrl(urlLogin)
+2025-11-27 17:51:27.065 DEBUG testcase.login                           - 7: alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-27 17:51:27.074 DEBUG testcase.login                           - 8: btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep")
+2025-11-27 17:51:27.081 DEBUG testcase.login                           - 9: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-27 17:51:30.749 DEBUG testcase.login                           - 1: click(btnAllow)
+2025-11-27 17:51:31.666 DEBUG testcase.login                           - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-27 17:51:31.668 DEBUG testcase.login                           - 10: btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-27 17:51:31.675 DEBUG testcase.login                           - 11: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-27 17:51:31.722 DEBUG testcase.login                           - 1: click(btnCloseAd)
+2025-11-27 17:51:31.913 DEBUG testcase.login                           - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-27 17:51:31.914 DEBUG testcase.login                           - 12: setText(findTestObject("midtern/Page_login/input_Email"), user)
+2025-11-27 17:51:32.953 DEBUG testcase.login                           - 13: setText(findTestObject("midtern/Page_login/input_password"), pass)
+2025-11-27 17:51:33.985 DEBUG testcase.login                           - 14: click(findTestObject("midtern/Page_login/btn_login"))
+2025-11-27 17:51:34.682 DEBUG testcase.login                           - 15: if (type == "success")
+2025-11-27 17:51:34.685 DEBUG testcase.login                           - 1: delay(5)
+2025-11-27 17:51:39.742 DEBUG testcase.login                           - 2: currentUrl = getUrl()
+2025-11-27 17:51:39.773 DEBUG testcase.login                           - 3: if (currentUrl.contains("logged=true"))
+2025-11-27 17:51:39.782 DEBUG testcase.login                           - 1: println("PASS: Đăng nhập thành công (URL chứa 'logged=true')")
+PASS: Đăng nhập thành công (URL chứa 'logged=true')
+2025-11-27 17:51:39.785 DEBUG testcase.login                           - 5: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-27 17:51:41.184 DEBUG testcase.login                           - 1: click(btnAllow)
+2025-11-27 17:51:41.627 DEBUG testcase.login                           - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-27 17:51:41.631 DEBUG testcase.login                           - 6: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-27 17:51:41.676 DEBUG testcase.login                           - 1: click(btnCloseAd)
+2025-11-27 17:51:41.865 DEBUG testcase.login                           - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-27 17:51:41.873 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/auth/login
+2025-11-27 17:51:41.883 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 17:51:41.883 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/auth/logout
+2025-11-27 17:51:42.114 DEBUG testcase.logout                          - 1: navigateToUrl("https://aristino.com/account")
+2025-11-27 17:51:44.817 DEBUG testcase.logout                          - 2: alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-27 17:51:44.825 DEBUG testcase.logout                          - 3: btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep")
+2025-11-27 17:51:44.834 DEBUG testcase.logout                          - 4: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-27 17:51:49.372 DEBUG testcase.logout                          - 1: click(btnAllow)
+2025-11-27 17:51:49.765 DEBUG testcase.logout                          - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-27 17:51:49.769 DEBUG testcase.logout                          - 5: btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-27 17:51:49.776 DEBUG testcase.logout                          - 6: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-27 17:51:54.818 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Web element with id: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' located by '.styled__CloseButtonWrapper-sc-m09mre-0' not found
+2025-11-27 17:51:54.823 DEBUG testcase.logout                          - 7: click(findTestObject("midtern/Page_account/logout"))
+2025-11-27 17:51:58.832 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/auth/logout
+2025-11-27 17:51:58.840 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 17:51:58.840 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/auth/forgot_pasword
+2025-11-27 17:51:58.893 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) email = 
+2025-11-27 17:51:59.149 DEBUG testcase.forgot_pasword                  - 1: testData = findTestData("Data Files/data_forgot-pasword")
+2025-11-27 17:51:59.161 DEBUG testcase.forgot_pasword                  - 2: totalRows = testData.getRowNumbers()
+2025-11-27 17:51:59.166 DEBUG testcase.forgot_pasword                  - 3: println("Tổng số dòng data: " + totalRows)
+Tổng số dòng data: 3
+2025-11-27 17:51:59.178 DEBUG testcase.forgot_pasword                  - 4: for ([i = 1, i <= totalRows, (i++)])
+2025-11-27 17:51:59.181 DEBUG testcase.forgot_pasword                  - 1: email = testData.getValue("Email", i)
+2025-11-27 17:51:59.183 DEBUG testcase.forgot_pasword                  - 2: expected = testData.getValue("ExpectedOutput", i)
+2025-11-27 17:51:59.187 DEBUG testcase.forgot_pasword                  - 3: println("--- Đang chạy dòng " + i + " với Email: " + email + " ---")
+--- Đang chạy dòng 1 với Email: 21130525@st.hcmuaf.edu.vn ---
+2025-11-27 17:51:59.194 DEBUG testcase.forgot_pasword                  - 4: openBrowser("")
+2025-11-27 17:51:59.202 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 17:51:59.635 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-11-27 17:51:59.638 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 5:52:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 17:52:00.872 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 68b8cb68266ca6da55e356686ba959ec
+2025-11-27 17:52:00.873 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 142.0.3595.94
+2025-11-27 17:52:00.874 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 17:52:00.876 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-11-27 17:52:00.877 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 17:52:00.901 DEBUG testcase.forgot_pasword                  - 5: navigateToUrl("https://aristino.com/account/login")
+2025-11-27 17:52:04.083 DEBUG testcase.forgot_pasword                  - 6: alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-27 17:52:04.093 DEBUG testcase.forgot_pasword                  - 7: btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep")
+2025-11-27 17:52:04.109 DEBUG testcase.forgot_pasword                  - 8: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-27 17:52:07.829 DEBUG testcase.forgot_pasword                  - 1: click(btnAllow)
+2025-11-27 17:52:08.688 DEBUG testcase.forgot_pasword                  - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-27 17:52:08.691 DEBUG testcase.forgot_pasword                  - 9: btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-27 17:52:08.697 DEBUG testcase.forgot_pasword                  - 10: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-27 17:52:08.745 DEBUG testcase.forgot_pasword                  - 1: click(btnCloseAd)
+2025-11-27 17:52:08.926 DEBUG testcase.forgot_pasword                  - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-27 17:52:08.928 DEBUG testcase.forgot_pasword                  - 11: click(findTestObject("Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword"))
+2025-11-27 17:52:09.593 DEBUG testcase.forgot_pasword                  - 12: setText(findTestObject("Object Repository/midtern/Page_forgotpassword/input_Email"), email)
+2025-11-27 17:52:10.750 DEBUG testcase.forgot_pasword                  - 13: click(findTestObject("Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc"))
+2025-11-27 17:52:11.221 DEBUG testcase.forgot_pasword                  - 14: msgError = findTestObject("Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword")
+2025-11-27 17:52:11.229 DEBUG testcase.forgot_pasword                  - 15: if (waitForElementVisible(msgError, 5, OPTIONAL))
+2025-11-27 17:52:16.909 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Object 'Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword' is not visible after 5 second(s)
+2025-11-27 17:52:16.911 DEBUG testcase.forgot_pasword                  - 16: else
+2025-11-27 17:52:16.913 DEBUG testcase.forgot_pasword                  - 1: println("Lỗi: Không tìm thấy thông báo lỗi mong đợi.")
+Lỗi: Không tìm thấy thông báo lỗi mong đợi.
+2025-11-27 17:52:16.916 DEBUG testcase.forgot_pasword                  - 17: closeBrowser()
+2025-11-27 17:52:17.246 DEBUG testcase.forgot_pasword                  - 1: email = testData.getValue("Email", i)
+2025-11-27 17:52:17.247 DEBUG testcase.forgot_pasword                  - 2: expected = testData.getValue("ExpectedOutput", i)
+2025-11-27 17:52:17.248 DEBUG testcase.forgot_pasword                  - 3: println("--- Đang chạy dòng " + i + " với Email: " + email + " ---")
+--- Đang chạy dòng 2 với Email: invalicEmai.@gmai.com ---
+2025-11-27 17:52:17.249 DEBUG testcase.forgot_pasword                  - 4: openBrowser("")
+2025-11-27 17:52:17.253 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-11-27 17:52:17.256 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 5:52:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 17:52:18.372 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 04200bdbc928ba4af5517f0e768dea52
+2025-11-27 17:52:18.373 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 142.0.3595.94
+2025-11-27 17:52:18.374 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 17:52:18.374 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-11-27 17:52:18.375 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 17:52:18.397 DEBUG testcase.forgot_pasword                  - 5: navigateToUrl("https://aristino.com/account/login")
+2025-11-27 17:52:22.659 DEBUG testcase.forgot_pasword                  - 6: alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-27 17:52:22.665 DEBUG testcase.forgot_pasword                  - 7: btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep")
+2025-11-27 17:52:22.670 DEBUG testcase.forgot_pasword                  - 8: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-27 17:52:26.961 DEBUG testcase.forgot_pasword                  - 1: click(btnAllow)
+2025-11-27 17:52:27.573 DEBUG testcase.forgot_pasword                  - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-27 17:52:27.576 DEBUG testcase.forgot_pasword                  - 9: btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-27 17:52:27.582 DEBUG testcase.forgot_pasword                  - 10: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-27 17:52:27.742 DEBUG testcase.forgot_pasword                  - 1: click(btnCloseAd)
+2025-11-27 17:52:27.996 DEBUG testcase.forgot_pasword                  - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-27 17:52:27.997 DEBUG testcase.forgot_pasword                  - 11: click(findTestObject("Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword"))
+2025-11-27 17:52:28.669 DEBUG testcase.forgot_pasword                  - 12: setText(findTestObject("Object Repository/midtern/Page_forgotpassword/input_Email"), email)
+2025-11-27 17:52:29.696 DEBUG testcase.forgot_pasword                  - 13: click(findTestObject("Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc"))
+2025-11-27 17:52:30.202 DEBUG testcase.forgot_pasword                  - 14: msgError = findTestObject("Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword")
+2025-11-27 17:52:30.208 DEBUG testcase.forgot_pasword                  - 15: if (waitForElementVisible(msgError, 5, OPTIONAL))
+2025-11-27 17:52:35.826 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Object 'Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword' is not visible after 5 second(s)
+2025-11-27 17:52:35.827 DEBUG testcase.forgot_pasword                  - 16: else
+2025-11-27 17:52:35.828 DEBUG testcase.forgot_pasword                  - 1: println("Lỗi: Không tìm thấy thông báo lỗi mong đợi.")
+Lỗi: Không tìm thấy thông báo lỗi mong đợi.
+2025-11-27 17:52:35.830 DEBUG testcase.forgot_pasword                  - 17: closeBrowser()
+2025-11-27 17:52:36.158 DEBUG testcase.forgot_pasword                  - 1: email = testData.getValue("Email", i)
+2025-11-27 17:52:36.158 DEBUG testcase.forgot_pasword                  - 2: expected = testData.getValue("ExpectedOutput", i)
+2025-11-27 17:52:36.159 DEBUG testcase.forgot_pasword                  - 3: println("--- Đang chạy dòng " + i + " với Email: " + email + " ---")
+--- Đang chạy dòng 3 với Email: notAEmai.gmai.com ---
+2025-11-27 17:52:36.161 DEBUG testcase.forgot_pasword                  - 4: openBrowser("")
+2025-11-27 17:52:36.164 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-11-27 17:52:36.168 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 5:52:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 17:52:37.311 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1c1f736f9077773ef60ba58e08f1f795
+2025-11-27 17:52:37.311 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 142.0.3595.94
+2025-11-27 17:52:37.312 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 17:52:37.314 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-11-27 17:52:37.315 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 17:52:37.333 DEBUG testcase.forgot_pasword                  - 5: navigateToUrl("https://aristino.com/account/login")
+2025-11-27 17:52:40.359 DEBUG testcase.forgot_pasword                  - 6: alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-27 17:52:40.367 DEBUG testcase.forgot_pasword                  - 7: btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep")
+2025-11-27 17:52:40.374 DEBUG testcase.forgot_pasword                  - 8: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-27 17:52:44.197 DEBUG testcase.forgot_pasword                  - 1: click(btnAllow)
+2025-11-27 17:52:45.008 DEBUG testcase.forgot_pasword                  - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-27 17:52:45.011 DEBUG testcase.forgot_pasword                  - 9: btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-27 17:52:45.016 DEBUG testcase.forgot_pasword                  - 10: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-27 17:52:45.067 DEBUG testcase.forgot_pasword                  - 1: click(btnCloseAd)
+2025-11-27 17:52:45.260 DEBUG testcase.forgot_pasword                  - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-27 17:52:45.261 DEBUG testcase.forgot_pasword                  - 11: click(findTestObject("Object Repository/midtern/Page_forgotpassword/abtn_forgot-pasword"))
+2025-11-27 17:52:45.910 DEBUG testcase.forgot_pasword                  - 12: setText(findTestObject("Object Repository/midtern/Page_forgotpassword/input_Email"), email)
+2025-11-27 17:52:47.344 DEBUG testcase.forgot_pasword                  - 13: click(findTestObject("Object Repository/midtern/Page_forgotpassword/button_Email_xac-thuc"))
+2025-11-27 17:52:47.805 DEBUG testcase.forgot_pasword                  - 14: msgError = findTestObject("Object Repository/midtern/Page_forgotpassword/msg_error_forgot-pasword")
+2025-11-27 17:52:47.810 DEBUG testcase.forgot_pasword                  - 15: if (waitForElementVisible(msgError, 5, OPTIONAL))
+2025-11-27 17:52:48.284 DEBUG testcase.forgot_pasword                  - 1: verifyElementText(msgError, expected, CONTINUE_ON_FAILURE)
+2025-11-27 17:52:48.546 DEBUG testcase.forgot_pasword                  - 17: closeBrowser()
+2025-11-27 17:52:48.861 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/auth/forgot_pasword
+2025-11-27 17:52:48.927 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-27 17:52:48.927 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/midtern
+2025-11-27 17:52:48.927 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

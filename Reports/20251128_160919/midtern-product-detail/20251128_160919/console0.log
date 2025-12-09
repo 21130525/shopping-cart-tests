@@ -1,0 +1,209 @@
+2025-11-28 16:09:25.982 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\tam14\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-11-28 16:09:25.989 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\tam14\Katalon Studio\tester assignment midtern\Include\config\log.properties
+2025-11-28 16:09:26.915 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/midtern-product-detail
+2025-11-28 16:09:27.149 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Lê Thanh Tâm
+2025-11-28 16:09:27.151 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = shopping-cart-tests
+2025-11-28 16:09:27.153 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = tam14 - thanh_tam
+2025-11-28 16:09:27.154 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-28 16:09:27.156 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.51.143.179
+2025-11-28 16:09:27.158 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-11-28 16:09:28.340 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 16:09:28.341 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/canClickProduct
+2025-11-28 16:09:28.700 DEBUG testcase.canClickProduct                 - 1: openBrowser("")
+2025-11-28 16:09:29.237 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-11-28 16:09:29.390 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 28, 2025 4:09:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-28 16:09:32.888 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bf5664d21996c37db901081991a65a9e
+2025-11-28 16:09:32.891 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 142.0.3595.94
+2025-11-28 16:09:32.892 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-28 16:09:32.894 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-11-28 16:09:32.910 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-28 16:09:33.043 DEBUG testcase.canClickProduct                 - 2: navigateToUrl("https://aristino.com/collections/trang-phuc")
+2025-11-28 16:10:11.883 DEBUG testcase.canClickProduct                 - 3: alertObj = findTestObject("Object Repository/midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-28 16:10:12.030 DEBUG testcase.canClickProduct                 - 4: btnAllow = findTestObject("Object Repository/midtern/Page_Register/Page_alert/button_chophep")
+2025-11-28 16:10:12.058 DEBUG testcase.canClickProduct                 - 5: btnCloseAd = findTestObject("Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-28 16:10:12.076 DEBUG testcase.canClickProduct                 - 6: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-28 16:10:13.405 DEBUG testcase.canClickProduct                 - 1: click(btnAllow)
+2025-11-28 16:10:14.134 DEBUG testcase.canClickProduct                 - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-28 16:10:14.148 DEBUG testcase.canClickProduct                 - 7: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-28 16:10:14.286 DEBUG testcase.canClickProduct                 - 1: click(btnCloseAd)
+2025-11-28 16:10:14.677 DEBUG testcase.canClickProduct                 - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-28 16:10:14.683 DEBUG testcase.canClickProduct                 - 8: click(findTestObject("Object Repository/midtern/Page_home/product"))
+2025-11-28 16:10:21.373 DEBUG testcase.canClickProduct                 - 9: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-28 16:10:22.209 DEBUG testcase.canClickProduct                 - 1: click(btnAllow)
+2025-11-28 16:10:23.730 DEBUG testcase.canClickProduct                 - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-28 16:10:23.737 DEBUG testcase.canClickProduct                 - 10: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-28 16:10:23.816 DEBUG testcase.canClickProduct                 - 1: click(btnCloseAd)
+2025-11-28 16:10:24.320 DEBUG testcase.canClickProduct                 - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-28 16:10:24.327 DEBUG testcase.canClickProduct                 - 11: verifyElementText(findTestObject("Object Repository/midtern/Page_product-detail/button_addtocart"), "ĐẶT HÀNG TRƯỚC")
+2025-11-28 16:10:24.502 DEBUG testcase.canClickProduct                 - 12: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_S"))
+2025-11-28 16:10:24.968 DEBUG testcase.canClickProduct                 - 13: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_M"))
+2025-11-28 16:10:25.474 DEBUG testcase.canClickProduct                 - 14: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_L"))
+2025-11-28 16:10:25.870 DEBUG testcase.canClickProduct                 - 15: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_XL"))
+2025-11-28 16:10:26.243 DEBUG testcase.canClickProduct                 - 16: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_XXL"))
+2025-11-28 16:10:26.660 DEBUG testcase.canClickProduct                 - 17: verifyElementVisible(findTestObject("midtern/Page_product-detail/div_image"))
+2025-11-28 16:10:26.753 DEBUG testcase.canClickProduct                 - 18: verifyElementVisible(findTestObject("midtern/Page_product-detail/div_image"))
+2025-11-28 16:10:26.823 DEBUG testcase.canClickProduct                 - 19: click(findTestObject("midtern/Page_product-detail/div_image"))
+2025-11-28 16:10:27.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/canClickProduct
+2025-11-28 16:10:27.157 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 16:10:27.157 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/add-to-cart-from-pd
+2025-11-28 16:10:27.330 DEBUG testcase.add-to-cart-from-pd             - 1: click(findTestObject("Object Repository/midtern/Page_productp/label_chose_color"))
+2025-11-28 16:10:27.689 DEBUG testcase.add-to-cart-from-pd             - 2: click(findTestObject("Object Repository/midtern/Page_productp/lsize_M"))
+2025-11-28 16:10:28.480 DEBUG testcase.add-to-cart-from-pd             - 3: click(findTestObject("Object Repository/midtern/Page_productp/saddtocart"))
+2025-11-28 16:10:29.299 DEBUG testcase.add-to-cart-from-pd             - 4: verifyElementText(findTestObject("Object Repository/midtern/Page_productp/titleGiohang"), "GIỎ HÀNG")
+2025-11-28 16:10:30.793 DEBUG testcase.add-to-cart-from-pd             - 5: click(findTestObject("Object Repository/midtern/Page_productp/add1"))
+2025-11-28 16:10:31.411 DEBUG testcase.add-to-cart-from-pd             - 6: click(findTestObject("midtern/Page_product-detail/sclose_cart"))
+2025-11-28 16:10:32.299 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/add-to-cart-from-pd
+2025-11-28 16:10:32.305 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 16:10:32.307 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/image
+2025-11-28 16:10:32.542 DEBUG testcase.image                           - 1: click(findTestObject("Object Repository/midtern/Page_product-detail/img_product"))
+2025-11-28 16:11:02.590 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2025-11-28 16:11:04.000 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/midtern/Page_product-detail/img_product' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/midtern/Page_product-detail/img_product'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at image.run(image:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764320959916.run(TempTestSuite1764320959916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img class="img-default ls-is-cached lazyloaded" data-src="https://cdn.hstatic.net/products/200000887901/dsc00635__2__20c343b22fb140e89f7240801c481da6_debf9318ab7b4619bb59d6b8974fa9fb.jpg" alt="Nâu" src="https://cdn.hstatic.net/products/200000887901/dsc00635__2__20c343b22fb140e89f7240801c481da6_debf9318ab7b4619bb59d6b8974fa9fb.jpg"> is not clickable at point (453, 348). Other element would receive the click: <div class="sidebar-body">...</div>
+  (Session info: MicrosoftEdge=142.0.3595.94)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [bf5664d21996c37db901081991a65a9e, clickElement {id=f.CF157134FA9DF342B6EED27A2EF239B3.d.7B2AC0EA0367056E0424A6A9CEE49CB6.e.355}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59954}, msedge: {msedgedriverVersion: 141.0.3537.71 (e9128b790533..., userDataDir: C:\Users\tam14\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59954/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:6038/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on windows (bf5664d21996c37db901081991a65a9e)] -> xpath: //div[@id='pr-gallery']/div[2]/a/picture/img]
+Session ID: bf5664d21996c37db901081991a65a9e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$klCsyeHy.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1764317299178.run(Script1764317299178.groovy:20)
+	... 15 more
+)
+2025-11-28 16:11:04.009 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/midtern/product-Detail/image FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/midtern/Page_product-detail/img_product'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at image.run(image:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764320959916.run(TempTestSuite1764320959916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img class="img-default ls-is-cached lazyloaded" data-src="https://cdn.hstatic.net/products/200000887901/dsc00635__2__20c343b22fb140e89f7240801c481da6_debf9318ab7b4619bb59d6b8974fa9fb.jpg" alt="Nâu" src="https://cdn.hstatic.net/products/200000887901/dsc00635__2__20c343b22fb140e89f7240801c481da6_debf9318ab7b4619bb59d6b8974fa9fb.jpg"> is not clickable at point (453, 348). Other element would receive the click: <div class="sidebar-body">...</div>
+  (Session info: MicrosoftEdge=142.0.3595.94)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [bf5664d21996c37db901081991a65a9e, clickElement {id=f.CF157134FA9DF342B6EED27A2EF239B3.d.7B2AC0EA0367056E0424A6A9CEE49CB6.e.355}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59954}, msedge: {msedgedriverVersion: 141.0.3537.71 (e9128b790533..., userDataDir: C:\Users\tam14\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59954/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:6038/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on windows (bf5664d21996c37db901081991a65a9e)] -> xpath: //div[@id='pr-gallery']/div[2]/a/picture/img]
+Session ID: bf5664d21996c37db901081991a65a9e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$klCsyeHy.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2025-11-28 16:11:04.018 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/image
+2025-11-28 16:11:04.025 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 16:11:04.025 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/product-relative
+2025-11-28 16:11:04.167 DEBUG testcase.product-relative                - 1: delay(5)
+2025-11-28 16:11:09.237 DEBUG testcase.product-relative                - 2: verifyElementPresent(findTestObject("Object Repository/midtern/Page_product-detail/div_product-relatetive-list"), 0)
+2025-11-28 16:11:09.281 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-11-28 16:11:09.562 DEBUG testcase.product-relative                - 3: verifyElementClickable(findTestObject("Object Repository/midtern/Page_product-detail/a_product-relative"))
+2025-11-28 16:11:09.718 DEBUG testcase.product-relative                - 4: click(findTestObject("Object Repository/midtern/Page_product-detail/a_product-relative"))

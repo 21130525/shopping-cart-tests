@@ -1,0 +1,96 @@
+2025-11-28 21:11:05.153 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\tam14\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-11-28 21:11:05.157 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\tam14\Katalon Studio\tester assignment midtern\Include\config\log.properties
+2025-11-28 21:11:05.653 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/midtern-product-detail
+2025-11-28 21:11:05.750 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Lê Thanh Tâm
+2025-11-28 21:11:05.751 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = shopping-cart-tests
+2025-11-28 21:11:05.752 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = tam14 - host.docker.internal
+2025-11-28 21:11:05.753 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-28 21:11:05.754 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.57
+2025-11-28 21:11:05.755 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-11-28 21:11:06.411 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 21:11:06.412 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/canClickProduct
+2025-11-28 21:11:06.588 DEBUG testcase.canClickProduct                 - 1: openBrowser("")
+2025-11-28 21:11:06.949 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-11-28 21:11:07.051 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 28, 2025 9:11:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-28 21:11:09.083 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f6798999d035e28366e0acff1b9ef750
+2025-11-28 21:11:09.085 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 142.0.3595.94
+2025-11-28 21:11:09.086 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-28 21:11:09.087 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-11-28 21:11:09.100 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-28 21:11:09.161 DEBUG testcase.canClickProduct                 - 2: navigateToUrl("https://aristino.com/collections/trang-phuc")
+2025-11-28 21:11:11.601 DEBUG testcase.canClickProduct                 - 3: alertObj = findTestObject("Object Repository/midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-28 21:11:11.718 DEBUG testcase.canClickProduct                 - 4: btnAllow = findTestObject("Object Repository/midtern/Page_Register/Page_alert/button_chophep")
+2025-11-28 21:11:11.737 DEBUG testcase.canClickProduct                 - 5: btnCloseAd = findTestObject("Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-28 21:11:11.751 DEBUG testcase.canClickProduct                 - 6: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-28 21:11:16.291 DEBUG testcase.canClickProduct                 - 1: click(btnAllow)
+2025-11-28 21:11:17.270 DEBUG testcase.canClickProduct                 - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-28 21:11:17.280 DEBUG testcase.canClickProduct                 - 7: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-28 21:11:17.327 DEBUG testcase.canClickProduct                 - 1: click(btnCloseAd)
+2025-11-28 21:11:17.526 DEBUG testcase.canClickProduct                 - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-28 21:11:17.529 DEBUG testcase.canClickProduct                 - 8: click(findTestObject("Object Repository/midtern/Page_home/product"))
+2025-11-28 21:11:22.175 DEBUG testcase.canClickProduct                 - 9: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-28 21:11:25.176 DEBUG testcase.canClickProduct                 - 1: click(btnAllow)
+2025-11-28 21:11:25.775 DEBUG testcase.canClickProduct                 - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-28 21:11:25.779 DEBUG testcase.canClickProduct                 - 10: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-28 21:11:25.818 DEBUG testcase.canClickProduct                 - 1: click(btnCloseAd)
+2025-11-28 21:11:25.994 DEBUG testcase.canClickProduct                 - 2: println("Đã tắt quảng cáo.")
+Đã tắt quảng cáo.
+2025-11-28 21:11:26.001 DEBUG testcase.canClickProduct                 - 11: verifyElementText(findTestObject("Object Repository/midtern/Page_product-detail/button_addtocart"), "ĐẶT HÀNG TRƯỚC")
+2025-11-28 21:11:26.086 DEBUG testcase.canClickProduct                 - 12: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_S"))
+2025-11-28 21:11:26.537 DEBUG testcase.canClickProduct                 - 13: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_M"))
+2025-11-28 21:11:26.855 DEBUG testcase.canClickProduct                 - 14: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_L"))
+2025-11-28 21:11:27.195 DEBUG testcase.canClickProduct                 - 15: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_XL"))
+2025-11-28 21:11:27.501 DEBUG testcase.canClickProduct                 - 16: verifyElementClickable(findTestObject("midtern/Page_product-detail/size_XXL"))
+2025-11-28 21:11:27.808 DEBUG testcase.canClickProduct                 - 17: verifyElementVisible(findTestObject("midtern/Page_product-detail/div_image"))
+2025-11-28 21:11:27.857 DEBUG testcase.canClickProduct                 - 18: verifyElementVisible(findTestObject("midtern/Page_product-detail/div_image"))
+2025-11-28 21:11:27.899 DEBUG testcase.canClickProduct                 - 19: click(findTestObject("midtern/Page_product-detail/div_image"))
+2025-11-28 21:11:28.079 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/canClickProduct
+2025-11-28 21:11:28.085 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 21:11:28.085 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/image
+2025-11-28 21:11:28.183 DEBUG testcase.image                           - 1: click(findTestObject("Object Repository/midtern/Page_product-detail/img_product"))
+2025-11-28 21:11:28.736 DEBUG testcase.image                           - 2: click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img"))
+2025-11-28 21:11:29.350 DEBUG testcase.image                           - 3: click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img"))
+2025-11-28 21:11:29.931 DEBUG testcase.image                           - 4: click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img"))
+2025-11-28 21:11:30.528 DEBUG testcase.image                           - 5: click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img"))
+2025-11-28 21:11:31.138 DEBUG testcase.image                           - 6: click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img"))
+2025-11-28 21:11:31.748 DEBUG testcase.image                           - 7: click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom"))
+2025-11-28 21:11:32.362 DEBUG testcase.image                           - 8: click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom"))
+2025-11-28 21:11:32.977 DEBUG testcase.image                           - 9: click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom_in"))
+2025-11-28 21:11:33.528 DEBUG testcase.image                           - 10: click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom_out"))
+2025-11-28 21:11:34.149 DEBUG testcase.image                           - 11: click(findTestObject("midtern/Page_product-detail/button_closeImg"))
+2025-11-28 21:11:34.394 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/image
+2025-11-28 21:11:34.397 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 21:11:34.398 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/add-to-cart-from-pd
+2025-11-28 21:11:34.515 DEBUG testcase.add-to-cart-from-pd             - 1: click(findTestObject("Object Repository/midtern/Page_productp/label_chose_color"))
+2025-11-28 21:12:04.543 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2025-11-28 21:12:04.648 DEBUG testcase.add-to-cart-from-pd             - 2: click(findTestObject("Object Repository/midtern/Page_productp/lsize_M"))
+2025-11-28 21:12:05.234 DEBUG testcase.add-to-cart-from-pd             - 3: click(findTestObject("Object Repository/midtern/Page_productp/saddtocart"))
+2025-11-28 21:12:05.843 DEBUG testcase.add-to-cart-from-pd             - 4: verifyElementText(findTestObject("Object Repository/midtern/Page_productp/titleGiohang"), "GIỎ HÀNG")
+2025-11-28 21:12:07.156 DEBUG testcase.add-to-cart-from-pd             - 5: click(findTestObject("Object Repository/midtern/Page_productp/add1"))
+2025-11-28 21:12:07.547 DEBUG testcase.add-to-cart-from-pd             - 6: click(findTestObject("midtern/Page_product-detail/sclose_cart"))
+2025-11-28 21:12:08.161 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/add-to-cart-from-pd
+2025-11-28 21:12:08.165 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-28 21:12:08.166 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/midtern/product-Detail/product-relative
+2025-11-28 21:12:08.316 DEBUG testcase.product-relative                - 1: navigateToUrl("https://aristino.com/products/ao-khoac-2-lop-nam-xanh-reu-aristino-regular-fit-ajk606edp01")
+2025-11-28 21:12:10.918 DEBUG testcase.product-relative                - 2: alertObj = findTestObject("midtern/Page_Register/Page_alert/alert_nitification")
+2025-11-28 21:12:10.926 DEBUG testcase.product-relative                - 3: btnAllow = findTestObject("midtern/Page_Register/Page_alert/button_chophep")
+2025-11-28 21:12:10.932 DEBUG testcase.product-relative                - 4: if (waitForElementVisible(alertObj, 5, OPTIONAL))
+2025-11-28 21:12:15.050 DEBUG testcase.product-relative                - 1: click(btnAllow)
+2025-11-28 21:12:15.415 DEBUG testcase.product-relative                - 2: println("Đã click nút Cho phép.")
+Đã click nút Cho phép.
+2025-11-28 21:12:15.418 DEBUG testcase.product-relative                - 5: btnCloseAd = findTestObject("midtern/Page_Register/Page_adventis/btn_closeAd")
+2025-11-28 21:12:15.430 DEBUG testcase.product-relative                - 6: if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))
+2025-11-28 21:12:20.455 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Web element with id: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' located by '.styled__CloseButtonWrapper-sc-m09mre-0' not found
+2025-11-28 21:12:20.458 DEBUG testcase.product-relative                - 7: verifyElementPresent(findTestObject("Object Repository/midtern/Page_product-detail/div_product-relatetive-list"), 0)
+2025-11-28 21:12:20.481 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-11-28 21:12:24.481 DEBUG testcase.product-relative                - 8: verifyElementClickable(findTestObject("Object Repository/midtern/Page_product-detail/a_product-relative"))
+2025-11-28 21:12:24.797 DEBUG testcase.product-relative                - 9: click(findTestObject("Object Repository/midtern/Page_product-detail/a_product-relative"))
+2025-11-28 21:12:29.910 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/midtern/product-Detail/product-relative
+2025-11-28 21:12:30.369 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-28 21:12:30.369 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/midtern-product-detail
+2025-11-28 21:12:30.369 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

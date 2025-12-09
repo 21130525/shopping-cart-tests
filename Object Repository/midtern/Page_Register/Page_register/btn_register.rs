@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_register</name>
+   <tag></tag>
+   <elementGuidId>188af71f-a7f9-456e-9c19-0b0b559192b0</elementGuidId>
+   <imagePath>Screenshots/Targets/Page_To ti khon  ARISTINO/btn_register.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value>Screenshots/Targets/Page_To ti khon  ARISTINO/btn_register.png</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn--fill-black.w-100.btn-register-form-page</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@value='Tạo tại khoản']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;REGISTER&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>56107d3f-047f-498d-994c-f6357bf2fd94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn--fill-black w-100 btn-register-form-page</value>
+      <webElementGuid>78d59922-94fc-4b34-965f-98ace00edc17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b7e79346-1c38-416f-9706-aaabcfcad0f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Tạo tại khoản</value>
+      <webElementGuid>07132b4e-4618-4ed7-9c7d-5aa5fcded2a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                      REGISTER
+                    </value>
+      <webElementGuid>84f86598-4398-43d8-be63-b3ed88ea3da6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;create_customer&quot;)/div[@class=&quot;item-input-form&quot;]/button[@class=&quot;btn btn--fill-black w-100 btn-register-form-page&quot;]</value>
+      <webElementGuid>82d6e3f3-b421-47cb-8863-298d9a65ef2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@value='Tạo tại khoản']</value>
+      <webElementGuid>400b90f5-2378-4383-a091-fce3d5c8d360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='create_customer']/div[7]/button</value>
+      <webElementGuid>79ccf491-d261-4d02-a5db-f600a82eb4b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đăng ký nhận thư mời ưu đãi từ KG Vietnam'])[1]/following::button[1]</value>
+      <webElementGuid>e2bd1788-446a-41a0-94a4-a6689814bae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tôi đồng ý với điều khoản và điều kiện'])[1]/following::button[1]</value>
+      <webElementGuid>ca7821f6-8d34-4f8e-8388-891540c25e3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='REGISTER']/parent::*</value>
+      <webElementGuid>0a3a4fae-02bc-4429-aae2-5836886a1f36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/button</value>
+      <webElementGuid>16eb123c-a8bb-4575-8792-1746a58da85d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+                      REGISTER
+                    ' or . = '
+                      REGISTER
+                    ')]</value>
+      <webElementGuid>38cba796-14e0-40f7-b523-f2b0901f92c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

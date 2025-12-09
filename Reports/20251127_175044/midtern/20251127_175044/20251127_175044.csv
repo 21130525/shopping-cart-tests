@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+midtern,Edge Chromium 142.0.3595.94,,,27-11-2025 17:50:50,27-11-2025 17:52:48,1m - 58.774s,PASSED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Edge Chromium 142.0.3595.94,,,27-11-2025 17:50:50,27-11-2025 17:50:50,0.184s,PASSED
+,,,,,,,
+Test Cases/midtern/auth/login,Edge Chromium 142.0.3595.94,,,27-11-2025 17:50:51,27-11-2025 17:51:41,50.669s,PASSED
+"DATA BINDING - {""(Default) Type"":"""",""(Default) Expec..."":"""",""(Default) Passw..."":"""",""(Default) Usern..."":""""}",,,,,,,
+"testData = findTestData(""Data Files/data_login"")",Edge Chromium 142.0.3595.94,,,27-11-2025 17:50:51,27-11-2025 17:50:51,0.030s,PASSED
+totalRows = testData.getRowNumbers(),Edge Chromium 142.0.3595.94,,,27-11-2025 17:50:51,27-11-2025 17:50:51,0.048s,PASSED
+print(totalRows),Edge Chromium 142.0.3595.94,,,27-11-2025 17:50:51,27-11-2025 17:50:51,0.019s,PASSED
+"for ([i = 1, i <= totalRows, (i++)])",Edge Chromium 142.0.3595.94,,,27-11-2025 17:50:51,27-11-2025 17:51:41,49.936s,PASSED
+,,,,,,,
+Test Cases/midtern/auth/logout,Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:41,27-11-2025 17:51:58,16.949s,PASSED
+"navigateToUrl(""https://aristino.com/account"")",Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:42,27-11-2025 17:51:44,2.702s,PASSED
+"alertObj = findTestObject(""midtern/Page_Register/Page_alert/alert_nitification"")",Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:44,27-11-2025 17:51:44,0.007s,PASSED
+"btnAllow = findTestObject(""midtern/Page_Register/Page_alert/button_chophep"")",Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:44,27-11-2025 17:51:44,0.008s,PASSED
+"if (waitForElementVisible(alertObj, 5, OPTIONAL))",Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:44,27-11-2025 17:51:49,4.935s,PASSED
+"btnCloseAd = findTestObject(""midtern/Page_Register/Page_adventis/btn_closeAd"")",Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:49,27-11-2025 17:51:49,0.005s,PASSED
+"if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))",Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:49,27-11-2025 17:51:54,5.045s,WARNING
+"click(findTestObject(""midtern/Page_account/logout""))",Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:54,27-11-2025 17:51:58,4.008s,PASSED
+,,,,,,,
+Test Cases/midtern/auth/forgot_pasword,Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:58,27-11-2025 17:52:48,50.020s,PASSED
+"DATA BINDING - {""(Default) email"":""""}",,,,,,,
+"testData = findTestData(""Data Files/data_forgot-pasword"")",Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:59,27-11-2025 17:51:59,0.011s,PASSED
+totalRows = testData.getRowNumbers(),Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:59,27-11-2025 17:51:59,0.005s,PASSED
+"println(""Tổng số dòng data: "" + totalRows)",Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:59,27-11-2025 17:51:59,0.011s,PASSED
+"for ([i = 1, i <= totalRows, (i++)])",Edge Chromium 142.0.3595.94,,,27-11-2025 17:51:59,27-11-2025 17:52:48,49.681s,PASSED

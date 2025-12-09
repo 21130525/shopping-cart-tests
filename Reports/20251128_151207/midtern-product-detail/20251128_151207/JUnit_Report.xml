@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="midtern-product-detail" time="63.198" tests="2" failures="0" errors="0">
+   <testsuite name="midtern-product-detail" tests="2" failures="0" errors="0" time="63.198" skipped="0" timestamp="2025-11-28T08:12:11.927Z" hostname="tam14 - thanh_tam" id="Test Suites/midtern-product-detail">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_151207\\midtern-product-detail\\20251128_151207"/>
+         <property name="logFiles" value="C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_151207\\midtern-product-detail\\20251128_151207\\console0.log, C:\\Users\\tam14\\Katalon Studio\\tester assignment midtern\\Reports\\20251128_151207\\midtern-product-detail\\20251128_151207\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tam14 - thanh_tam"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.0.0"/>
+         <property name="browser" value="Edge Chromium 142.0.3595.94"/>
+         <property name="userFullName" value="Lê Thanh Tâm"/>
+         <property name="hostAddress" value="10.51.143.179"/>
+         <property name="sessionId" value="0e4e5a287dbaae6315ec9ab376e4bec4"/>
+         <property name="projectName" value="shopping-cart-tests"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/midtern/product-Detail/canClickProduct" time="56.425" classname="Test Cases/midtern/product-Detail/canClickProduct" status="PASSED">
+         <system-out><![CDATA[28-11-2025T15:12:12 - [TEST_CASE][PASSED] - Test Cases/midtern/product-Detail/canClickProduct: Test Cases/midtern/product-Detail/canClickProduct
+
+28-11-2025T15:12:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-11-2025T15:12:13 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-11-2025T15:12:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-11-2025T15:12:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-11-2025T15:12:15 - [TEST_STEP][PASSED] - navigateToUrl("https://aristino.com/collections/trang-phuc"): Navigate to 'https://aristino.com/collections/trang-phuc' successfully
+
+28-11-2025T15:12:55 - [MESSAGE][PASSED] - Navigate to 'https://aristino.com/collections/trang-phuc' successfully
+
+28-11-2025T15:12:55 - [TEST_STEP][PASSED] - alertObj = findTestObject("Object Repository/midtern/Page_Register/Page_alert/alert_nitification"): null
+
+28-11-2025T15:12:55 - [TEST_STEP][PASSED] - btnAllow = findTestObject("Object Repository/midtern/Page_Register/Page_alert/button_chophep"): null
+
+28-11-2025T15:12:55 - [TEST_STEP][PASSED] - btnCloseAd = findTestObject("Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd"): null
+
+28-11-2025T15:12:55 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T15:12:56 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T15:12:56 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T15:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T15:12:57 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T15:12:57 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T15:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T15:12:57 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T15:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T15:12:57 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null
+
+28-11-2025T15:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_home/product")): Object: 'Object Repository/midtern/Page_home/product' is clicked on
+
+28-11-2025T15:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_home/product' is clicked on
+
+28-11-2025T15:13:03 - [TEST_STEP][PASSED] - if (waitForElementVisible(alertObj, 5, OPTIONAL)): null
+
+28-11-2025T15:13:06 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_alert/alert_nitification' is visible
+
+28-11-2025T15:13:06 - [TEST_STEP][PASSED] - click(btnAllow): Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T15:13:06 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_alert/button_chophep' is clicked on
+
+28-11-2025T15:13:06 - [TEST_STEP][PASSED] - println("Đã click nút Cho phép."): null
+
+28-11-2025T15:13:06 - [TEST_STEP][PASSED] - if (waitForElementVisible(btnCloseAd, 5, OPTIONAL)): null
+
+28-11-2025T15:13:06 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is visible
+
+28-11-2025T15:13:06 - [TEST_STEP][PASSED] - click(btnCloseAd): Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T15:13:07 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd' is clicked on
+
+28-11-2025T15:13:07 - [TEST_STEP][PASSED] - println("Đã tắt quảng cáo."): null
+
+28-11-2025T15:13:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/midtern/Page_product-detail/button_addtocart"), "ĐẶT HÀNG TRƯỚC"): Actual text and expected text of test object 'Object Repository/midtern/Page_product-detail/button_addtocart' are matched.
+
+28-11-2025T15:13:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/midtern/Page_product-detail/button_addtocart' are matched.
+
+28-11-2025T15:13:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("midtern/Page_product-detail/size_S")): Object 'Object Repository/midtern/Page_product-detail/size_S' is clickable
+
+28-11-2025T15:13:07 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/size_S' is clickable
+
+28-11-2025T15:13:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("midtern/Page_product-detail/size_M")): Object 'Object Repository/midtern/Page_product-detail/size_M' is clickable
+
+28-11-2025T15:13:07 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/size_M' is clickable
+
+28-11-2025T15:13:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("midtern/Page_product-detail/size_L")): Object 'Object Repository/midtern/Page_product-detail/size_L' is clickable
+
+28-11-2025T15:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/size_L' is clickable
+
+28-11-2025T15:13:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("midtern/Page_product-detail/size_XL")): Object 'Object Repository/midtern/Page_product-detail/size_XL' is clickable
+
+28-11-2025T15:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/size_XL' is clickable
+
+28-11-2025T15:13:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("midtern/Page_product-detail/size_XXL")): Object 'Object Repository/midtern/Page_product-detail/size_XXL' is clickable
+
+28-11-2025T15:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/size_XXL' is clickable
+
+28-11-2025T15:13:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("midtern/Page_product-detail/div_image")): Object 'Object Repository/midtern/Page_product-detail/div_image' is visible
+
+28-11-2025T15:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/div_image' is visible
+
+28-11-2025T15:13:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("midtern/Page_product-detail/div_image")): Object 'Object Repository/midtern/Page_product-detail/div_image' is visible
+
+28-11-2025T15:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/midtern/Page_product-detail/div_image' is visible
+
+28-11-2025T15:13:08 - [TEST_STEP][PASSED] - click(findTestObject("midtern/Page_product-detail/div_image")): Object: 'Object Repository/midtern/Page_product-detail/div_image' is clicked on
+
+28-11-2025T15:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/div_image' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/midtern/product-Detail/image" time="6.062" classname="Test Cases/midtern/product-Detail/image" status="PASSED">
+         <system-out><![CDATA[28-11-2025T15:13:09 - [TEST_CASE][PASSED] - Test Cases/midtern/product-Detail/image: Test Cases/midtern/product-Detail/image
+
+28-11-2025T15:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/img_product")): Object: 'Object Repository/midtern/Page_product-detail/img_product' is clicked on
+
+28-11-2025T15:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/img_product' is clicked on
+
+28-11-2025T15:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img")): Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img")): Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img")): Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:13:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img")): Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_next_img")): Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_next_img' is clicked on
+
+28-11-2025T15:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom")): Object: 'Object Repository/midtern/Page_product-detail/button_zoom' is clicked on
+
+28-11-2025T15:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_zoom' is clicked on
+
+28-11-2025T15:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom")): Object: 'Object Repository/midtern/Page_product-detail/button_zoom' is clicked on
+
+28-11-2025T15:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_zoom' is clicked on
+
+28-11-2025T15:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom_in")): Object: 'Object Repository/midtern/Page_product-detail/button_zoom_in' is clicked on
+
+28-11-2025T15:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_zoom_in' is clicked on
+
+28-11-2025T15:13:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/midtern/Page_product-detail/button_zoom_out")): Object: 'Object Repository/midtern/Page_product-detail/button_zoom_out' is clicked on
+
+28-11-2025T15:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/midtern/Page_product-detail/button_zoom_out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-11-2025T15:12:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+28-11-2025T15:12:11 - [TEST_STEP][PASSED] - KatalonHelper.updateInfo(): null
+
+28-11-2025T15:12:11 - [TEST_SUITE][PASSED] - midtern-product-detail: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

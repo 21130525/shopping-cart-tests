@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "CFB66FF609C7F5F9C9951FCCC8677B33",
+  "keywordFileContentHash": "1F9938FD13DDABCF8F59CBFAFBA5BC30",
   "keywordClasses": [
     {
       "name": "sample.Select2",
@@ -34,7 +34,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Select an option by label.\n\t *\n\t * @param to The select2 box object that tagged as \"select\" in the document.\n\t * @param option The label of the option needs to select.\n\t */"
+          "javadoc": "/**\r\n\t * Select an option by label.\r\n\t *\r\n\t * @param to The select2 box object that tagged as \"select\" in the document.\r\n\t * @param option The label of the option needs to select.\r\n\t */"
         },
         {
           "name": "selectManyOptionsByLabel",
@@ -76,7 +76,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Select many options by labels. This method just applies for multiple value select boxes.\n\t *\n\t * @param to The select2 box object that tagged as \"select\" in the document.\n\t * @param options The labels of the options need to select.\n\t */"
+          "javadoc": "/**\r\n\t * Select many options by labels. This method just applies for multiple value select boxes.\r\n\t *\r\n\t * @param to The select2 box object that tagged as \"select\" in the document.\r\n\t * @param options The labels of the options need to select.\r\n\t */"
         },
         {
           "name": "getSelectedOptionsLabel",
@@ -95,7 +95,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Get labels of selected options.\n\t *\n\t * @param to The select2 box object that tagged as \"select\" in the document.\n\t * @return A labels list of selected options.\n\t */"
+          "javadoc": "/**\r\n\t * Get labels of selected options.\r\n\t *\r\n\t * @param to The select2 box object that tagged as \"select\" in the document.\r\n\t * @return A labels list of selected options.\r\n\t */"
         },
         {
           "name": "getSelectedOptionsList",
@@ -114,7 +114,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Get elements of selected options.\n\t *\n\t * @param to The select2 box object that tagged as \"select\" in the document.\n\t * @return A list WebElement of selected options.\n\t */"
+          "javadoc": "/**\r\n\t * Get elements of selected options.\r\n\t *\r\n\t * @param to The select2 box object that tagged as \"select\" in the document.\r\n\t * @return A list WebElement of selected options.\r\n\t */"
         },
         {
           "name": "getAllOptionsLabel",
@@ -133,7 +133,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Get labels of all options.\n\t *\n\t * @param to The select2 box object that tagged as \"select\" in the document.\n\t * @return A list string of all options.\n\t */"
+          "javadoc": "/**\r\n\t * Get labels of all options.\r\n\t *\r\n\t * @param to The select2 box object that tagged as \"select\" in the document.\r\n\t * @return A list string of all options.\r\n\t */"
         },
         {
           "name": "removeOptions",
@@ -175,7 +175,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Remove selected options. This method just applies for multiple value select boxes.\n\t *\n\t * @param to The select2 box object that tagged as \"select\" in the document.\n\t * @param options The list of options needs to remove.\n\t */"
+          "javadoc": "/**\r\n\t * Remove selected options. This method just applies for multiple value select boxes.\r\n\t *\r\n\t * @param to The select2 box object that tagged as \"select\" in the document.\r\n\t * @param options The list of options needs to remove.\r\n\t */"
         }
       ]
     }

@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+midtern-product-detail,Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:12,28-11-2025 15:48:23,2m - 11.084s,FAILED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:12,28-11-2025 15:46:13,0.119s,PASSED
+,,,,,,,
+Test Cases/midtern/product-Detail/canClickProduct,Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:13,28-11-2025 15:47:11,57.544s,PASSED
+"openBrowser("""")",Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:13,28-11-2025 15:46:16,2.608s,PASSED
+"navigateToUrl(""https://aristino.com/collections/trang-phuc"")",Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:16,28-11-2025 15:46:57,41.168s,PASSED
+"alertObj = findTestObject(""Object Repository/midtern/Page_Register/Page_alert/alert_nitification"")",Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:57,28-11-2025 15:46:57,0.079s,PASSED
+"btnAllow = findTestObject(""Object Repository/midtern/Page_Register/Page_alert/button_chophep"")",Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:57,28-11-2025 15:46:57,0.011s,PASSED
+"btnCloseAd = findTestObject(""Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd"")",Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:57,28-11-2025 15:46:57,0.010s,PASSED
+"if (waitForElementVisible(alertObj, 5, OPTIONAL))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:57,28-11-2025 15:46:59,1.751s,PASSED
+"if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:59,28-11-2025 15:46:59,0.237s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_home/product""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:46:59,28-11-2025 15:47:05,6.088s,PASSED
+"if (waitForElementVisible(alertObj, 5, OPTIONAL))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:05,28-11-2025 15:47:08,2.874s,PASSED
+"if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:08,28-11-2025 15:47:08,0.207s,PASSED
+"verifyElementText(findTestObject(""Object Repository/midtern/Page_product-detail/button_addtocart""), ""ĐẶT HÀNG TRƯỚC"")",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:08,28-11-2025 15:47:08,0.076s,PASSED
+"verifyElementClickable(findTestObject(""midtern/Page_product-detail/size_S""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:08,28-11-2025 15:47:09,0.443s,PASSED
+"verifyElementClickable(findTestObject(""midtern/Page_product-detail/size_M""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:09,28-11-2025 15:47:09,0.323s,PASSED
+"verifyElementClickable(findTestObject(""midtern/Page_product-detail/size_L""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:09,28-11-2025 15:47:09,0.305s,PASSED
+"verifyElementClickable(findTestObject(""midtern/Page_product-detail/size_XL""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:09,28-11-2025 15:47:10,0.298s,PASSED
+"verifyElementClickable(findTestObject(""midtern/Page_product-detail/size_XXL""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:10,28-11-2025 15:47:10,0.628s,PASSED
+"verifyElementVisible(findTestObject(""midtern/Page_product-detail/div_image""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:10,28-11-2025 15:47:10,0.049s,PASSED
+"verifyElementVisible(findTestObject(""midtern/Page_product-detail/div_image""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:10,28-11-2025 15:47:10,0.039s,PASSED
+"click(findTestObject(""midtern/Page_product-detail/div_image""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:10,28-11-2025 15:47:11,0.162s,PASSED
+,,,,,,,
+Test Cases/midtern/product-Detail/image,Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:11,28-11-2025 15:47:17,6.240s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/img_product""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:11,28-11-2025 15:47:11,0.546s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/button_next_img""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:11,28-11-2025 15:47:12,0.643s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/button_next_img""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:12,28-11-2025 15:47:12,0.582s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/button_next_img""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:12,28-11-2025 15:47:13,0.603s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/button_next_img""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:13,28-11-2025 15:47:14,0.592s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/button_next_img""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:14,28-11-2025 15:47:14,0.587s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/button_zoom""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:14,28-11-2025 15:47:15,0.630s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/button_zoom""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:15,28-11-2025 15:47:16,0.599s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/button_zoom_in""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:16,28-11-2025 15:47:16,0.537s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/button_zoom_out""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:16,28-11-2025 15:47:17,0.586s,PASSED
+"click(findTestObject(""midtern/Page_product-detail/button_closeImg""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:17,28-11-2025 15:47:17,0.231s,PASSED
+,,,,,,,
+Test Cases/midtern/product-Detail/add-to-cart-from-pd,Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:17,28-11-2025 15:47:52,35.042s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_productp/label_chose_color""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:17,28-11-2025 15:47:47,30.135s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_productp/lsize_M""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:47,28-11-2025 15:47:48,0.605s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_productp/saddtocart""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:48,28-11-2025 15:47:48,0.602s,PASSED
+"verifyElementText(findTestObject(""Object Repository/midtern/Page_productp/titleGiohang""), ""GIỎ HÀNG"")",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:48,28-11-2025 15:47:51,2.625s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_productp/add1""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:51,28-11-2025 15:47:51,0.396s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_productp/scloase""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:51,28-11-2025 15:47:52,0.596s,PASSED
+,,,,,,,
+Test Cases/midtern/product-Detail/product-relative,Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:52,28-11-2025 15:48:23,31.196s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/midtern/Page_product-detail/div_product-relatetive-list""), 0)",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:52,28-11-2025 15:47:53,0.804s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/midtern/Page_product-detail/a_product-relative""))",Edge Chromium 142.0.3595.94,,,28-11-2025 15:47:53,28-11-2025 15:48:23,30.304s,FAILED

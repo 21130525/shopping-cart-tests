@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_chose_color</name>
+   <tag></tag>
+   <elementGuidId>6bd32a7b-b27b-44da-991d-865ce06c153f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.aspect-ratio.sd</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='variant-swatch-1']/div[2]/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#variant-swatch-1 label</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>4bfb1a07-d0e0-4576-9028-7f1d0f4cd80e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>aspect-ratio sd</value>
+      <webElementGuid>56d32c87-93b7-4075-90ce-773a5f3b6b40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>Nâu</value>
+      <webElementGuid>19fcc020-ec9c-43d0-90b1-0e7749ba7c28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;variant-swatch-1&quot;)/div[@class=&quot;select-swap select-swap--color&quot;]/div[@class=&quot;swatch-element&quot;]/label[@class=&quot;aspect-ratio sd&quot;]</value>
+      <webElementGuid>e16a1460-847a-4255-8798-d26ef79b7d36</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='variant-swatch-1']/div[2]/div/label</value>
+      <webElementGuid>2dd1b634-ba43-4b0d-9a85-aba4df48a681</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>04870eaf-8282-47c7-8be9-c70148692f54</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "C7AD74DC10D3226EED19A63F511F4DAE",
+  "keywordFileContentHash": "FD602863546913647007FDD0D7982DD0",
   "keywordClasses": [
     {
       "name": "sample.Utils",
@@ -21,7 +21,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Click on select2 text box.\n\t *\n\t * @param to The select2 box object that tagged as \"select\" in the document.\n\t */"
+          "javadoc": "/**\r\n\t * Click on select2 text box.\r\n\t *\r\n\t * @param to The select2 box object that tagged as \"select\" in the document.\r\n\t */"
         },
         {
           "name": "findContainer",
@@ -40,7 +40,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Find the container class after the select element.\n\t *\n\t * @param to The select2 box object that tagged as \"select\" in the document.\n\t * @return The WebElement that seen as container class after the select element.\n\t */"
+          "javadoc": "/**\r\n\t * Find the container class after the select element.\r\n\t *\r\n\t * @param to The select2 box object that tagged as \"select\" in the document.\r\n\t * @return The WebElement that seen as container class after the select element.\r\n\t */"
         },
         {
           "name": "selectResult",
@@ -72,7 +72,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Select the result after filling text search to select2 text box.\n\t *\n\t * @param option The label of option need to select.\n\t * @param subContainerOpenClass The Xpath string of the container class.\n\t */"
+          "javadoc": "/**\r\n\t * Select the result after filling text search to select2 text box.\r\n\t *\r\n\t * @param option The label of option need to select.\r\n\t * @param subContainerOpenClass The Xpath string of the container class.\r\n\t */"
         },
         {
           "name": "enterText",
@@ -91,7 +91,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Enter text search to the select2 text box.\n\t *\n\t * @param option The label of option need to search.\n\t * @return The Xpath string of the container class.\n\t */"
+          "javadoc": "/**\r\n\t * Enter text search to the select2 text box.\r\n\t *\r\n\t * @param option The label of option need to search.\r\n\t * @return The Xpath string of the container class.\r\n\t */"
         }
       ]
     }

@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+midtern-product-detail,Chrome 142.0.7444.176,,,28-11-2025 16:04:28,28-11-2025 16:05:56,1m - 27.501s,PASSED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Chrome 142.0.7444.176,,,28-11-2025 16:04:28,28-11-2025 16:04:28,0.127s,PASSED
+,,,,,,,
+Test Cases/midtern/product-Detail/canClickProduct,Chrome 142.0.7444.176,,,28-11-2025 16:04:29,28-11-2025 16:05:38,1m - 8.906s,PASSED
+"openBrowser("""")",Chrome 142.0.7444.176,,,28-11-2025 16:04:29,28-11-2025 16:04:32,2.567s,PASSED
+"navigateToUrl(""https://aristino.com/collections/trang-phuc"")",Chrome 142.0.7444.176,,,28-11-2025 16:04:32,28-11-2025 16:05:21,48.944s,PASSED
+"alertObj = findTestObject(""Object Repository/midtern/Page_Register/Page_alert/alert_nitification"")",Chrome 142.0.7444.176,,,28-11-2025 16:05:21,28-11-2025 16:05:21,0.091s,PASSED
+"btnAllow = findTestObject(""Object Repository/midtern/Page_Register/Page_alert/button_chophep"")",Chrome 142.0.7444.176,,,28-11-2025 16:05:21,28-11-2025 16:05:21,0.012s,PASSED
+"btnCloseAd = findTestObject(""Object Repository/midtern/Page_Register/Page_adventis/btn_closeAd"")",Chrome 142.0.7444.176,,,28-11-2025 16:05:21,28-11-2025 16:05:21,0.008s,PASSED
+"if (waitForElementVisible(alertObj, 5, OPTIONAL))",Chrome 142.0.7444.176,,,28-11-2025 16:05:21,28-11-2025 16:05:22,1.298s,PASSED
+"if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))",Chrome 142.0.7444.176,,,28-11-2025 16:05:22,28-11-2025 16:05:22,0.260s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_home/product""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:22,28-11-2025 16:05:33,10.804s,PASSED
+"if (waitForElementVisible(alertObj, 5, OPTIONAL))",Chrome 142.0.7444.176,,,28-11-2025 16:05:33,28-11-2025 16:05:35,2.232s,PASSED
+"if (waitForElementVisible(btnCloseAd, 5, OPTIONAL))",Chrome 142.0.7444.176,,,28-11-2025 16:05:35,28-11-2025 16:05:36,0.228s,PASSED
+"verifyElementText(findTestObject(""Object Repository/midtern/Page_product-detail/button_addtocart""), ""ĐẶT HÀNG TRƯỚC"")",Chrome 142.0.7444.176,,,28-11-2025 16:05:36,28-11-2025 16:05:36,0.090s,PASSED
+"verifyElementClickable(findTestObject(""midtern/Page_product-detail/size_S""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:36,28-11-2025 16:05:36,0.540s,PASSED
+"verifyElementClickable(findTestObject(""midtern/Page_product-detail/size_M""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:36,28-11-2025 16:05:37,0.301s,PASSED
+"verifyElementClickable(findTestObject(""midtern/Page_product-detail/size_L""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:37,28-11-2025 16:05:37,0.305s,PASSED
+"verifyElementClickable(findTestObject(""midtern/Page_product-detail/size_XL""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:37,28-11-2025 16:05:37,0.298s,PASSED
+"verifyElementClickable(findTestObject(""midtern/Page_product-detail/size_XXL""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:37,28-11-2025 16:05:38,0.503s,PASSED
+"verifyElementVisible(findTestObject(""midtern/Page_product-detail/div_image""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:38,28-11-2025 16:05:38,0.048s,PASSED
+"verifyElementVisible(findTestObject(""midtern/Page_product-detail/div_image""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:38,28-11-2025 16:05:38,0.035s,PASSED
+"click(findTestObject(""midtern/Page_product-detail/div_image""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:38,28-11-2025 16:05:38,0.158s,PASSED
+,,,,,,,
+Test Cases/midtern/product-Detail/product-relative,Chrome 142.0.7444.176,,,28-11-2025 16:05:38,28-11-2025 16:05:55,17.512s,PASSED
+delay(5),Chrome 142.0.7444.176,,,28-11-2025 16:05:38,28-11-2025 16:05:43,5.054s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/midtern/Page_product-detail/div_product-relatetive-list""), 0)",Chrome 142.0.7444.176,,,28-11-2025 16:05:43,28-11-2025 16:05:43,0.382s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/midtern/Page_product-detail/a_product-relative""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:43,28-11-2025 16:05:43,0.092s,PASSED
+"click(findTestObject(""Object Repository/midtern/Page_product-detail/a_product-relative""))",Chrome 142.0.7444.176,,,28-11-2025 16:05:43,28-11-2025 16:05:55,11.916s,PASSED
