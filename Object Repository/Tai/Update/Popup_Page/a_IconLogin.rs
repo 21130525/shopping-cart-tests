@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_IconLogin</name>
+   <tag></tag>
+   <elementGuidId>f976a8ca-8c61-444e-82a6-70bfb4ac0397</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.action-account > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='mainHeader']/div/div/div/div[3]/div/ul/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>ul >> internal:has-text=&quot;0 0&quot;i >> internal:role=link >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>02097845-dda9-46d9-825d-42099cc0009a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/account</value>
+      <webElementGuid>11b41763-11d1-47d0-9289-7bc890214f26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainHeader&quot;)/div[@class=&quot;mainHeader-top&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;mainHeader-top--wrapper&quot;]/div[@class=&quot;mainHeader-top--actions&quot;]/div[@class=&quot;header-actions-list&quot;]/ul[1]/li[@class=&quot;action-account&quot;]/a[1]</value>
+      <webElementGuid>9726d68c-f052-4c4a-bc2c-04cc183cfdea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='mainHeader']/div/div/div/div[3]/div/ul/li[2]/a</value>
+      <webElementGuid>0d93de02-cf9c-4e60-8b60-54e9017ff4d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ARISTINO'])[1]/following::a[3]</value>
+      <webElementGuid>d986dd02-c88e-48e8-97eb-9c9e337b7524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SUPPORT'])[1]/following::a[5]</value>
+      <webElementGuid>c8ebf4a8-231f-4d28-b536-6efb9a3257ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quay lại'])[1]/preceding::a[5]</value>
+      <webElementGuid>90d5316a-b27c-4a4d-ac11-7ac34487a168</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRANG PHỤC'])[1]/preceding::a[5]</value>
+      <webElementGuid>b83633fa-b55a-4e6a-b9f7-1a2db2344908</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/account')]</value>
+      <webElementGuid>c9c0f16b-fcec-425e-ae73-c7822a9c6205</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>3eece453-eb33-4d39-9e78-be7993a22a7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/account']</value>
+      <webElementGuid>3cc1e4c3-375d-4cc7-9434-b04a9eb65960</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

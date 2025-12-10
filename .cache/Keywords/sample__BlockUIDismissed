@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "75A01165740864B8430FD3C1679AA6EC",
+  "keywordFileContentHash": "07BB0626CA72D861C7436CB85F1789CA",
   "keywordClasses": [
     {
       "name": "sample.BlockUIDismissed",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
