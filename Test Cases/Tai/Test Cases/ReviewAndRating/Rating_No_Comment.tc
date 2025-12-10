@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Rating_No_Comment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>129c5324-527d-476a-95e1-84bfe5cdbc85</testCaseGuid>
+</TestCaseEntity>

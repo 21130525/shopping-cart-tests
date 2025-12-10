@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>rating_1</name>
+   <tag></tag>
+   <elementGuidId>c0b2f777-4074-4105-98ed-1e25d03b420a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.hrv-crv-rating__box.active > svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Quần Jeans Nam Hiệu Ứng Giặt Mài Aristino Business Regular 1JN0010S0'])[4]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.crv-hrvmodal--header__star > .hrv-crv-rating__groups > div > svg >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>d916c1b2-be78-474c-9d16-f9adc0b8b5c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d7998f15-81d9-4b64-81de-7323367c6dd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>22px</value>
+      <webElementGuid>4acce5ed-6174-4b68-8511-75e893e40c67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>22px</value>
+      <webElementGuid>83edf8b6-855c-4095-a06d-f9f092464252</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>1b1053e3-ea7c-4518-a90a-beaedbe4313e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 34 34</value>
+      <webElementGuid>baa230d6-00f3-46df-aa24-1f1ab7874c88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>c869a3b6-4545-4710-b258-70b7809ae041</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>6326d74e-9bec-4ff7-a7e2-878f3c0f4d66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mainBody-theme temp-product&quot;]/div[@class=&quot;crv-hrvmodal crv-hrvmodal--dialog crv-hrvmodal__rating open&quot;]/div[@class=&quot;crv-hrvmodal--content&quot;]/div[@class=&quot;crv-hrvmodal--body&quot;]/div[@class=&quot;crv-hrvmodal--body-header&quot;]/div[@class=&quot;crv-hrvmodal--header__star&quot;]/div[@class=&quot;hrv-crv-rating__groups hrv-crv-modal&quot;]/div[@class=&quot;hrv-crv-rating__box active&quot;]/svg[1]</value>
+      <webElementGuid>755e6f23-eb4e-433b-88f1-d94a63d8da73</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quần Jeans Nam Hiệu Ứng Giặt Mài Aristino Business Regular 1JN0010S0'])[4]/following::*[name()='svg'][1]</value>
+      <webElementGuid>37499f25-c80a-4dc1-8095-333782d559ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đánh giá sản phẩm'])[2]/following::*[name()='svg'][2]</value>
+      <webElementGuid>282be594-01f5-4cba-bb96-2809ba538ef0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bạn mua hàng qua kênh nào'])[1]/preceding::*[name()='svg'][5]</value>
+      <webElementGuid>d0c9ba16-3cb9-4fbf-aa9c-2abdab455734</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ONLINE'])[1]/preceding::*[name()='svg'][5]</value>
+      <webElementGuid>5c08e2e5-e20c-4303-8e8a-b74eb5ec15f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
