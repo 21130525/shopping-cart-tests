@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_FAQ_B3_CloseFirstQuestion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd5279ab-8356-4ac9-8756-960d20d2e29a</testCaseGuid>
+</TestCaseEntity>

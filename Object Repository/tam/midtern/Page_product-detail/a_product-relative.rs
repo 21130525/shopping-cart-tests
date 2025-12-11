@@ -11,17 +11,21 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='swiper-wrapper-997744c1cec46158']/div/div/div/div/a</value>
+         <value>//div[contains(@id, 'swiper-wrapper')]/div/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/products/ao-khoac-2-lop-nam-xanh-reu-aristino-regular-fit-ajk606edp01']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;1 / 12&quot;s >> internal:role=link >> nth=0</value>
+         <value>//div[@id='swiper-wrapper-997744c1cec46158']/div/div/div/div/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b4615b75-b005-4a21-a307-c9ae1236d526</webElementGuid>
+      <webElementGuid>360f0d48-f425-449c-96a4-f72d04898c05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/products/ao-khoac-2-lop-nam-xanh-reu-aristino-regular-fit-ajk606edp01</value>
-      <webElementGuid>c3d28f77-a104-43f7-90f3-0d955115b9ae</webElementGuid>
+      <webElementGuid>de3cebde-9977-48e5-8f48-a54311e9ee15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>pro-loop--link</value>
-      <webElementGuid>15effa6c-1a00-45ab-9143-841e0eca976b</webElementGuid>
+      <webElementGuid>ed757419-ae38-4e9a-9892-2fbd5b6924b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +57,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;swiper-wrapper-997744c1cec46158&quot;)/div[@class=&quot;swiper-slide swiper-slide-active&quot;]/div[@class=&quot;pro-loop&quot;]/div[@class=&quot;pro-loop--wrap&quot;]/div[@class=&quot;pro-loop--head&quot;]/a[@class=&quot;pro-loop--link&quot;]</value>
-      <webElementGuid>6e68bbb3-40a7-4ae0-b3c2-02021f32afcc</webElementGuid>
+      <webElementGuid>7c9619b8-cb32-4001-945e-25fd05e1b843</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='swiper-wrapper-997744c1cec46158']/div/div/div/div/a</value>
-      <webElementGuid>91813349-4eaf-4de1-8328-10305fec953b</webElementGuid>
+      <value>//div[contains(@id, 'swiper-wrapper')]/div/div/div/div/a</value>
+      <webElementGuid>9ab527bf-9e3f-4f46-bab2-992924a0b73d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/products/ao-khoac-2-lop-nam-xanh-reu-aristino-regular-fit-ajk606edp01')]</value>
-      <webElementGuid>4da20bef-21ff-419f-8b21-140e47831496</webElementGuid>
+      <webElementGuid>2536a81a-d1d6-4223-ae09-4c3e5a370e4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div/div/div/div/div/a</value>
-      <webElementGuid>d9bee105-0fca-437a-a053-946502a425c3</webElementGuid>
+      <webElementGuid>31fa55f6-0218-4d46-a7a2-a83ec9883a26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/products/ao-khoac-2-lop-nam-xanh-reu-aristino-regular-fit-ajk606edp01']</value>
-      <webElementGuid>eaf16068-669a-4029-92ac-4733812b170e</webElementGuid>
+      <webElementGuid>42c56553-1d9d-42b1-abbb-b0c326c7c8bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Contact_A3_CheckFacebook</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b377ec01-cde6-4010-b4c4-99166dcf6ca3</testCaseGuid>
+</TestCaseEntity>

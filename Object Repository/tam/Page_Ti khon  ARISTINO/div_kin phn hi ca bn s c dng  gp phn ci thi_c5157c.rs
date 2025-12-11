@@ -6,22 +6,26 @@
    <elementGuidId>3384f088-6ecc-4f94-a7f6-1db5f42765a3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.styled__CloseButtonWrapper-sc-m09mre-0.boWLNi.template-close</value>
+         <key>BASIC</key>
+         <value>id(&quot;mt-83266-ex8qfubn76-ybmildkcea-campaign&quot;)/div[@class=&quot;styled__CloseButtonWrapper-sc-m09mre-0 boWLNi template-close&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='mt-83266-ex8qfubn76-ybmildkcea-campaign']/div</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styled__CloseButtonWrapper-sc-m09mre-0.boWLNi.template-close</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>.styled__CloseButtonWrapper-sc-m09mre-0</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>47de2a01-051c-456d-8f15-30c8efb83fe9</webElementGuid>
+      <webElementGuid>8a5d3c87-fadf-4cc4-97af-adc14506c0fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styled__CloseButtonWrapper-sc-m09mre-0 boWLNi template-close</value>
-      <webElementGuid>47bd8a62-8e4d-4074-ac4b-0090e02bbcc8</webElementGuid>
+      <webElementGuid>995fb33a-a8f8-4b9e-98dd-ad7bd6f88fea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mt-83266-ex8qfubn76-ybmildkcea-campaign&quot;)/div[@class=&quot;styled__CloseButtonWrapper-sc-m09mre-0 boWLNi template-close&quot;]</value>
-      <webElementGuid>b70d912a-3604-49ad-94ba-faf2b263d640</webElementGuid>
+      <webElementGuid>e2ddef2c-f464-470b-a9d5-9bb43ba447e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mt-83266-ex8qfubn76-ybmildkcea-campaign']/div</value>
-      <webElementGuid>0e6191c1-4809-48ac-abaa-3049433a5dd4</webElementGuid>
+      <webElementGuid>c7026a49-f282-485e-b638-00c387d201a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ý kiến phản hồi của bạn sẽ được dùng để góp phần cải thiện Google Dịch'])[1]/following::div[12]</value>
-      <webElementGuid>ac9f3d6d-cfa0-413e-a388-3bf679da7a3b</webElementGuid>
+      <webElementGuid>90d9d2b2-a812-40d9-8ee5-7f76c89a8dbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Đánh giá bản dịch này'])[1]/following::div[13]</value>
-      <webElementGuid>25b804e9-f2a0-4a04-80fd-01468a18ac81</webElementGuid>
+      <webElementGuid>4c28456f-d3f5-4b3b-a5bf-1285ac9e9cf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +81,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div/div/div/div/div/div/div</value>
-      <webElementGuid>7e33cc89-3636-451f-8f33-8c692878d49b</webElementGuid>
+      <webElementGuid>b82db929-92d8-471f-a94f-70c2832bab52</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
