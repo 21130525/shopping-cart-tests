@@ -2,8 +2,9 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
-// Thêm thư viện này để dùng KeywordUtil
+import internal.GlobalVariable
+import net.bytebuddy.agent.builder.AgentBuilder.CircularityLock.Global
+
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -17,6 +18,7 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
+WebUI.navigateToUrl(GlobalVariable.urlLogin)
 
 def testData = findTestData('Data Files/data_login')
 int totalRows = testData.getRowNumbers()
@@ -28,7 +30,7 @@ for (int i = 1; i <= totalRows; i++) {
 	String type = testData.getValue('Type', i)
 	String expected = testData.getValue('ExpectedOutput', i)
 	
-	WebUI.openBrowser('')
+//	WebUI.openBrowser('')
 	
 	WebUI.navigateToUrl(GlobalVariable.urlLogin)
 	
@@ -87,7 +89,7 @@ for (int i = 1; i <= totalRows; i++) {
 		
 		WebUI.verifyElementText(errorMsgObj, expected,FailureHandling.CONTINUE_ON_FAILURE)
 		
-		WebUI.closeBrowser()
+//		WebUI.closeBrowser()
 	}
 }
 

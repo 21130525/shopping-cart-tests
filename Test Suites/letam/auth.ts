@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>midtern-auth</name>
+   <name>auth</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -11,6 +11,13 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>e40d2601-7ee2-4f5b-85b5-190d58414e68</testSuiteGuid>
+   <testCaseLink>
+      <guid>66516ee9-ace5-4973-8ab4-beacade3815e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tam/auth/open</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
    <testCaseLink>
       <guid>57196b86-9f73-4798-b019-8a6ad144bea7</guid>
       <isReuseDriver>false</isReuseDriver>

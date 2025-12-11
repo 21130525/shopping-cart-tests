@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>themgiahang</name>
+   <tag></tag>
+   <elementGuidId>cccdb87e-33e6-4827-a491-ba463cc77eaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn-addtocart']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btn-addtocart > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2da0f65b-598d-433d-afa4-4b513ca879db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thêm vào giỏ</value>
+      <webElementGuid>91630634-91d0-48ba-9d17-8eef5718d1b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btn-addtocart&quot;)/span[1]</value>
+      <webElementGuid>c0e723c9-93a5-4977-883d-855b99152b04</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='btn-addtocart']/span</value>
+      <webElementGuid>9f9cd2e5-baaa-4226-8e65-cf3e7ac832c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bảng size'])[1]/following::span[1]</value>
+      <webElementGuid>cad9f3e9-278d-4f0f-99b2-6ff6873eddb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xanh chàm đậm'])[1]/following::span[3]</value>
+      <webElementGuid>65555918-3610-43c4-a9c1-5d4834004c89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thời gian giao hàng dự kiến'])[1]/preceding::span[1]</value>
+      <webElementGuid>5199fc04-a899-4dcc-88d1-e2f95c18b6a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Từ 3 đến 5 ngày kể từ ngày đặt hàng'])[1]/preceding::span[1]</value>
+      <webElementGuid>a322e96b-881d-4ac8-b115-4d129571bef1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Thêm vào giỏ']/parent::*</value>
+      <webElementGuid>a2a0abbc-c273-42ab-9d2f-4716e8b648a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/span</value>
+      <webElementGuid>b2a8ef98-c228-4f7d-b9e5-5f7c3db677ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Thêm vào giỏ' or . = 'Thêm vào giỏ')]</value>
+      <webElementGuid>ce81d126-5436-40b0-8f00-b567e0c22505</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

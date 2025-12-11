@@ -1,7 +1,7 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject // <--- Anh đang thiếu dòng này
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -14,9 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-
-
-WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://aristino.com/collections/trang-phuc')
 
@@ -32,6 +29,19 @@ if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
     println('Đã click nút Cho phép.')
 }
 
+if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(btnCloseAd)
+
+    println('Đã tắt quảng cáo.')
+}
+
+WebUI.click(findTestObject('Object Repository/tam/midtern/Page_home/product'))
+
+if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(btnAllow)
+
+    println('Đã click nút Cho phép.')
+}
 
 if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
     WebUI.click(btnCloseAd)
@@ -39,24 +49,7 @@ if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
     println('Đã tắt quảng cáo.')
 }
 
-
-WebUI.click(findTestObject('Object Repository/tam/midtern/Page_home/product'))
-
-if (WebUI.waitForElementVisible(alertObj, 5, FailureHandling.OPTIONAL)) {
-	WebUI.click(btnAllow)
-
-	println('Đã click nút Cho phép.')
-}
-
-
-if (WebUI.waitForElementVisible(btnCloseAd, 5, FailureHandling.OPTIONAL)) {
-	WebUI.click(btnCloseAd)
-
-	println('Đã tắt quảng cáo.')
-}
-
-
-WebUI.verifyElementText(findTestObject('Object Repository/tam/midtern/Page_product-detail/button_addtocart'), 'ĐẶT HÀNG TRƯỚC')
+WebUI.verifyElementText(findTestObject('tam/product_detail/themgiahang'), 'THÊM VÀO GIỎ')
 
 WebUI.verifyElementClickable(findTestObject('tam/midtern/Page_product-detail/size_S'))
 
@@ -73,5 +66,4 @@ WebUI.verifyElementVisible(findTestObject('tam/midtern/Page_product-detail/div_i
 WebUI.verifyElementVisible(findTestObject('tam/midtern/Page_product-detail/div_image'))
 
 WebUI.click(findTestObject('tam/midtern/Page_product-detail/div_image'))
-
 
