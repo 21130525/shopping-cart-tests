@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Contact_A11_CheckFindStoreUI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f5ec44bf-41e1-4504-ad4f-a688bea6cd2a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Contact_A12_SearchByProvince</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>703fbdcd-f036-4e2a-a1a1-a29194cdc1c7</testCaseGuid>
+</TestCaseEntity>

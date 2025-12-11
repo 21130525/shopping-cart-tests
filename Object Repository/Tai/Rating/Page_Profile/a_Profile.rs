@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Profile</name>
+   <tag></tag>
+   <elementGuidId>9b7240e0-5f85-441b-a8ac-0130bdb290b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='mainHeader']/div/div/div/div[3]/div/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.action-account > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;Thông tin tài khoản Lịch sử mua hàng Địa chỉ giao hàng Hạng thành viên Chương tr&quot;i >> internal:role=link</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2d6c183e-8e24-4519-8a4c-952aad36bf25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/account</value>
+      <webElementGuid>bf57ad17-1a7f-47df-b3db-6a12abfe03c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainHeader&quot;)/div[@class=&quot;mainHeader-top&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;mainHeader-top--wrapper&quot;]/div[@class=&quot;mainHeader-top--actions&quot;]/div[@class=&quot;header-actions-list&quot;]/ul[1]/li[@class=&quot;action-account&quot;]/a[1]</value>
+      <webElementGuid>ced5b82d-6e5b-4628-b786-da7e8ac3cde1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='mainHeader']/div/div/div/div[3]/div/ul/li[2]/a</value>
+      <webElementGuid>e2ad0ea9-6b96-4184-af8c-62eac3ddc37d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SUPPORT'])[1]/following::a[4]</value>
+      <webElementGuid>5ef5cce7-e84a-4ec1-b0df-80333f1ed83c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tìm cửa hàng'])[1]/following::a[5]</value>
+      <webElementGuid>8b75c45b-3c26-4ea7-90b9-d9e32345aea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thông tin tài khoản'])[1]/preceding::a[1]</value>
+      <webElementGuid>9a3a3e80-e9d5-45e5-a92c-064f8e426f9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lịch sử mua hàng'])[1]/preceding::a[2]</value>
+      <webElementGuid>1499c507-24d1-4fef-8220-9152320b4f69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/account')]</value>
+      <webElementGuid>c2980748-1431-43b0-a36a-f3dbc1608258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>68124fa3-f92e-4f77-8351-99513f8faae1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/account']</value>
+      <webElementGuid>12279c40-4a10-4f1f-8b55-3d3763b2cdb1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

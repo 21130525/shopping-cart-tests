@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Module1_12_NetworkLost</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15d705c6-be28-4e96-9669-bf48245a07df</testCaseGuid>
+</TestCaseEntity>

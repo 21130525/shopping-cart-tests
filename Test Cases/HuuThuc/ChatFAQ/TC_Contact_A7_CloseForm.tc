@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Contact_A7_CloseForm</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d3e1004-dce8-4c93-a4a0-7b1224b81bf3</testCaseGuid>
+</TestCaseEntity>

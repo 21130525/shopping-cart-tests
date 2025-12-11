@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path_chinhsua</name>
+   <tag></tag>
+   <elementGuidId>adb98cf6-b22d-4600-afbf-a342861d82d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.action-edit.js-edit-customer > svg > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#line-address-10257368749 >> internal:role=link</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>2143044a-ea50-431e-ade8-2285d3fae469</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M12.3964 25.0963C12.4347 24.7517 12.4538 24.5794 12.5059 24.4184C12.5522 24.2755 12.6175 24.1396 12.7002 24.0142C12.7934 23.8729 12.916 23.7503 13.1611 23.5052L24.1664 12.4999C25.0868 11.5795 26.5792 11.5795 27.4997 12.4999C28.4202 13.4204 28.4202 14.9128 27.4997 15.8333L16.4944 26.8385C16.2493 27.0836 16.1267 27.2062 15.9854 27.2994C15.86 27.3821 15.7241 27.4474 15.5812 27.4937C15.4202 27.5458 15.2479 27.5649 14.9033 27.6032L12.083 27.9166L12.3964 25.0963Z</value>
+      <webElementGuid>b45b1b0b-187d-4618-9f1b-43f9d2f5f691</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>#262626</value>
+      <webElementGuid>ebd57eeb-7dc1-461d-a50d-3db71d4df2c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>ace81dd6-f6f8-4a8d-81d6-9cbe333fcd66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linecap</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>b8a07e59-52a4-4e41-98de-fc4c96d2abd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linejoin</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>bf0b08c3-6a08-46c7-b0df-21561657f1ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;line-address-10257368749&quot;)/div[@class=&quot;head&quot;]/div[@class=&quot;action&quot;]/a[@class=&quot;action-edit js-edit-customer&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>69839def-a4fb-4e61-a524-6034eac09015</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

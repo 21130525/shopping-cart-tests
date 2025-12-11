@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>4faad7c1-c539-4d2f-b23d-e3eac7052a55</dataFileGUID>
-   <dataSourceUrl>D:\doing\git_base\Tester2025-2026\data_login.csv</dataSourceUrl>
+   <dataSourceUrl>D:\doing\git_base\tester assignment midtern\dataTest\data_login.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

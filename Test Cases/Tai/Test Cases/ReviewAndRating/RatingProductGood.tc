@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RatingProductGood</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04e385e0-eab4-446e-8e92-68702cf8fced</testCaseGuid>
+</TestCaseEntity>

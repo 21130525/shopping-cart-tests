@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Module1_1_ClearButtonHidden</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d978cf0b-08d6-4903-ac5f-2200a0d79a0a</testCaseGuid>
+</TestCaseEntity>

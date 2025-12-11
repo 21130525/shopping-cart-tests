@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_FAQ_B4_NoFAQFound</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dae4c01e-aad4-40cd-917f-5e32d18cbc1a</testCaseGuid>
+</TestCaseEntity>

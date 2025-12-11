@@ -1504,6 +1504,7 @@ register.run(register:26)
   <property name="startLine">28</property>
   <property name="stepIndex">5</property>
 </record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <record>
   <date>2025-11-27T05:59:25.887329800Z</date>

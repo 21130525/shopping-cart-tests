@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ThemDiaChi</name>
+   <tag></tag>
+   <elementGuidId>5cff65eb-5619-4217-90d7-f98f608feb47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#js-btn-addnew > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='js-btn-addnew']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Thêm địa chỉ&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2e8c8172-24d8-40d5-b752-8f0513073cfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thêm địa chỉ </value>
+      <webElementGuid>91d2b5ed-3de5-48f8-8f9f-b843a806c45d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-btn-addnew&quot;)/span[1]</value>
+      <webElementGuid>0ef3dd56-c976-4621-81db-7c7b53825b4e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='js-btn-addnew']/span</value>
+      <webElementGuid>9a01d3b1-8a7a-4019-8bbc-f63d2ebcb635</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mặc định'])[1]/following::span[1]</value>
+      <webElementGuid>dcac95c3-01f2-4a5a-a895-55a03290b3e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Văn phòng'])[1]/following::span[1]</value>
+      <webElementGuid>f3e768f1-28fa-464d-bb50-8ccf3e0e1408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ĐỊA CHỈ MỚI'])[1]/preceding::span[1]</value>
+      <webElementGuid>2fa8362d-4ba0-45d9-a08c-eced45d67d2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Họ*'])[1]/preceding::span[1]</value>
+      <webElementGuid>357bfc2a-c9ab-4228-95cb-bafc7ddc96d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Thêm địa chỉ']/parent::*</value>
+      <webElementGuid>caa3ab30-7ae3-4cb4-83c0-f66086431f71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/a/span</value>
+      <webElementGuid>d47491b4-b492-4418-9418-9630004aca25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Thêm địa chỉ ' or . = 'Thêm địa chỉ ')]</value>
+      <webElementGuid>7a8367fd-f4d8-4080-abeb-1feb4dd6dc7d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

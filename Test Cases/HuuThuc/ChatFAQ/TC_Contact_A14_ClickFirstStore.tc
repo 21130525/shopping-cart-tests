@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Contact_A14_ClickFirstStore</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>74f80cce-811a-476a-b226-ce729a634578</testCaseGuid>
+</TestCaseEntity>

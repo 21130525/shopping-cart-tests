@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Contact_A6_CheckFormFields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>afd00f6e-70c7-4428-8a1c-66acc832b1af</testCaseGuid>
+</TestCaseEntity>
