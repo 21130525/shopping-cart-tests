@@ -89,6 +89,11 @@ public class GlobalVariable {
      */
     public static Object dataFile
      
+    /**
+     * <p></p>
+     */
+    public static Object TEN_SAN_PHAM
+     
 
     static {
         try {
@@ -111,6 +116,7 @@ public class GlobalVariable {
             Phone = selectedVariables['Phone']
             uploadPlaceOrderTimeout = selectedVariables['uploadPlaceOrderTimeout']
             dataFile = selectedVariables['dataFile']
+            TEN_SAN_PHAM = selectedVariables['TEN_SAN_PHAM']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
