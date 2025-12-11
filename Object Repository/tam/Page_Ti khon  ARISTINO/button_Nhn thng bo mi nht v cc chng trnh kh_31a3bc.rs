@@ -6,6 +6,10 @@
    <elementGuidId>87aa80f1-2dd1-4d7e-831b-0d3eea7835a0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'antsomi-slidedown-allow-button' and (text() = 'Cho phép' or . = 'Cho phép')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@id='antsomi-slidedown-allow-button']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#antsomi-slidedown-allow-button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f090a3fe-8743-488e-96ec-de9999b4d36d</webElementGuid>
+      <webElementGuid>ad3d3edd-bcdd-46ef-86dc-027510257d22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>align-right primary slidedown-button</value>
-      <webElementGuid>a3bf60eb-9560-42e1-90d5-c2153e34ba7f</webElementGuid>
+      <webElementGuid>d3105353-8fb3-44a8-b66b-3143b09d8beb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>antsomi-slidedown-allow-button</value>
-      <webElementGuid>a4e0b9b1-3053-4d79-bf6c-6c014b399864</webElementGuid>
+      <webElementGuid>ebc5f0b8-dfa0-4db6-adc0-4c1f46e5918e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cho phép</value>
-      <webElementGuid>d0be6773-9327-477d-9d52-d2dd38084dd6</webElementGuid>
+      <webElementGuid>eeae1cc0-f9ec-451d-984f-c0981f1cedf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;antsomi-slidedown-allow-button&quot;)</value>
-      <webElementGuid>207bb395-7bbd-458b-8ae8-0b155f145b3f</webElementGuid>
+      <webElementGuid>07650cc0-7818-4d6f-b073-5071b87fd544</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='antsomi-slidedown-allow-button']</value>
-      <webElementGuid>541f6b1d-3317-45a9-8bea-4556737941ec</webElementGuid>
+      <webElementGuid>516b60a0-133d-4b6e-ae3d-b275de756189</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='slidedown-footer']/button</value>
-      <webElementGuid>0c297be6-bd4e-433f-bb9a-1af24accda68</webElementGuid>
+      <webElementGuid>99715dd9-3a54-47ce-a92e-07c851e6951f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nhận thông báo mới nhất về các chương trình khuyến mãi tại Aristino!'])[1]/following::button[1]</value>
-      <webElementGuid>fb18eda3-f7dd-45cf-8d49-1e9d21ffe176</webElementGuid>
+      <webElementGuid>77e4ba06-eb3e-4aae-9c32-122fd6ffa544</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ý kiến phản hồi của bạn sẽ được dùng để góp phần cải thiện Google Dịch'])[1]/following::button[3]</value>
-      <webElementGuid>434ca013-6a58-4195-8c48-c266ce8259b6</webElementGuid>
+      <webElementGuid>60afaad8-eb75-4750-bc54-bff4eb503558</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bỏ qua'])[1]/preceding::button[1]</value>
-      <webElementGuid>e8f20474-bdae-41f6-9397-12bad8cf2eaf</webElementGuid>
+      <webElementGuid>d5d392b0-309c-4cdd-a451-f3d39f8c565a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cho phép']/parent::*</value>
-      <webElementGuid>5af7c21a-8408-431e-982c-a6ac96ef2179</webElementGuid>
+      <webElementGuid>66a4bc42-c680-4528-acab-d0154e90de6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/div/div/div[2]/button</value>
-      <webElementGuid>f8332a88-4c82-4be0-861d-67593b8322ce</webElementGuid>
+      <webElementGuid>037499da-1772-42bb-beca-29c7b78ed3b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'antsomi-slidedown-allow-button' and (text() = 'Cho phép' or . = 'Cho phép')]</value>
-      <webElementGuid>d908b64c-7cd0-416b-9a3c-52a53b3f7ff1</webElementGuid>
+      <webElementGuid>a091ef5d-9419-44e0-8a36-9a13b802f3c7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

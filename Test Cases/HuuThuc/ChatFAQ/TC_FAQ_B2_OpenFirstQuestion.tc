@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_FAQ_B2_OpenFirstQuestion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e183af0-13d2-44cc-8eca-95b9259465eb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Module1_0_VerifyFilterUI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c1c48180-1edb-461b-a337-4c9dcfbb7075</testCaseGuid>
+</TestCaseEntity>

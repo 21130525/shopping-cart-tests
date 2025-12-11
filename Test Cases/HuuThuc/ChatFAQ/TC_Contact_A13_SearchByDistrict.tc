@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Contact_A13_SearchByDistrict</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2938bc80-84ab-4053-b94a-6b91dd37ad75</testCaseGuid>
+</TestCaseEntity>
