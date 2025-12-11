@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_FAQ_B1_DisplayFAQList</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>796f29b8-fd91-4f73-b952-99371d98698c</testCaseGuid>
+</TestCaseEntity>

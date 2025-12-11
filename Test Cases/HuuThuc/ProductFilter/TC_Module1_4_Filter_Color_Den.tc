@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Module1_4_Filter_Color_Den</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e94800ac-d177-4395-96e7-05a7333598ba</testCaseGuid>
+</TestCaseEntity>

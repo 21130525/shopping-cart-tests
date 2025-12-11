@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Module1_3_Filter_Brand_Aristino</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>690e8903-745b-4e03-bcee-88f435b48966</testCaseGuid>
+</TestCaseEntity>
