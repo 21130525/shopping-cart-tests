@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Module1_8_Filter_Price_500k_20M</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>628e6948-4807-4840-86fc-412156eeea9e</testCaseGuid>
+</TestCaseEntity>
