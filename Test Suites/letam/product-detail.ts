@@ -12,6 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ae2c6fde-7c3f-4d3d-82d3-026f986ba223</testSuiteGuid>
    <testCaseLink>
+      <guid>70939a1e-83b0-45dd-b393-8b1a6d0b31f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tam/auth/open</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>70b26e5b-c383-44ee-9455-d71dde9d080b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -19,21 +26,14 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>aa1dbefc-e885-4001-9c99-8a35fb281f69</guid>
+      <guid>f64f6824-730c-4e1c-a43b-e285a9931986</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/tam/product-Detail/image</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1a1c9c2e-5e48-4ad8-a786-2de76cc14f71</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/tam/product-Detail/add-to-cart-from-pd</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>040cd150-9329-44cb-a9fb-a6e4fb5a1651</guid>
+      <guid>7eccad55-d7db-4a8b-a563-e9fc0cfabfe3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/tam/product-Detail/product-relative</testCaseId>
