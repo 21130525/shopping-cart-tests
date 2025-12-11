@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Contact_A5_OpenModal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>52e2efe7-a2a8-4ad9-acd0-6362fba47ff8</testCaseGuid>
+</TestCaseEntity>
