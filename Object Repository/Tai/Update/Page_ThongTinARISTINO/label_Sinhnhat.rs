@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Sinhnhat</name>
+   <tag></tag>
+   <elementGuidId>48a9801d-49e3-4a8f-8c4d-64c065f5c366</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='update_customer']/div/div[4]/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#update_customer >> internal:text=&quot;Sinh nhật&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7049f48f-30e6-43a5-a840-9e29c74a791d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-label</value>
+      <webElementGuid>cfffdcb7-a864-4a0c-ae5e-31c94c723fc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>birthday</value>
+      <webElementGuid>c7f055b2-0f44-4663-891d-092039901b63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sinh nhật</value>
+      <webElementGuid>896d1e3a-4b67-4d66-9a9c-74e9d0456f10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;update_customer&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12 col-12&quot;]/div[@class=&quot;item-input-form&quot;]/label[@class=&quot;form-label&quot;]</value>
+      <webElementGuid>90454e73-4f82-40ec-b94c-53cad99e5404</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='update_customer']/div/div[4]/div/label</value>
+      <webElementGuid>53da92f9-a30f-4729-a17f-570b1f8a1d7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Họ &amp; Tên'])[1]/following::label[1]</value>
+      <webElementGuid>8d929ecb-8739-482c-a3f8-5d2e88468660</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Số điện thoại'])[1]/following::label[2]</value>
+      <webElementGuid>12d4b395-f0f4-454a-9405-c51651ba4887</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Giới tính'])[1]/preceding::label[1]</value>
+      <webElementGuid>2bb63103-9920-4330-8b86-c852968d66b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LƯU THAY ĐỔI'])[1]/preceding::label[2]</value>
+      <webElementGuid>5d59fae6-75d2-4bed-9be1-1fbc0d3557e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sinh nhật']/parent::*</value>
+      <webElementGuid>f1b773c1-b5cf-4bb7-b596-75aaa5de7511</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/label</value>
+      <webElementGuid>f1d9d628-1d4f-4c68-abfc-b4eb6bda9665</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Sinh nhật' or . = 'Sinh nhật')]</value>
+      <webElementGuid>71823e26-c94f-4eda-8905-cf88a235b5d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

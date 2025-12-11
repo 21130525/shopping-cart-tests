@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_TRANGPHUC</name>
+   <tag></tag>
+   <elementGuidId>98736aa1-d3d1-4ea3-81bc-b42d6da84bcf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.header-menu--subnav-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='mainHeader']/div[2]/div/div/div[2]/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;TRANG PHỤC&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bc471552-82f1-4b2b-9f1e-2a2cfb72b16c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/collections/trang-phuc</value>
+      <webElementGuid>cb50b1af-d3df-4a57-bb28-5623ea70f648</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header-menu--subnav-item</value>
+      <webElementGuid>c64f57f4-d72f-44fe-b211-08ce26be1fb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TRANG PHỤC</value>
+      <webElementGuid>58587afc-a73e-4fc8-8e2a-21d232510bc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainHeader&quot;)/div[@class=&quot;mainHeader-bottom&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;mainHeader-bottom--wrapper&quot;]/div[@class=&quot;mainHeader-bottom--left&quot;]/div[@class=&quot;header-menu&quot;]/div[@class=&quot;header-menu--subnav&quot;]/a[@class=&quot;header-menu--subnav-item&quot;]</value>
+      <webElementGuid>d8f7173a-fbe3-4756-8273-1889f4390bb9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='mainHeader']/div[2]/div/div/div[2]/div/div/a</value>
+      <webElementGuid>d820ec7b-488d-44e6-a4ab-62def82d3f88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'TRANG PHỤC')]</value>
+      <webElementGuid>21a9705a-c55a-435d-9795-54d9aac4d8f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quay lại'])[1]/following::a[1]</value>
+      <webElementGuid>ab3d37bd-ad11-4c33-99fb-a26dd64ac57b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SUPPORT'])[1]/following::a[9]</value>
+      <webElementGuid>eb945938-5492-465a-b43b-6c1d840af0ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PHỤ KIỆN'])[1]/preceding::a[1]</value>
+      <webElementGuid>9a922a46-22ed-49db-94aa-c6dbbd4349fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ĐỒ DA'])[1]/preceding::a[2]</value>
+      <webElementGuid>bee4f689-5c2c-4964-a370-f778659dff2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='TRANG PHỤC']/parent::*</value>
+      <webElementGuid>6d7895ed-60b2-4c02-aec2-a063c92738ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/collections/trang-phuc')]</value>
+      <webElementGuid>020a3af4-a524-4553-a4be-180f7c3c7d8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a</value>
+      <webElementGuid>a4f68d1d-33e6-4d01-8b36-5295963d2015</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/collections/trang-phuc' and (text() = 'TRANG PHỤC' or . = 'TRANG PHỤC')]</value>
+      <webElementGuid>e2225160-7a4d-4337-8348-e6c46652b4b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

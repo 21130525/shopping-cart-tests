@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_1</name>
+   <tag></tag>
+   <elementGuidId>90d028b4-a409-4fa2-bb0d-70072b2f3ba3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Về chất lượng thì sao?*'])[1]/following::label[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.hrv-crv-rating-question-item > div.hrv-crv-rating-question-item_answer-groups > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;1&quot;s >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>1c778ac7-a48b-4083-a22d-da93b7bf2f7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>answer-id-krpqftrvga</value>
+      <webElementGuid>f5abbcfa-72e7-47a5-aa0f-b304359bf9fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>81863d02-9d0c-44cd-b72e-c3dad3ca869c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mainBody-theme temp-product&quot;]/div[@class=&quot;crv-hrvmodal crv-hrvmodal--dialog crv-hrvmodal__rating open&quot;]/div[@class=&quot;crv-hrvmodal--content&quot;]/div[@class=&quot;crv-hrvmodal--body&quot;]/div[@class=&quot;hrv-crv-rating-question-groups questions-rendered&quot;]/div[@class=&quot;hrv-crv-rating-question-item&quot;]/div[@class=&quot;hrv-crv-rating-question-item_answer-groups&quot;]/label[1]</value>
+      <webElementGuid>9e336234-b9a1-4950-9354-16d43f14e0c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Về chất lượng thì sao?*'])[1]/following::label[1]</value>
+      <webElementGuid>5e2737f9-c769-4e02-898d-a9e9da7dca1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vui lòng chọn đúng định dạng'])[1]/following::label[1]</value>
+      <webElementGuid>5b6d7097-fadd-48f7-9a5e-e496e3ea7d6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vui lòng nhập thông tin'])[4]/preceding::label[5]</value>
+      <webElementGuid>6e9e6217-dc91-46e8-9c38-514d43b09a62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bạn đánh giá như thế nào về độ thoải mái?*'])[1]/preceding::label[5]</value>
+      <webElementGuid>e863977d-b415-4cd6-8bc9-f236b1d8ffe0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
+      <webElementGuid>98f6841b-f982-4335-a431-06da664ba81a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div[2]/label</value>
+      <webElementGuid>c06249c5-9831-4957-8540-e0ee6acdad6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = '1' or . = '1')]</value>
+      <webElementGuid>d22967f8-b2d2-414f-a5fc-28063985c777</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

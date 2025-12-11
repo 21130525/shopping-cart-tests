@@ -1,0 +1,4 @@
+Username,Password,Type,ExpectedOutput
+21130525@st.hcmuaf.edu.vn,pass_wrong,fail,Thông tin đăng nhập không hợp lệ
+user_not_exist@st.hcmuaf.edu.vn,pass_any,fail,Thông tin đăng nhập không hợp lệ
+21130525@st.hcmuaf.edu.vn,Admin@123,success,logged=true

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_5</name>
+   <tag></tag>
+   <elementGuidId>4a744dec-415f-44a2-b4ac-8b8810f602cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Bạn cảm thấy như thế nào về kích cỡ sản phẩm?*'])[1]/following::label[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;5&quot;s >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>67c91ed0-c263-4af6-936e-e50a502a3cca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>answer-id-iqmpkmhckp</value>
+      <webElementGuid>da2f313c-70af-4386-a61a-deb36f711950</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>6229dee0-d202-451b-8475-c5e8f955cfe5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mainBody-theme temp-product&quot;]/div[@class=&quot;crv-hrvmodal crv-hrvmodal--dialog crv-hrvmodal__rating open&quot;]/div[@class=&quot;crv-hrvmodal--content&quot;]/div[@class=&quot;crv-hrvmodal--body&quot;]/div[@class=&quot;hrv-crv-rating-question-groups questions-rendered&quot;]/div[@class=&quot;hrv-crv-rating-question-item&quot;]/div[@class=&quot;hrv-crv-rating-question-item_answer-groups&quot;]/label[1]</value>
+      <webElementGuid>39055f9c-5105-4f4f-a2e4-618f9889b419</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bạn cảm thấy như thế nào về kích cỡ sản phẩm?*'])[1]/following::label[5]</value>
+      <webElementGuid>121c587c-6cc7-4f45-a319-b7caced3d0f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vui lòng nhập thông tin'])[6]/following::label[5]</value>
+      <webElementGuid>37d4eeeb-7bd3-4b28-905d-7db33a4502ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vui lòng nhập thông tin'])[7]/preceding::label[1]</value>
+      <webElementGuid>31ce381b-d1a7-47d7-bd89-93c06ebc0853</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hủy'])[1]/preceding::label[1]</value>
+      <webElementGuid>ded2ca4a-849e-4d9b-b1ca-ffda2049346f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[6]/label</value>
+      <webElementGuid>52fb69ca-8976-489b-8268-b29d47047fa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = '5' or . = '5')]</value>
+      <webElementGuid>0ca6b39b-05d3-44f4-8e3d-3aaf13e863e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
