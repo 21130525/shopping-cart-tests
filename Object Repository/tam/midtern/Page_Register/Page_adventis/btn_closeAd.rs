@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_closeAd</name>
+   <tag></tag>
+   <elementGuidId>32e4b8db-5184-4091-a40b-7cda1795412c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.styled__CloseButtonWrapper-sc-m09mre-0.boWLNi.template-close</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mt-83266-ex8qfubn76-x4q5u6viao-campaign']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.styled__CloseButtonWrapper-sc-m09mre-0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0a03ddcc-6f1f-4c74-868e-27b173ee2675</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styled__CloseButtonWrapper-sc-m09mre-0 boWLNi template-close</value>
+      <webElementGuid>7a07dfa9-8010-4368-9519-de6b68bd84cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mt-83266-ex8qfubn76-x4q5u6viao-campaign&quot;)/div[@class=&quot;styled__CloseButtonWrapper-sc-m09mre-0 boWLNi template-close&quot;]</value>
+      <webElementGuid>a7f2ef02-1ffd-43bd-8058-860b779fbd99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mt-83266-ex8qfubn76-x4q5u6viao-campaign']/div</value>
+      <webElementGuid>1ff670b7-92a2-4ff6-920d-5a79cdd34870</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[12]</value>
+      <webElementGuid>707e3ccb-b00a-4c7e-a565-70be54f13db1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div/div/div/div/div</value>
+      <webElementGuid>a8f3175c-ced5-4a95-9608-5e977f2000f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

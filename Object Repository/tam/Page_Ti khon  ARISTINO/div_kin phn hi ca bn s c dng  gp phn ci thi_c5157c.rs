@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_kin phn hi ca bn s c dng  gp phn ci thi_c5157c</name>
+   <tag></tag>
+   <elementGuidId>3384f088-6ecc-4f94-a7f6-1db5f42765a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.styled__CloseButtonWrapper-sc-m09mre-0.boWLNi.template-close</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mt-83266-ex8qfubn76-ybmildkcea-campaign']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.styled__CloseButtonWrapper-sc-m09mre-0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>47de2a01-051c-456d-8f15-30c8efb83fe9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styled__CloseButtonWrapper-sc-m09mre-0 boWLNi template-close</value>
+      <webElementGuid>47bd8a62-8e4d-4074-ac4b-0090e02bbcc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mt-83266-ex8qfubn76-ybmildkcea-campaign&quot;)/div[@class=&quot;styled__CloseButtonWrapper-sc-m09mre-0 boWLNi template-close&quot;]</value>
+      <webElementGuid>b70d912a-3604-49ad-94ba-faf2b263d640</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mt-83266-ex8qfubn76-ybmildkcea-campaign']/div</value>
+      <webElementGuid>0e6191c1-4809-48ac-abaa-3049433a5dd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ý kiến phản hồi của bạn sẽ được dùng để góp phần cải thiện Google Dịch'])[1]/following::div[12]</value>
+      <webElementGuid>ac9f3d6d-cfa0-413e-a388-3bf679da7a3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đánh giá bản dịch này'])[1]/following::div[13]</value>
+      <webElementGuid>25b804e9-f2a0-4a04-80fd-01468a18ac81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div/div/div/div/div</value>
+      <webElementGuid>7e33cc89-3636-451f-8f33-8c692878d49b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

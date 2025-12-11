@@ -1,0 +1,53 @@
+.gradle
+
+bin
+
+Reports
+
+Libs
+
+output
+
+!output/.gitkeep
+build
+
+.classpath
+
+.project
+
+.cache
+
+# --- System Files (File hệ thống) ---
+.DS_Store
+Thumbs.db
+.gradle/
+
+# --- Katalon Studio Specific (File tạm của Katalon) ---
+
+# Thư mục chứa các class đã biên dịch (Katalon sẽ tự tạo lại)
+/bin/
+/build/
+
+# Thư mục thư viện (Katalon sẽ tự động tải lại khi mở dự án)
+/Libs/
+
+# Báo cáo kết quả chạy test (Không nên đưa lên Git vì rất nặng)
+/Reports/
+
+# --- Eclipse/IDE Configuration (Cấu hình máy cá nhân) ---
+# Những file này thường chứa đường dẫn tuyệt đối hoặc setting riêng của từng máy
+/.settings/
+
+
+# --- Temporary & Logs (File log và tạm) ---
+*.log
+/debug/
+/tmp/
+
+# --- Screenshots (Ảnh chụp lỗi - Tùy chọn) ---
+# Nếu bạn không muốn lưu ảnh chụp màn hình khi test fail lên git:
+# *.png
+# *.jpg
+/.classpath
+.svn/
+.cache/

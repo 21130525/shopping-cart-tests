@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_image</name>
+   <tag></tag>
+   <elementGuidId>55b09768-e89c-4a22-8838-ad64a2d1e48b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.productdetail--left.productdetail-gallery</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='productdetail-page']/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.productdetail--left</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dc2cf3b5-1a31-44bb-9709-48a83db308e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>productdetail--left productdetail-gallery</value>
+      <webElementGuid>0ba2034a-f838-4986-9b91-950196fb9593</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;productdetail-page&quot;)/div[@class=&quot;productdetail-wrapper&quot;]/div[@class=&quot;productdetail-inner&quot;]/div[@class=&quot;container-fluid p8&quot;]/div[@class=&quot;productdetail--row&quot;]/div[@class=&quot;productdetail--left productdetail-gallery&quot;]</value>
+      <webElementGuid>b0c1d2dd-9756-4d9c-bde2-180e793477de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='productdetail-page']/div/div/div/div/div</value>
+      <webElementGuid>3585ef6b-dc32-47bc-9ad3-6f27e01a649a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sản phẩm'])[1]/following::div[7]</value>
+      <webElementGuid>944d25db-4021-4dd3-8151-53bd83d0d737</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='INSIDEMEN'])[1]/following::div[9]</value>
+      <webElementGuid>3b4c80ed-16e1-4d9c-93aa-0c9c2c9ca7a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trang chủ'])[1]/preceding::div[13]</value>
+      <webElementGuid>fd4393d2-3985-460d-81a0-4e663a3eeff7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trang Phục'])[1]/preceding::div[13]</value>
+      <webElementGuid>b6c2532e-f032-4ff6-9951-410d1785fd10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div/div</value>
+      <webElementGuid>65594ec3-4ba6-4549-ba96-d4e9b6aa86ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_District</name>
+   <tag></tag>
+   <elementGuidId>4221ccad-776c-45fb-a44d-1d5cc5f97e5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#address_district_new</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='address_district_new']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main >> #address_district_new</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1436f3a1-e6ab-43b2-8267-c2698eeb3cb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>address_district_new</value>
+      <webElementGuid>5b7c8c37-c1e7-405d-b283-45aaa183c0bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>59260215-e47b-4f2b-8a2d-3505c3f2065e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>address[district]</value>
+      <webElementGuid>54e1ae9f-eda4-4f06-a005-b00304edadf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								Chọn Quận/ Huyện
+							</value>
+      <webElementGuid>d417e596-43be-4848-bdd7-bebc872d504c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mainBody-theme temp-customers-addresses modal-open&quot;]/div[@class=&quot;mainBody-theme-container&quot;]/main[@class=&quot;body-main body-main-2&quot;]/div[@id=&quot;addNewAddressModal&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@id=&quot;add_address&quot;]/form[@id=&quot;address_form_new&quot;]/div[@id=&quot;address_district_container_new&quot;]/select[@id=&quot;address_district_new&quot;]</value>
+      <webElementGuid>f0928e76-76ab-4404-8bbb-beb2b85df519</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='address_district_new']</value>
+      <webElementGuid>0adfaa58-a0ce-4b87-a305-7e6f9bd6effa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='address_district_container_new']/select</value>
+      <webElementGuid>7b2b9430-5723-48ac-8588-4e992ad85c21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quận/Huyện*'])[1]/following::select[1]</value>
+      <webElementGuid>99bd5fb3-15de-4833-99d5-476db5c18d9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tỉnh/Thành phố*'])[1]/following::select[2]</value>
+      <webElementGuid>a010c0a4-fb3f-4d73-912c-4541f64861c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phường/Xã*'])[1]/preceding::select[1]</value>
+      <webElementGuid>1f8b73b2-0d1d-4870-b331-7477780afa4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Địa chỉ cụ thể* (Số nhà, tòa nhà, tên đường)'])[1]/preceding::select[2]</value>
+      <webElementGuid>4e4d671d-d0c3-4f3d-9e6e-a7af4a16e0f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/select</value>
+      <webElementGuid>083ed57c-b737-4fb5-8871-807ed15cd5d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'address_district_new' and @name = 'address[district]' and (text() = '&#xd;
+								Chọn Quận/ Huyện&#xd;
+							' or . = '&#xd;
+								Chọn Quận/ Huyện&#xd;
+							')]</value>
+      <webElementGuid>5fcee020-10e2-41a9-9948-185ad24b333a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

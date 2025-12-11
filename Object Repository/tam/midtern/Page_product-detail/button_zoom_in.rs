@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_zoom_in</name>
+   <tag></tag>
+   <elementGuidId>583c9715-cbde-44ac-994d-533a6fc348f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='fancybox-1']/div/div[2]/button[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Zoom in&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>17082f42-67b8-4298-8cb8-b160a3558050</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Zoom in</value>
+      <webElementGuid>946dfb20-9f67-4435-a0c3-c62c71e6a5b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>f-button</value>
+      <webElementGuid>8b8f69e4-777f-471a-892a-3d64e12fb1d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-panzoom-action</name>
+      <type>Main</type>
+      <value>zoomIn</value>
+      <webElementGuid>5093f9ed-93b9-47f9-ad62-e4f2f82287fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;fancybox-1&quot;)/div[@class=&quot;fancybox__toolbar&quot;]/div[@class=&quot;fancybox__toolbar__column is-middle&quot;]/button[@class=&quot;f-button&quot;]</value>
+      <webElementGuid>b07c96fa-28fd-4c8f-ad6f-993760f1feff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='fancybox-1']/div/div[2]/button[3]</value>
+      <webElementGuid>59d3d113-8b4c-430a-bd53-e22d02a8ba72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ý kiến phản hồi của bạn sẽ được dùng để góp phần cải thiện Google Dịch'])[1]/following::button[7]</value>
+      <webElementGuid>2a411b2a-54b4-45ac-a623-f84f8c04912c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đánh giá bản dịch này'])[1]/following::button[7]</value>
+      <webElementGuid>e1151be1-f384-4461-b31a-10538d1a4fe3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đánh giá sản phẩm'])[2]/preceding::button[4]</value>
+      <webElementGuid>e8583a37-959a-49a7-8751-fb237a65077b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>b2bfe92f-c622-402b-9adf-3e5f07bff838</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@title = 'Zoom in']</value>
+      <webElementGuid>72eefb7c-df26-4a3d-b987-a88b3cb236c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

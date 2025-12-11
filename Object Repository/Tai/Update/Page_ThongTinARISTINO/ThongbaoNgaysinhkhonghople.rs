@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ThongbaoNgaysinhkhonghople</name>
+   <tag></tag>
+   <elementGuidId>537b64e4-2fd1-4fd1-bb7f-8e3057a13d1a</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='update_customer']/div/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.errors > ul > li</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Ngày sinh không hợp lệ&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>cb8004f4-a0ef-431b-a78d-e36ec55b5de0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ngày sinh không hợp lệ</value>
+      <webElementGuid>d5f51def-f197-4c8f-ac73-de037b11684c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;update_customer&quot;)/div[@class=&quot;errors&quot;]/ul[1]/li[1]</value>
+      <webElementGuid>54ab3078-136b-4a70-81a7-72905b5c80ad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='update_customer']/div/ul/li</value>
+      <webElementGuid>7798c54e-df0c-4576-a4a8-83c3d535b489</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='THÔNG TIN CÁ NHÂN'])[1]/following::li[1]</value>
+      <webElementGuid>c2c1d263-dc1a-424c-94fd-d926a40109ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đăng ký nhận tin'])[1]/following::li[1]</value>
+      <webElementGuid>2ed09b00-f6b6-4b15-ac47-eacc7151d327</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::li[1]</value>
+      <webElementGuid>ae5a02e6-c5c6-498b-aedc-cbbde0f7b93e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Số điện thoại'])[1]/preceding::li[1]</value>
+      <webElementGuid>3ba56b06-747b-4cd7-be06-b3becc9c01a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ngày sinh không hợp lệ']/parent::*</value>
+      <webElementGuid>75449cc0-bedd-4b72-bcef-cfff632e3ce1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/ul/li</value>
+      <webElementGuid>7aa89d6d-e371-49f2-bf4f-1df4e0a6b22b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Ngày sinh không hợp lệ' or . = 'Ngày sinh không hợp lệ')]</value>
+      <webElementGuid>5dbe1448-ef09-4dc2-a178-c72e88720e80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
