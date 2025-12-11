@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Ward</name>
+   <tag></tag>
+   <elementGuidId>7313299c-d044-4cf8-b805-6a78814cb805</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#address_ward_new</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='address_ward_new']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main >> #address_ward_new</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e25defac-62df-4427-9ee6-06d4304f61cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>address_ward_new</value>
+      <webElementGuid>f11ba6c1-e360-4cee-b5e9-894a9aee32c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>d2cb879e-93c1-4a6f-9ae5-49208631d4c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>address[ward]</value>
+      <webElementGuid>3b3afa23-0a76-46bf-bb47-f432d6c96fec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								Chọn Phường/ Xã
+							</value>
+      <webElementGuid>176bc417-ca8a-4984-a365-e02bf2150f5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mainBody-theme temp-customers-addresses modal-open&quot;]/div[@class=&quot;mainBody-theme-container&quot;]/main[@class=&quot;body-main body-main-2&quot;]/div[@id=&quot;addNewAddressModal&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@id=&quot;add_address&quot;]/form[@id=&quot;address_form_new&quot;]/div[@id=&quot;address_ward_container_new&quot;]/select[@id=&quot;address_ward_new&quot;]</value>
+      <webElementGuid>b2287902-30d7-40df-89c1-32030ad5e6f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='address_ward_new']</value>
+      <webElementGuid>da40d78d-052d-4cb4-afc5-bedae09dfcbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='address_ward_container_new']/select</value>
+      <webElementGuid>0f77a459-a74b-4cfc-af55-2e82abddae00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phường/Xã*'])[1]/following::select[1]</value>
+      <webElementGuid>02b9e3d6-2881-4474-9444-f2b081954477</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quận/Huyện*'])[1]/following::select[2]</value>
+      <webElementGuid>c6554c67-f2b2-4ae5-a05e-c59ec76697c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Địa chỉ cụ thể* (Số nhà, tòa nhà, tên đường)'])[1]/preceding::select[1]</value>
+      <webElementGuid>31ab79fa-b88d-4e53-b3dd-b38ab03f5a79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loại địa chỉ'])[1]/preceding::select[1]</value>
+      <webElementGuid>bbab004f-e339-49b2-8ae1-8f4044fa956a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/select</value>
+      <webElementGuid>5ddda7eb-3f92-46a0-a643-8722e5e901d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'address_ward_new' and @name = 'address[ward]' and (text() = '
+								Chọn Phường/ Xã
+							' or . = '
+								Chọn Phường/ Xã
+							')]</value>
+      <webElementGuid>2816e7cf-915b-4c2a-8661-e1087f257182</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

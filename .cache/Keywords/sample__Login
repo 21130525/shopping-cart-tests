@@ -46,21 +46,18 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "loginIntoApplicationWithGlobalVariable",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "logoutFromApplication",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

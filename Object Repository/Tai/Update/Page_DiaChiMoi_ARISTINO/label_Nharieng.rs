@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Nharieng</name>
+   <tag></tag>
+   <elementGuidId>4dfe5d70-17b7-4ce2-b14f-071923b1e850</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='address_form_new']/div[8]/div/div[2]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main >> #address_form_new >> internal:text=&quot;Nhà riêng&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>f6febe40-2394-41c2-8603-4684df1d3ad3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>radio2_new</value>
+      <webElementGuid>6fe219c1-d437-4744-ad6c-6c8458d49149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nhà riêng</value>
+      <webElementGuid>c65c5e8b-f9af-4b8d-b26c-8a3a2d6d8f13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mainBody-theme temp-customers-addresses modal-open&quot;]/div[@class=&quot;mainBody-theme-container&quot;]/main[@class=&quot;body-main body-main-2&quot;]/div[@id=&quot;addNewAddressModal&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@id=&quot;add_address&quot;]/form[@id=&quot;address_form_new&quot;]/div[@class=&quot;item-input-form col-full&quot;]/div[@class=&quot;check-group&quot;]/div[@class=&quot;box-radio d-flex align-items-center&quot;]/label[1]</value>
+      <webElementGuid>d1ac875d-d259-4ad4-bd19-a261315b9124</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='address_form_new']/div[8]/div/div[2]/label</value>
+      <webElementGuid>98c4260f-3f13-4054-9fa5-6125f04c2a51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Văn phòng'])[2]/following::label[1]</value>
+      <webElementGuid>585f1314-bee0-4c6d-b882-d29d377df599</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loại địa chỉ'])[1]/following::label[2]</value>
+      <webElementGuid>a6f7a745-d302-424a-bbae-badce44d6ef4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HUỶ'])[1]/preceding::label[1]</value>
+      <webElementGuid>185edcce-8476-4040-bbcd-9012d98b306f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CẬP NHẬT ĐỊA CHỈ'])[1]/preceding::label[1]</value>
+      <webElementGuid>a4edbab0-fea2-4699-814f-787ab91227cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nhà riêng']/parent::*</value>
+      <webElementGuid>e055f77b-ea6a-49c7-9d36-885f40ac55ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/label</value>
+      <webElementGuid>ddcd0948-bfb7-4668-b15d-25393d04c739</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Nhà riêng' or . = 'Nhà riêng')]</value>
+      <webElementGuid>703afabd-b680-41e9-8779-ede2a12e9cb1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
