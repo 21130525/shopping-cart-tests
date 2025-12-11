@@ -6,15 +6,19 @@
    <elementGuidId>787d816a-bf03-4429-9dbc-a44f479485ac</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Áo Khoác 2 lớp Nam Nâu Aristino Regular Fit AJK606EDP01'])[4]/following::*[name()='svg'][2]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.qtyplus-mini.qty-btn > svg</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Áo Khoác 2 lớp Nam Nâu Aristino Regular Fit AJK606EDP01'])[4]/following::*[name()='svg'][2]</value>
+         <key>BASIC</key>
+         <value>id(&quot;minicart&quot;)/div[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;sidebar-body&quot;]/div[@class=&quot;list-minicart ajaxMinicart&quot;]/div[@class=&quot;cart-group single&quot;]/div[@class=&quot;item line-item&quot;]/div[@class=&quot;right&quot;]/div[@class=&quot;item-meta&quot;]/div[@class=&quot;item-actions&quot;]/div[@class=&quot;item-quan&quot;]/div[@class=&quot;qty quantity-partent qty-click-mini&quot;]/button[@class=&quot;qtyplus-mini qty-btn&quot;]/svg[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>eb89cd90-8dd5-453b-9637-38578e898c45</webElementGuid>
+      <webElementGuid>9bd156c2-31fc-4270-8bbc-1c83dba16605</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>width</name>
       <type>Main</type>
       <value>16</value>
-      <webElementGuid>8744c34a-e226-46d3-8fe2-ea3c54829723</webElementGuid>
+      <webElementGuid>3f023d79-1ffa-4d42-884e-4cc5e85fe2b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>height</name>
       <type>Main</type>
       <value>16</value>
-      <webElementGuid>fc9e54e3-1e7e-4835-b228-4d8d25f976b7</webElementGuid>
+      <webElementGuid>69ea89d8-d36f-498c-9d7a-a205025a78db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 16 16</value>
-      <webElementGuid>8b6f47ec-d4f6-415d-beb6-7c61b8ff35b4</webElementGuid>
+      <webElementGuid>d54214be-f199-4c88-8fc8-6d64057e2900</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>ac1b9201-c336-4b76-86ec-8583ef55176d</webElementGuid>
+      <webElementGuid>9ec6e299-56bf-4e53-bc6e-828337df8601</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>472e1266-ab27-4965-bc86-a319de986375</webElementGuid>
+      <webElementGuid>9ba2f932-c9a7-4079-8af6-2220c0753d76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;minicart&quot;)/div[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;sidebar-body&quot;]/div[@class=&quot;list-minicart ajaxMinicart&quot;]/div[@class=&quot;cart-group single&quot;]/div[@class=&quot;item line-item&quot;]/div[@class=&quot;right&quot;]/div[@class=&quot;item-meta&quot;]/div[@class=&quot;item-actions&quot;]/div[@class=&quot;item-quan&quot;]/div[@class=&quot;qty quantity-partent qty-click-mini&quot;]/button[@class=&quot;qtyplus-mini qty-btn&quot;]/svg[1]</value>
-      <webElementGuid>2a5221d1-7812-44b1-bdc4-09f32520adb5</webElementGuid>
+      <webElementGuid>311eb274-24c1-40cc-bd83-f7e790fb0aea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Áo Khoác 2 lớp Nam Nâu Aristino Regular Fit AJK606EDP01'])[4]/following::*[name()='svg'][2]</value>
-      <webElementGuid>8f84e0af-c70e-4754-bb86-3ec4f3a43751</webElementGuid>
+      <webElementGuid>e60801b6-7074-4c86-8f41-567eaebfc353</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aristino'])[14]/following::*[name()='svg'][2]</value>
-      <webElementGuid>40f638b1-a46e-4b65-a9a7-c1bd2e744e68</webElementGuid>
+      <webElementGuid>f84a1490-91f4-4283-a4f1-921756277040</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tổng tiền hàng'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>0b33a666-fb60-4246-a4e9-6d6e06cd5c3a</webElementGuid>
+      <webElementGuid>69359954-63d2-4726-bb2d-ec7359b74b1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phí vận chuyển'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>84cbdae3-d1a9-409e-8d37-9b09e7d722e7</webElementGuid>
+      <webElementGuid>14d3957a-38e2-43b9-8d9b-cbaf52a00919</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

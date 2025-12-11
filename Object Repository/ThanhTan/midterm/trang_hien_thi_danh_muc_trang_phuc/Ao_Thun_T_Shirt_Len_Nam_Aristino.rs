@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ao_Thun_T_Shirt_Len_Nam_Aristino</name>
+   <tag></tag>
+   <elementGuidId>cb4e77d3-045b-4a01-9335-f4f97a3fbfa8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/products/ao-thun-t-shirt-len-nam-aristino-business-1tsu010s0']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='collection-page']/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.pro-tile.pro-loop.pro-t1.2 > div.pro-loop--wrap > div.pro-loop--head > a.pro-loop--link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(2) > .pro-loop--wrap > .pro-loop--head > .pro-loop--link</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1697d927-fbbc-41ce-8fc2-3bc8d29a0242</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/ao-thun-t-shirt-len-nam-aristino-business-1tsu010s0</value>
+      <webElementGuid>ad0e44ca-8038-4145-9095-fcdeaf103c41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pro-loop--link</value>
+      <webElementGuid>56e96e17-eec0-4b68-9ca3-1c36016f5612</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;collection-page&quot;)/div[@class=&quot;collection-wrapper&quot;]/div[@class=&quot;collection-body&quot;]/div[@class=&quot;container-fluid p8&quot;]/div[@class=&quot;d-flex flex-wrap push-section&quot;]/div[@class=&quot;results-section&quot;]/div[@class=&quot;filter-wrapper--grid ajax-render&quot;]/div[@class=&quot;grid-products&quot;]/div[@class=&quot;pro-tile pro-loop pro-t1 2&quot;]/div[@class=&quot;pro-loop--wrap&quot;]/div[@class=&quot;pro-loop--head&quot;]/a[@class=&quot;pro-loop--link&quot;]</value>
+      <webElementGuid>6f435406-7213-4b3a-8e40-46f94615e582</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='collection-page']/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/a</value>
+      <webElementGuid>dae6a68f-5934-4191-ad7d-9a07e295a6bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/products/ao-thun-t-shirt-len-nam-aristino-business-1tsu010s0')]</value>
+      <webElementGuid>0fae86ec-0fe6-4bc3-98a7-5a7bfb4e4b99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/a</value>
+      <webElementGuid>32ead4bf-85e1-4992-b88c-eb2cf65a9ab1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/ao-thun-t-shirt-len-nam-aristino-business-1tsu010s0']</value>
+      <webElementGuid>ef21bd31-e084-47ef-9830-0892270466c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

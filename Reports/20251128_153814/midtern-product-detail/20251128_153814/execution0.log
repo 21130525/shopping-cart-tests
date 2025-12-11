@@ -824,4 +824,33 @@ canClickProduct.run(canClickProduct:43)
   <property name="startLine">45</property>
   <property name="stepIndex">9</property>
 </record>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-12-10T14:56:16.308209500Z</date>
+  <millis>1765378576308</millis>
+  <nanos>209500</nanos>
+  <sequence>2295</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1271</thread>
+  <message>User set preference: [&amp;apos;binary&amp;apos;, &amp;apos;C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-12-10T14:56:16.319605400Z</date>
+  <millis>1765378576319</millis>
+  <nanos>605400</nanos>
+  <sequence>2296</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1271</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
 </log>
