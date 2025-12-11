@@ -110,6 +110,46 @@ def static "sample.Select2.removeOptions"(
 }
 
 
+def static "thanh.CommonActions.makeTo"(
+    	String xpath	) {
+    (new thanh.CommonActions()).makeTo(
+        	xpath)
+}
+
+
+def static "thanh.CommonActions.openBrowserAndNavigate"() {
+    (new thanh.CommonActions()).openBrowserAndNavigate()
+}
+
+
+def static "thanh.CommonActions.smartClick"(
+    	TestObject to	) {
+    (new thanh.CommonActions()).smartClick(
+        	to)
+}
+
+
+def static "thanh.CommonActions.scrollFullPage"() {
+    (new thanh.CommonActions()).scrollFullPage()
+}
+
+
+def static "thanh.CommonActions.handlePopup"() {
+    (new thanh.CommonActions()).handlePopup()
+}
+
+
+def static "thanh.CommonActions.runFilterScenario"(
+    	String categoryName	
+     , 	String xpathMenu	
+     , 	String xpathFilter	) {
+    (new thanh.CommonActions()).runFilterScenario(
+        	categoryName
+         , 	xpathMenu
+         , 	xpathFilter)
+}
+
+
 def static "sample.Shop.navigatetoDetailPage"(
     	String productName	
      , 	String urlProduct	) {

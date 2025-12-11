@@ -4,12 +4,12 @@
    <name>shopping-cart-tests</name>
    <tag></tag>
    <UUID>bc9f4332-43c4-4eaa-badb-3ac77744d1ed</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.4.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\Testing\shopping-cart-tests\shopping-cart-tests.prj</projectFileLocation>
+   <projectFileLocation>D:\shopping-cart-tests\shopping-cart-tests.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
